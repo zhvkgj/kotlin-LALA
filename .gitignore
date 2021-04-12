@@ -1,5 +1,12 @@
 .gradle
+.idea
+
+!build/libs
 /build/
+
+/examples
+/out/classes
+/out/kotlin.java
 
 # Ignore Gradle GUI config
 gradle-app.setting
