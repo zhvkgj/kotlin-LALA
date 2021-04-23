@@ -1,26 +1,26 @@
-package com.lala.kotlin.client
+package ru.lala.kotlin.client
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import com.lala.kotlin.client.api.KotlinCodeSnippetsRunnerService
-import com.lala.kotlin.client.model.*
+import ru.lala.kotlin.client.api.KotlinCodeSnippetsExecutionService
+import ru.lala.kotlin.client.model.*
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 import retrofit2.converter.jaxb.JaxbConverterFactory
 import java.io.IOException
 
-class KotlinCompileServiceClient {
-    private val compilerService: KotlinCodeSnippetsRunnerService =
+class KotlinCompileClient {
+    private val compilerService: KotlinCodeSnippetsExecutionService =
         Retrofit
             .Builder()
             .baseUrl(RequestConstant.COMPILER_SERVICE_URL)
             .addConverterFactory(JaxbConverterFactory.create())
             .addConverterFactory(JacksonConverterFactory.create(jacksonObjectMapper()))
             .build()
-            .create(KotlinCodeSnippetsRunnerService::class.java)
+            .create(KotlinCodeSnippetsExecutionService::class.java)
 
-    fun executeCode(codeSnippet: CodeSnippet): OptionalExecutionResult {
-        val project = Project("", listOf(KotlinFile(codeSnippet.filename, codeSnippet.code)))
+    fun executeFilesCode(codeSnippet: List<KotlinFile>): OptionalExecutionResult {
+        val project = Project("", codeSnippet)
         val response: Response<ServiceExecutionResult>
         var result: OptionalExecutionResult
         try {
@@ -29,10 +29,9 @@ class KotlinCompileServiceClient {
                 val res = response.body()!!
                 OptionalExecutionResult(true, "",
                     OptionalExecutionResult.ExecutionResult(
-                        res.errors[codeSnippet.filename] ?: error("unexpected response structure"),
+                        res.errors,
                         res.exception,
-                        res.text,
-                        codeSnippet.filename
+                        res.text
                     )
                 )
             } else {

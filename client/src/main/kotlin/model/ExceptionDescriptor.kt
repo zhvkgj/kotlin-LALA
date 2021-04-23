@@ -1,4 +1,4 @@
-package com.lala.kotlin.client.model
+package ru.lala.kotlin.client.model
 
 data class ExceptionDescriptor(
     val message: String?,

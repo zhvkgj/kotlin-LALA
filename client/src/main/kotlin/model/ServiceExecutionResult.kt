@@ -1,4 +1,4 @@
-package com.lala.kotlin.client.model
+package ru.lala.kotlin.client.model
 
 data class ServiceExecutionResult(
     val errors: Map<String, List<ErrorDescriptor>>,

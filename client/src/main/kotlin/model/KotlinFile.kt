@@ -1,3 +1,3 @@
-package com.lala.kotlin.client.model
+package ru.lala.kotlin.client.model
 
-data class KotlinFile(val name: String, val code: String)
+data class KotlinFile(val name: String, val text: String)

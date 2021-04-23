@@ -1,4 +1,4 @@
-package com.lala.kotlin.client.model
+package ru.lala.kotlin.client.model
 
 
 data class OptionalExecutionResult(
@@ -7,9 +7,8 @@ data class OptionalExecutionResult(
     val result: ExecutionResult?
 ) {
     data class ExecutionResult(
-        val errors: List<ErrorDescriptor>,
+        val errors: Map<String, List<ErrorDescriptor>>,
         val exception: ExceptionDescriptor?,
         val text: String,
-        val fileName: String
     )
 }
