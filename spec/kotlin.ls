@@ -119,11 +119,35 @@ class Block {
 
 @copy
 class PropertyDeclaration {
-    valDeclaration("${modifiers: OptionalModifierList} val ${declaration : VariableDeclaration} = ${expression : Expression}") {
+    valDeclaration("${modifiers: OptionalModifierList} val ${declaration : SingleOrMultiVariableDeclaration} = ${expression : Expression}") {
 
     }
 
-    varDeclaration("${modifiers: OptionalModifierList} var ${declaration : VariableDeclaration} = ${expression : Expression}") {
+    varDeclaration("${modifiers: OptionalModifierList} var ${declaration : SingleOrMultiVariableDeclaration} = ${expression : Expression}") {
+
+    }
+}
+
+@copy
+class SingleOrMultiVariableDeclaration {
+    single("${decl: VariableDeclaration}") {
+
+    }
+
+    multi("${decls: MultiVariableDeclaration}") {
+
+    }
+}
+
+@copy
+class MultiVariableDeclaration {
+    @weight(1)
+    single("(${varDecl: VariableDeclaration})") {
+
+    }
+
+    @weight(2)
+    multi("(${varDecl: VariableDeclaration}, ${rest: MultiVariableDeclaration})") {
 
     }
 }
@@ -185,11 +209,128 @@ class StatementList {
 
 @copy
 class Statement {
+    assigment("${assign: Assignment}") {
+
+    }
+
     declaration("${decl: Declaration}") {
 
     }
 
     expression("${expr: Expression}") {
+
+    }
+
+    loopStatement("${stmt: LoopStatement}") {
+
+    }
+}
+
+@copy
+class LoopStatement {
+    forStatement("${stmt: ForStatement}") {
+
+    }
+
+    whileStatement("${stmt: WhileStatement}") {
+
+    }
+
+    doWhileStatement("${stmt: DoWhileStatement}") {
+
+    }
+}
+
+@copy
+class ForStatement {
+    @weight(1)
+    withoutBody("for (${decl: SingleOrMultiVariableDeclaration} in ${expr: Expression})") {
+
+    }
+
+    @weight(3)
+    withBody("for (${decl: SingleOrMultiVariableDeclaration} in ${expr: Expression}) ${body: ControlStructureBody}") {
+
+    }
+}
+
+@copy
+class WhileStatement {
+    @weight(1)
+    withoutBody("while (${expr: Expression});") {
+
+    }
+
+    @weight(3)
+    withBody("while (${expr: Expression}) ${body: ControlStructureBody}") {
+
+    }
+}
+
+@copy
+class DoWhileStatement {
+    @weight(1)
+    withoutBody("do while (${expr: Expression})") {
+
+    }
+
+    @weight(3)
+    withBody("do ${body: ControlStructureBody} while (${expr: Expression})") {
+
+    }
+}
+
+@copy
+class ControlStructureBody {
+    block("${block: Block}") {
+
+    }
+
+    statement("${stmt: Statement}") {
+
+    }
+}
+
+@copy
+class Assignment {
+    directAssign("${directlyAssignExpr: DirectlyAssignableExpression} = ${expr: Expression}") {
+
+    }
+
+    assignAndOp("${assignableExpr: AssignableExpression} ${assignAndOp: AssignmentAndOperator} ${expr: Expression}") {
+
+    }
+}
+
+@copy
+class DirectlyAssignableExpression {
+    postfixUnaryExpression("${expr: PostfixUnaryExpression}") {
+
+    }
+
+    simpleIdent("${ident: SimpleIdentifier}") {
+
+    }
+
+    parenthesizedDirectlyAssignableExpression("(${expr: DirectlyAssignableExpression})") {
+
+    }
+}
+
+@copy
+class AssignableExpression {
+    prefixUnaryExpression("${expr: PrefixUnaryExpression}") {
+
+    }
+
+    parenthesizedAssignableExpression("${expr: ParenthesizedAssignableExpression}") {
+
+    }
+}
+
+@copy
+class ParenthesizedAssignableExpression {
+    assignableExpr("(${expr: AssignableExpression})") {
 
     }
 }
@@ -478,6 +619,34 @@ class ComparisonOperator(">|<|>=|<=");
 class AdditiveOperator("+|-");
 class MultiplicativeOperator("*|/|%");
 class BooleanLiteral("true|false");
+
+class AssignmentAndOperator {
+    addAssignment("${op: AddAssignment}") {
+
+    }
+
+    subAssignment("${op: SubAssignment}") {
+
+    }
+
+    multAssignment("${op: MultAssignment}") {
+
+    }
+
+    divAssignment("${op: DivAssignment}") {
+
+    }
+
+    modAssignment("${op: ModAssignment}") {
+
+    }
+}
+
+class AddAssignment("+=");
+class SubAssignment("-=");
+class MultAssignment("*=");
+class DivAssignment("/=");
+class ModAssignment("%=");
 
 # Section: identifier
 @copy
