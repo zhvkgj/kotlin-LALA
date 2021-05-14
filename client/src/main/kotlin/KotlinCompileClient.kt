@@ -19,26 +19,26 @@ class KotlinCompileClient {
             .build()
             .create(KotlinCodeSnippetsExecutionService::class.java)
 
-    fun executeFilesCode(codeSnippet: List<KotlinFile>): OptionalExecutionResult {
-        val project = Project("", codeSnippet)
+    fun executeFileCode(codeSnippet: KotlinFile): OptionalExecutionResult {
+        val project = Project("", listOf(codeSnippet))
         val response: Response<ServiceExecutionResult>
         var result: OptionalExecutionResult
         try {
             response = compilerService.executeCode(project).execute()
             result = if (response.isSuccessful) {
                 val res = response.body()!!
-                OptionalExecutionResult(true, "",
+                OptionalExecutionResult(codeSnippet.name, true, "",
                     OptionalExecutionResult.ExecutionResult(
-                        res.errors,
+                        res.errors[codeSnippet.name] ?: emptyList(),
                         res.exception,
                         res.text
                     )
                 )
             } else {
-                OptionalExecutionResult(false, (response.body() ?: "") as String, null)
+                OptionalExecutionResult(codeSnippet.name, false, (response.body() ?: "") as String, null)
             }
         } catch (e: IOException) {
-            result = OptionalExecutionResult(false, e.localizedMessage, null)
+            result = OptionalExecutionResult(codeSnippet.name, false, e.localizedMessage, null)
         }
         return result
     }

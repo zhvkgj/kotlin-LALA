@@ -1,19 +1,16 @@
 package ru.lala.kotlin
 
 import ru.lala.kotlin.client.KotlinCompileClient
-import ru.lala.kotlin.client.model.OptionalExecutionResult
 import ru.lala.kotlin.utils.FileHarvester
-import java.io.FileWriter
-import java.util.*
-
-import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import ru.lala.kotlin.utils.ReportBuilder
 import java.io.File
+import java.io.FileWriter
 
 class TestExecutor {
     companion object {
         private const val src = "examples"
         private const val out = "compile_results"
+        private const val generalReportFilename = "general_report.txt"
 
         @JvmStatic
         fun main(args: Array<String>) {
@@ -22,9 +19,17 @@ class TestExecutor {
             } else src
 
             val client = KotlinCompileClient()
-            val result: OptionalExecutionResult = client.executeFilesCode(FileHarvester.readFiles(directory))
-            ReportBuilder.buildReport(result).forEach {
-                    report -> writeToFile(report.fileName, report.message)
+            val reportBuilder = ReportBuilder(generalReportFilename)
+            FileHarvester.readFiles(directory).forEach {
+                reportBuilder.append(client.executeFileCode(it))
+            }
+            val generalCompileReport = reportBuilder.buildReport()
+            writeToFile(
+                generalCompileReport.generalReport.fileName,
+                generalCompileReport.generalReport.content
+            )
+            generalCompileReport.filesReports.forEach { report ->
+                writeToFile(report.fileName, report.content)
             }
         }
 

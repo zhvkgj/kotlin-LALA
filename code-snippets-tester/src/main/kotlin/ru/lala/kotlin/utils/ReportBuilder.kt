@@ -1,72 +1,138 @@
 package ru.lala.kotlin.utils
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import ru.lala.kotlin.CompileReport
+import ru.lala.kotlin.*
 import ru.lala.kotlin.client.model.*
 import java.util.*
 
-class ReportBuilder {
-    companion object {
-        private const val generalReportFilename = "general_report.txt"
+class ReportBuilder(private val generalReportFilename: String) {
+    private var totalCountOfFiles = 0
+    private var countOfSuccessfullyCompiledFiles = 0
+    private var countOfFilesProducesServerError = 0
+    private var totalCountOfErrors = 0
+    private var totalCountOfTypeMismatchErrors = 0
+    private var totalCountOfUnresolvedReferenceErrors = 0
 
-        fun buildReport(executionResult: OptionalExecutionResult): List<CompileReport> {
-            val report: LinkedList<CompileReport> = LinkedList()
-            var successCount = 0
-            var failedCount = 0
-            if (executionResult.isSuccess) {
-                if (executionResult.result != null) {
-                    failedCount = executionResult.result!!.errors.size
-                    executionResult.result!!.errors.forEach { (fileName, errors) ->
-                        val res = buildFileReport(fileName, errors)
-                        if (res.compiled) {
-                            successCount++
-                            failedCount--
-                        }
-                        report.add(res)
-                    }
-                }
-            }
-            report.addFirst(buildGeneralFileReport(successCount, failedCount, executionResult))
-            return report
-        }
+    private val filesReports: MutableList<DetailedFileCompileReport> = LinkedList()
 
-        private fun buildFileReport(fileName: String, errors: List<ErrorDescriptor>): CompileReport {
-            val message = StringBuilder()
-            var compiled = false
-            if (errors.isEmpty()) {
-                compiled = true
-                message.append("No compile errors occurred.\n")
-            } else {
-                val mapper = jacksonObjectMapper()
-                val ident = "    "
-                message.append("Errors:\n")
-                errors.forEach {
-                    message.append("\n${ident}${mapper.writeValueAsString(it.interval)}\n")
-                    message.append("${ident}${it.message}\n")
-                    message.append("${ident}${it.severity.name}\n")
-                }
-            }
-            return CompileReport(compiled, fileName + "_report.txt", message.toString())
-        }
+    fun append(compileResult: OptionalExecutionResult): ReportBuilder {
+        val compileReport = executionResultToCompileReport(compileResult)
+        countOfSuccessfullyCompiledFiles +=
+            if (compileReport.successfullyCompiled) 1 else 0
+        countOfFilesProducesServerError +=
+            if (compileReport.produceServerError) 1 else 0
+        totalCountOfFiles++
+        totalCountOfTypeMismatchErrors += compileReport.countOfTypeMismatchErrors
+        totalCountOfUnresolvedReferenceErrors += compileReport.countOfUnresolvedReferenceErrors
+        totalCountOfErrors += compileReport.countOfErrors
 
-        private fun buildGeneralFileReport(success: Int, failed: Int, execRes: OptionalExecutionResult): CompileReport {
-            val message = StringBuilder()
-            message.append("Success: ${success}\n").append("Failed: ${failed}\n")
-            if (execRes.result != null) {
-                val res = execRes.result!!
-                message.append(res.text + "\n")
-                if (res.exception != null) {
-                    message.append(jacksonObjectMapper().writeValueAsString(res.exception) + "\n")
-                }
-            } else if (execRes.message.isNotBlank()) {
-                message.append(execRes.message + "\n")
-            } else {
-                message.append("server return null result\n")
-            }
-            return CompileReport(
-                true, generalReportFilename,
-                message.toString()
+        filesReports.add(
+            buildFileReport(
+                compileReport,
+                compileResult.result?.errors?.filter { it.severity == ProjectSeverity.ERROR } ?: emptyList(),
+                compileResult.result?.exception
+            )
+        )
+
+        return this
+    }
+
+    private fun executionResultToCompileReport(compileResult: OptionalExecutionResult): ShallowFileCompileReport {
+        if (!compileResult.isSuccess) {
+            return ShallowFileCompileReport(
+                compileResult.filename,
+                successfullyCompiled = false,
+                produceServerError = true,
+                message = compileResult.message
             )
         }
+
+        val result = compileResult.result!!
+        val totalCountOfErrors = result.errors.size
+        var countOfTypeMismatchErrors = 0
+        var countOfUnresolvedReferenceErrors = 0
+
+        result.errors.forEach {
+            if (it.message.contains("type mismatch", true)) {
+                countOfTypeMismatchErrors++
+            } else if (it.message.contains("unresolved reference", true)) {
+                countOfUnresolvedReferenceErrors++
+            }
+        }
+
+        return ShallowFileCompileReport(
+            compileResult.filename,
+            totalCountOfErrors == 0,
+            false,
+            result.text,
+            totalCountOfErrors,
+            countOfTypeMismatchErrors,
+            countOfUnresolvedReferenceErrors
+        )
+    }
+
+    fun buildReport(): GeneralCompileReport {
+        return GeneralCompileReport(buildGeneralFileReport(), filesReports)
+    }
+
+    private fun buildFileReport(
+        shallowReport: ShallowFileCompileReport,
+        errors: List<ErrorDescriptor>,
+        exception: ExceptionDescriptor?
+    )
+        : DetailedFileCompileReport {
+
+        val message = fillShallowReport(shallowReport)
+        message.append("--".repeat(15) + "\n")
+
+        val mapper = jacksonObjectMapper()
+        val ident = "    "
+        message.append("Errors:\n")
+        if (errors.isNotEmpty()) {
+            errors.forEach {
+                message.append("\n${ident}${mapper.writeValueAsString(it.interval)}\n")
+                message.append("${ident}${it.message}\n")
+                message.append("${ident}${it.severity.name}\n")
+            }
+        }
+        if (exception != null) {
+            message.append("Exception:\n    ")
+            message.append(mapper.writeValueAsString(exception))
+        }
+        return DetailedFileCompileReport(shallowReport.fileName + "_report.txt", message.toString())
+    }
+
+    private fun fillShallowReport(shallowReport: ShallowFileCompileReport): StringBuilder {
+        val message = StringBuilder()
+        message
+            .append(shallowReport.fileName + "\n")
+            .append("Successfully compiled: ${shallowReport.successfullyCompiled}\n")
+            .append("Produce server error: ${shallowReport.produceServerError}\n")
+            .append("Count of errors: ${shallowReport.countOfErrors}\n")
+            .append("Count of type mismatch errors: ${shallowReport.countOfTypeMismatchErrors}\n")
+            .append("Count of unresolved reference errors: ${shallowReport.countOfUnresolvedReferenceErrors}\n")
+            .append("Message: ${shallowReport.message}\n")
+        return message
+    }
+
+    private fun buildGeneralFileReport(): DetailedFileCompileReport {
+        fun percentage(totalCount: Int, targetCount: Int): Double {
+            return (targetCount * 100).toDouble() / totalCount
+        }
+
+        val message = StringBuilder()
+        val countOfFailCompiledFiles = totalCountOfFiles - countOfSuccessfullyCompiledFiles - countOfFilesProducesServerError
+        val countOfOtherErrors = totalCountOfErrors - totalCountOfUnresolvedReferenceErrors - totalCountOfTypeMismatchErrors
+        message
+            .append("Count of successfully compiled files: $countOfSuccessfullyCompiledFiles\n")
+            .append("Count of fail compiled files: $countOfFailCompiledFiles\n")
+            .append("Count of files produced server error: $countOfFilesProducesServerError\n")
+            .append("Count of mismatch type errors: $totalCountOfTypeMismatchErrors\n")
+            .append("Percentage: ${percentage(totalCountOfErrors, totalCountOfTypeMismatchErrors)} percents\n")
+            .append("Count of unresolved reference errors: $totalCountOfUnresolvedReferenceErrors\n")
+            .append("Percentage: ${percentage(totalCountOfErrors, totalCountOfUnresolvedReferenceErrors)} percents\n")
+            .append("Count of other errors: $countOfOtherErrors\n")
+            .append("Percentage: ${percentage(totalCountOfErrors, countOfOtherErrors)} percents\n")
+        return DetailedFileCompileReport(generalReportFilename, message.toString())
     }
 }

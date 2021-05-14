@@ -134,20 +134,20 @@ class SingleOrMultiVariableDeclaration {
 
     }
 
-    multi("${decls: MultiVariableDeclaration}") {
+    multi("(${decls: VariableDeclarationList})") {
 
     }
 }
 
 @copy
-class MultiVariableDeclaration {
+class VariableDeclarationList {
     @weight(1)
-    single("(${varDecl: VariableDeclaration})") {
+    single("${varDecl: VariableDeclaration}") {
 
     }
 
     @weight(2)
-    multi("(${varDecl: VariableDeclaration}, ${rest: MultiVariableDeclaration})") {
+    multi("${varDecl: VariableDeclaration}, ${rest: VariableDeclarationList}") {
 
     }
 }
@@ -304,10 +304,6 @@ class Assignment {
 
 @copy
 class DirectlyAssignableExpression {
-    postfixUnaryExpression("${expr: PostfixUnaryExpression}") {
-
-    }
-
     simpleIdent("${ident: SimpleIdentifier}") {
 
     }
@@ -463,6 +459,32 @@ class PrimaryExpression {
     literalConstant("${lit : LiteralConstant}") {
 
     }
+
+    ifExpression("${expr: IfExpression}") {
+
+    }
+}
+
+@copy
+class IfExpression {
+    withoutElse("if (${cond: Expression}) ${then: IfBody}") {
+
+    }
+
+    withElse("if (${cond: Expression}) ${then: IfBody} else ${alt: IfBody}") {
+
+    }
+}
+
+@copy
+class IfBody {
+    empty(";") {
+
+    }
+
+    nonEmpty("${body: ControlStructureBody}") {
+
+    }
 }
 
 @copy
@@ -607,7 +629,7 @@ class PropertyModifier("const");
 
 class InheritanceModifier("abstract|final|open");
 
-class ParameterModifier("vararg|noinline|crossiline");
+class ParameterModifier("vararg|noinline|crossinline");
 
 class PlatformModifier("expect|actual");
 
