@@ -7,5 +7,6 @@ data class ShallowFileCompileReport(
     val message: String,
     val countOfErrors: Int = 0,
     val countOfTypeMismatchErrors: Int = 0,
-    val countOfUnresolvedReferenceErrors: Int = 0
+    val countOfUnresolvedReferenceErrors: Int = 0,
+    val countOfModifiersError: Int = 0
 )

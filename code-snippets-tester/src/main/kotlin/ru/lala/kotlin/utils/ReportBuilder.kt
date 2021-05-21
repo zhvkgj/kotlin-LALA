@@ -12,6 +12,7 @@ class ReportBuilder(private val generalReportFilename: String) {
     private var totalCountOfErrors = 0
     private var totalCountOfTypeMismatchErrors = 0
     private var totalCountOfUnresolvedReferenceErrors = 0
+    private var totalCountOfModifierUsageErrors = 0
 
     private val filesReports: MutableList<DetailedFileCompileReport> = LinkedList()
 
@@ -24,6 +25,7 @@ class ReportBuilder(private val generalReportFilename: String) {
         totalCountOfFiles++
         totalCountOfTypeMismatchErrors += compileReport.countOfTypeMismatchErrors
         totalCountOfUnresolvedReferenceErrors += compileReport.countOfUnresolvedReferenceErrors
+        totalCountOfModifierUsageErrors += compileReport.countOfModifiersError
         totalCountOfErrors += compileReport.countOfErrors
 
         filesReports.add(
@@ -51,12 +53,19 @@ class ReportBuilder(private val generalReportFilename: String) {
         val totalCountOfErrors = result.errors.size
         var countOfTypeMismatchErrors = 0
         var countOfUnresolvedReferenceErrors = 0
+        var countOfModifierErrors = 0
 
         result.errors.forEach {
-            if (it.message.contains("type mismatch", true)) {
-                countOfTypeMismatchErrors++
-            } else if (it.message.contains("unresolved reference", true)) {
-                countOfUnresolvedReferenceErrors++
+            when {
+                it.message.contains("type mismatch", true) -> {
+                    countOfTypeMismatchErrors++
+                }
+                it.message.contains("unresolved reference", true) -> {
+                    countOfUnresolvedReferenceErrors++
+                }
+                it.message.contains("Modifier") -> {
+                    countOfModifierErrors++
+                }
             }
         }
 
@@ -67,7 +76,8 @@ class ReportBuilder(private val generalReportFilename: String) {
             result.text,
             totalCountOfErrors,
             countOfTypeMismatchErrors,
-            countOfUnresolvedReferenceErrors
+            countOfUnresolvedReferenceErrors,
+            countOfModifierErrors
         )
     }
 
@@ -111,6 +121,7 @@ class ReportBuilder(private val generalReportFilename: String) {
             .append("Count of errors: ${shallowReport.countOfErrors}\n")
             .append("Count of type mismatch errors: ${shallowReport.countOfTypeMismatchErrors}\n")
             .append("Count of unresolved reference errors: ${shallowReport.countOfUnresolvedReferenceErrors}\n")
+            .append("Count of modifier usage errors: ${shallowReport.countOfModifiersError}\n")
             .append("Message: ${shallowReport.message}\n")
         return message
     }
@@ -122,7 +133,7 @@ class ReportBuilder(private val generalReportFilename: String) {
 
         val message = StringBuilder()
         val countOfFailCompiledFiles = totalCountOfFiles - countOfSuccessfullyCompiledFiles - countOfFilesProducesServerError
-        val countOfOtherErrors = totalCountOfErrors - totalCountOfUnresolvedReferenceErrors - totalCountOfTypeMismatchErrors
+        val countOfOtherErrors = totalCountOfErrors - totalCountOfUnresolvedReferenceErrors - totalCountOfTypeMismatchErrors - totalCountOfModifierUsageErrors
         message
             .append("Count of successfully compiled files: $countOfSuccessfullyCompiledFiles\n")
             .append("Count of fail compiled files: $countOfFailCompiledFiles\n")
@@ -131,6 +142,8 @@ class ReportBuilder(private val generalReportFilename: String) {
             .append("Percentage: ${percentage(totalCountOfErrors, totalCountOfTypeMismatchErrors)} percents\n")
             .append("Count of unresolved reference errors: $totalCountOfUnresolvedReferenceErrors\n")
             .append("Percentage: ${percentage(totalCountOfErrors, totalCountOfUnresolvedReferenceErrors)} percents\n")
+            .append("Count of modifier usage errors: $totalCountOfModifierUsageErrors\n")
+            .append("Percentage: ${percentage(totalCountOfErrors, totalCountOfModifierUsageErrors)} percents\n")
             .append("Count of other errors: $countOfOtherErrors\n")
             .append("Percentage: ${percentage(totalCountOfErrors, countOfOtherErrors)} percents\n")
         return DetailedFileCompileReport(generalReportFilename, message.toString())
