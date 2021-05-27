@@ -1,3 +1,5 @@
+use KeywordsStorage;
+
 class KotlinFile {
     topLevelObject ("${declarations : TopLevelObjectList}") {
 
@@ -42,13 +44,13 @@ class Declaration {
 @copy
 class FunctionDeclaration {
     @weight(1)
-    withoutType("${modifiers: OptionalModifierList} fun ${name: SimpleIdentifier}
+    withoutType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}
                     ${params: OptionalFunctionValueParameterList} ${body: FunctionBody}") {
 
     }
 
     @weight(2)
-    withType("${modifiers: OptionalModifierList} fun ${name: SimpleIdentifier}
+    withType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}
                 ${params: OptionalFunctionValueParameterList} : ${type: Type} ${body: FunctionBody}") {
 
     }
@@ -101,17 +103,18 @@ class Parameter {
 
 @copy
 class FunctionBody {
+    @weight(5)
     block("${body: Block}") {
 
     }
-
+    @weight(2)
     singleExpression("= ${expression: Expression}") {
 
     }
 }
 
+@copy
 class Block {
-    @copy
     block("{\+${statements: OptionalStatementList}\-}") {
 
     }
@@ -194,7 +197,7 @@ class OptionalStatementList {
 }
 
 @copy
-@list(50)
+@list(100)
 class StatementList {
     @weight(1)
     single("${stmt: Statement}") {
@@ -207,20 +210,21 @@ class StatementList {
     }
 }
 
-@copy
+
 class Statement {
+    @weight(2)
     assigment("${assign: Assignment}") {
 
     }
-
+    @weight(1)
     declaration("${decl: Declaration}") {
 
     }
-
+    @weight(5)
     expression("${expr: Expression}") {
 
     }
-
+    @weight(10)
     loopStatement("${stmt: LoopStatement}") {
 
     }
@@ -558,6 +562,30 @@ class ParameterModifierList {
 }
 
 @copy
+class OptionalFunctionModifierList {
+    @weight(1)
+    empty("") {
+
+    }
+
+    @weight(3)
+    nonEmpty("${modifiers: FunctionModifierList}") {
+
+    }
+}
+
+@copy
+class FunctionModifierList {
+    single("${modifier: FunctionModifier}") {
+
+    }
+
+    multiple("${modifier: FunctionModifier} ${rest: FunctionModifierList}") {
+
+    }
+}
+
+@copy
 class OptionalModifierList {
     @weight(1)
     empty("") {
@@ -584,18 +612,6 @@ class ModifierList {
 
 @copy
 class Modifier {
-    classModifier("${modifier: ClassModifier}") {
-
-    }
-
-    memberModifier("${modifier: MemberModifier}") {
-
-    }
-
-    visibilityModifier("${modifier: VisibilityModifier}") {
-
-    }
-
     functionModifier("${modifier: FunctionModifier}") {
 
     }
@@ -604,34 +620,17 @@ class Modifier {
 
     }
 
-    inheritanceModifier("${modifier: InheritanceModifier}") {
-
-    }
-
     parameterModifier("${modifier: ParameterModifier}") {
 
     }
-
-    platformModifier("${modifier: PlatformModifier}") {
-
-    }
 }
-
-class ClassModifier("enum|sealed|annotation|data|inner");
-
-class MemberModifier("override|lateinit");
-
-class VisibilityModifier("public|private|internal|protected");
 
 class FunctionModifier("tailrec|operator|infix|inline|external|suspend");
 
 class PropertyModifier("const");
 
-class InheritanceModifier("abstract|final|open");
-
 class ParameterModifier("vararg|noinline|crossinline");
 
-class PlatformModifier("expect|actual");
 
 # Section: operators
 class PrefixUnaryOperator("++|--");
@@ -671,16 +670,20 @@ class DivAssignment("/=");
 class ModAssignment("%=");
 
 # Section: identifier
-@copy
 class SimpleIdentifier {
-    identifier("${identifier : IDENTIFIER}") {
+    syn name : String;
 
+    grd not_keyword;
+
+    identifier("${identifier : IDENTIFIER}") {
+        loc keywords_storage = (KeywordsStorage:getInstance);
+        this.name = identifier.str;
+        this.not_keyword = (KeywordsStorage:isNotKeyword .keywords_storage identifier.str);
     }
-    # not only identifier but keyword?
 }
 
 @count(1000)
-class IDENTIFIER("([A-Za-z]|_)([A-Za-z]|_|[0-9]){0,5}");
+class IDENTIFIER("([A-Za-z]|_)([A-Za-z]|_|[0-9]){2,5}");
 
 class IntegerLiteral("[1-9][0-9_]{0,5}[0-9]|[0-9]");
 class PRIMITIVE("Short|Int|Long|Boolean");
