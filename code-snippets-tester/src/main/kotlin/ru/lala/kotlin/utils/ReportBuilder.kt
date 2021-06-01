@@ -6,22 +6,22 @@ import ru.lala.kotlin.client.model.*
 import java.util.*
 
 class ReportBuilder(private val generalReportFilename: String) {
-    private var totalCountOfFiles = 0
-    private var countOfSuccessfullyCompiledFiles = 0
-    private var countOfFilesProducesServerError = 0
-    private var totalCountOfErrors = 0
-    private var totalCountOfTypeMismatchErrors = 0
-    private var totalCountOfUnresolvedReferenceErrors = 0
-    private var totalCountOfModifierUsageErrors = 0
+    private var totalCountOfFiles = 0L
+    private var countOfSuccessfullyCompiledFiles = 0L
+    private var countOfFilesProducesServerError = 0L
+    private var totalCountOfErrors = 0L
+    private var totalCountOfTypeMismatchErrors = 0L
+    private var totalCountOfUnresolvedReferenceErrors = 0L
+    private var totalCountOfModifierUsageErrors = 0L
 
     private val filesReports: MutableList<DetailedFileCompileReport> = LinkedList()
 
     fun append(compileResult: OptionalExecutionResult): ReportBuilder {
         val compileReport = executionResultToCompileReport(compileResult)
         countOfSuccessfullyCompiledFiles +=
-            if (compileReport.successfullyCompiled) 1 else 0
+            if (compileReport.successfullyCompiled) 1L else 0L
         countOfFilesProducesServerError +=
-            if (compileReport.produceServerError) 1 else 0
+            if (compileReport.produceServerError) 1L else 0L
         totalCountOfFiles++
         totalCountOfTypeMismatchErrors += compileReport.countOfTypeMismatchErrors
         totalCountOfUnresolvedReferenceErrors += compileReport.countOfUnresolvedReferenceErrors
@@ -50,10 +50,10 @@ class ReportBuilder(private val generalReportFilename: String) {
         }
 
         val result = compileResult.result!!
-        val totalCountOfErrors = result.errors.size
-        var countOfTypeMismatchErrors = 0
-        var countOfUnresolvedReferenceErrors = 0
-        var countOfModifierErrors = 0
+        val totalCountOfErrors = result.errors.size * 1L
+        var countOfTypeMismatchErrors = 0L
+        var countOfUnresolvedReferenceErrors = 0L
+        var countOfModifierErrors = 0L
 
         result.errors.forEach {
             when {
@@ -71,7 +71,7 @@ class ReportBuilder(private val generalReportFilename: String) {
 
         return ShallowFileCompileReport(
             compileResult.filename,
-            totalCountOfErrors == 0,
+            totalCountOfErrors == 0L,
             false,
             result.text,
             totalCountOfErrors,
@@ -127,7 +127,7 @@ class ReportBuilder(private val generalReportFilename: String) {
     }
 
     private fun buildGeneralFileReport(): DetailedFileCompileReport {
-        fun percentage(totalCount: Int, targetCount: Int): Double {
+        fun percentage(totalCount: Long, targetCount: Long): Double {
             return (targetCount * 100).toDouble() / totalCount
         }
 

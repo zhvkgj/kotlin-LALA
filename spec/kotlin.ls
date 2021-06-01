@@ -42,12 +42,12 @@ class Declaration {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
-    @weight(1)
+    @weight(2)
     propertyDeclaration("${propertyDecl : PropertyDeclaration}") {
         this.symbols_after = propertyDecl.symbols_after;
     }
 
-    @weight(2)
+    @weight(1)
     functionDeclaration("${functionDecl: FunctionDeclaration}") {
         this.symbols_after = (SymbolTable:put this.symbols_before functionDecl.symbol);
     }
@@ -85,7 +85,7 @@ class OptionalFunctionValueParameterList {
         this.symbols_after = this.symbols_before;
     }
 
-    @weight(5)
+    @weight(2)
     nonEmptyParameterList("(${params: FunctionValueParameterList})") {
         params.symbols_before = this.symbols_before;
         this.symbols_after = params.symbols_after;
@@ -171,13 +171,11 @@ class PropertyDeclaration {
     syn symbols_after : SymbolTable;
 
     valDeclaration("${modifiers: OptionalModifierList} val ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
-        expr.symbols_before = decl.symbols_after;
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
 
     varDeclaration("${modifiers: OptionalModifierList} var ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
-        expr.symbols_before = decl.symbols_after;
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
@@ -230,7 +228,7 @@ class VariableDeclaration {
 
 # Section: types
 class Type {
-@copy
+    @copy
     simpleUserType("${simpleUserType : SimpleUserType}") {
 
     }
@@ -250,7 +248,6 @@ class OptionalStatementList {
     inh inside_loop : boolean;
     inh symbols_before : SymbolTable;
 
-    @weight(1)
     empty("") {
 
     }
@@ -289,7 +286,7 @@ class Statement {
         this.symbols_after = this.symbols_before;
     }
 
-    @weight(1)
+    @weight(2)
     declaration("${decl: Declaration}") {
         this.symbols_after = decl.symbols_after;
     }
@@ -299,7 +296,7 @@ class Statement {
         this.symbols_after = this.symbols_before;
     }
 
-    @weight(10)
+    @weight(5)
     loopStatement("${stmt: LoopStatement}") {
         this.symbols_after = this.symbols_before;
     }
@@ -384,10 +381,12 @@ class ControlStructureBody {
     inh symbols_before : SymbolTable;
     inh inside_loop : boolean;
 
+    @weight(5)
     block("${block: Block}") {
 
     }
 
+    @weight(1)
     statement("${stmt: Statement}") {
 
     }

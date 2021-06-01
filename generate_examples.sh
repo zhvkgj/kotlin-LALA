@@ -14,5 +14,5 @@ function print_step {
 }
 
 print_step "Kotlin"
-"$(dirname "$0")/out/run.sh" kotlin --seed 0 --count 10 \
-  --out "$out_dir/prog_#{SEED}.kt"
+"$(dirname "$0")/out/run.sh" kotlin --seed 0 --count 1000 \
+  --out "$out_dir/batch_#{BATCH}/prog_#{SEED}.kt" --batchSize 10

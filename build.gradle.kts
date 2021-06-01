@@ -8,6 +8,12 @@ subprojects {
     version = "1.0"
 }
 
+task<Exec>("compileRuntimeResources") {
+    group = "generation"
+    workingDir("${rootDir}/out/runtime")
+    commandLine("./compile_all.sh")
+}
+
 task<Exec>("translateSpec") {
     group = "generation"
     workingDir("$rootDir")
@@ -17,7 +23,7 @@ task<Exec>("translateSpec") {
 
 task<Exec>("compileSpec") {
     group = "generation"
-    dependsOn("translateSpec")
+    dependsOn("translateSpec", "compileRuntimeResources")
     workingDir("${rootDir}/out")
     commandLine("./compile.sh", "kotlin.java")
 }
