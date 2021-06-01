@@ -1,0 +1,50 @@
+prog_252.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 10
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":23}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":29}}
+    This function must return a value of type [ERROR : Error function type]
+    ERROR
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":29}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":35}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":19},"end":{"line":2,"ch":55}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":257},"end":{"line":2,"ch":258}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":268},"end":{"line":2,"ch":269}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":270},"end":{"line":2,"ch":329}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,164 @@
+prog_321.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 47
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 7
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":50}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":176}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":109}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":238}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":57}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":41}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":58}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":59},"end":{"line":3,"ch":67}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":3,"ch":102},"end":{"line":3,"ch":113}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":102},"end":{"line":3,"ch":113}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":122}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":122}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":3,"ch":153},"end":{"line":3,"ch":164}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":24},"end":{"line":9,"ch":29}}
+    No value passed for parameter 'nB_7s'
+    ERROR
+
+    {"start":{"line":9,"ch":24},"end":{"line":9,"ch":29}}
+    No value passed for parameter 'f_7_ch'
+    ERROR
+
+    {"start":{"line":9,"ch":24},"end":{"line":9,"ch":29}}
+    Function invocation '_eyt6(...)' expected
+    ERROR
+
+    {"start":{"line":9,"ch":24},"end":{"line":9,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":29},"end":{"line":9,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":36},"end":{"line":9,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":36},"end":{"line":9,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":45},"end":{"line":9,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":47},"end":{"line":9,"ch":49}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":56},"end":{"line":9,"ch":58}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":58},"end":{"line":9,"ch":63}}
+    No value passed for parameter 'nB_7s'
+    ERROR
+
+    {"start":{"line":9,"ch":58},"end":{"line":9,"ch":63}}
+    No value passed for parameter 'f_7_ch'
+    ERROR
+
+    {"start":{"line":9,"ch":58},"end":{"line":9,"ch":63}}
+    Function invocation '_eyt6(...)' expected
+    ERROR
+
+    {"start":{"line":9,"ch":68},"end":{"line":9,"ch":74}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":68},"end":{"line":9,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":77},"end":{"line":9,"ch":78}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":77},"end":{"line":9,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":81},"end":{"line":9,"ch":235}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":11,"ch":9},"end":{"line":11,"ch":14}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

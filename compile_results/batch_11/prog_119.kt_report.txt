@@ -1,0 +1,290 @@
+prog_119.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 70
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":22}}
+    This function must return a value of type [ERROR : Error function type]
+    ERROR
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":22}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":24}}
+    None of the following functions can be called with the arguments supplied: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":32}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":53}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":55}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":57}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":58},"end":{"line":0,"ch":60}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":62}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":64}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":67}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":69}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":71}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":78}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":80}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":22}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    Function invocation '_48_s_()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":131}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":19},"end":{"line":3,"ch":79}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":110},"end":{"line":3,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":438}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":20},"end":{"line":4,"ch":52}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":274},"end":{"line":4,"ch":275}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":13},"end":{"line":5,"ch":19}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":13},"end":{"line":5,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":33},"end":{"line":5,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":42},"end":{"line":5,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":474}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":0},"end":{"line":6,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":6,"ch":17},"end":{"line":6,"ch":23}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":26},"end":{"line":6,"ch":32}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":37},"end":{"line":6,"ch":43}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":37},"end":{"line":6,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":48},"end":{"line":6,"ch":54}}
+    Unresolved reference: T__U8A
+    ERROR
+
+    {"start":{"line":6,"ch":48},"end":{"line":6,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":65},"end":{"line":6,"ch":69}}
+    Unresolved reference: _2_H
+    ERROR
+
+    {"start":{"line":6,"ch":65},"end":{"line":6,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":65},"end":{"line":6,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":83},"end":{"line":6,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":92},"end":{"line":6,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":96},"end":{"line":6,"ch":102}}
+    Unresolved reference: _R_V9_
+    ERROR
+
+    {"start":{"line":6,"ch":96},"end":{"line":6,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":106},"end":{"line":6,"ch":107}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":6,"ch":110},"end":{"line":6,"ch":116}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":119},"end":{"line":6,"ch":123}}
+    Unresolved reference: _2_H
+    ERROR
+
+    {"start":{"line":6,"ch":128},"end":{"line":6,"ch":132}}
+    Unresolved reference: _2_H
+    ERROR
+
+    {"start":{"line":6,"ch":128},"end":{"line":6,"ch":132}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":135},"end":{"line":6,"ch":138}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":6,"ch":143},"end":{"line":6,"ch":149}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":6,"ch":154},"end":{"line":6,"ch":158}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":157},"end":{"line":6,"ch":158}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":6,"ch":161},"end":{"line":6,"ch":162}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":169},"end":{"line":6,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":177},"end":{"line":6,"ch":179}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":177},"end":{"line":6,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":186},"end":{"line":6,"ch":192}}
+    Unresolved reference: T__U8A
+    ERROR
+
+    {"start":{"line":6,"ch":186},"end":{"line":6,"ch":192}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":197},"end":{"line":6,"ch":203}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":197},"end":{"line":6,"ch":205}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":204},"end":{"line":6,"ch":205}}
+    Expecting an element
+    ERROR

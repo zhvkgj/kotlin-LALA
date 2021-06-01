@@ -1,0 +1,186 @@
+prog_322.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 54
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":37}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":13}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":27}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":45}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":15}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":19}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":32}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":6,"ch":8},"end":{"line":6,"ch":11}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":6,"ch":16},"end":{"line":6,"ch":27}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":39},"end":{"line":6,"ch":50}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":10,"ch":2},"end":{"line":10,"ch":20}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":10,"ch":11},"end":{"line":10,"ch":14}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":14,"ch":2},"end":{"line":14,"ch":44}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":14,"ch":10},"end":{"line":14,"ch":17}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":14,"ch":27},"end":{"line":14,"ch":30}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":28}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":18,"ch":11},"end":{"line":18,"ch":14}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":20,"ch":2},"end":{"line":20,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":22,"ch":3},"end":{"line":22,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":26,"ch":0},"end":{"line":26,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":28,"ch":5},"end":{"line":28,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":28,"ch":49},"end":{"line":28,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":28,"ch":53},"end":{"line":28,"ch":265}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":29,"ch":26},"end":{"line":29,"ch":32}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":29,"ch":26},"end":{"line":29,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":35},"end":{"line":29,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":39},"end":{"line":29,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":29,"ch":39},"end":{"line":29,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":48},"end":{"line":29,"ch":52}}
+    Unresolved reference: __22
+    ERROR
+
+    {"start":{"line":29,"ch":55},"end":{"line":29,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":29,"ch":72},"end":{"line":29,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":76},"end":{"line":29,"ch":77}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":29,"ch":82},"end":{"line":29,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":90},"end":{"line":29,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":101},"end":{"line":29,"ch":107}}
+    Unresolved reference: z_f8_u
+    ERROR
+
+    {"start":{"line":29,"ch":101},"end":{"line":29,"ch":107}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":101},"end":{"line":29,"ch":109}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":114},"end":{"line":29,"ch":120}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":29,"ch":114},"end":{"line":29,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":123},"end":{"line":29,"ch":124}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":29,"ch":123},"end":{"line":29,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":29,"ch":127},"end":{"line":29,"ch":399}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,318 @@
+prog_637.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 81
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 12
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":66}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":43}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":49}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":61},"end":{"line":1,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":61},"end":{"line":1,"ch":277}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":73}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":82}}
+    Unresolved reference: _X13
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":93}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":277}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":95}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":1,"ch":103},"end":{"line":1,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":109},"end":{"line":1,"ch":110}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":128}}
+    Unresolved reference: _X13
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":128}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":130}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":135},"end":{"line":1,"ch":138}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":1,"ch":135},"end":{"line":1,"ch":138}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":143},"end":{"line":1,"ch":146}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":1,"ch":143},"end":{"line":1,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":143},"end":{"line":1,"ch":148}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":151},"end":{"line":1,"ch":153}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":162},"end":{"line":1,"ch":168}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":162},"end":{"line":1,"ch":168}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":176},"end":{"line":1,"ch":177}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":184}}
+    Unresolved reference: _X13
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":184}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":186}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":192}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":192}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":205},"end":{"line":1,"ch":209}}
+    Unresolved reference: _X13
+    ERROR
+
+    {"start":{"line":1,"ch":205},"end":{"line":1,"ch":209}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":215},"end":{"line":1,"ch":221}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":224},"end":{"line":1,"ch":234}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":228},"end":{"line":1,"ch":234}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":228},"end":{"line":1,"ch":234}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":238},"end":{"line":1,"ch":239}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":244},"end":{"line":1,"ch":247}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":1,"ch":244},"end":{"line":1,"ch":247}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":244},"end":{"line":1,"ch":249}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":256},"end":{"line":1,"ch":258}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":263},"end":{"line":1,"ch":269}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":263},"end":{"line":1,"ch":277}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":272},"end":{"line":1,"ch":274}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":272},"end":{"line":1,"ch":277}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":277},"end":{"line":1,"ch":620}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":6},"end":{"line":2,"ch":11}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":18}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":19},"end":{"line":2,"ch":26}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":32}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":126}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":57},"end":{"line":3,"ch":68}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":69},"end":{"line":3,"ch":72}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":115},"end":{"line":3,"ch":117}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":117},"end":{"line":3,"ch":123}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":7}}
+    Unresolved reference: tailrec
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":7}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":17},"end":{"line":5,"ch":25}}
+    Unresolved reference: operator
+    ERROR
+
+    {"start":{"line":5,"ch":30},"end":{"line":5,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":93},"end":{"line":5,"ch":94}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":100},"end":{"line":5,"ch":101}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":110},"end":{"line":5,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":121},"end":{"line":5,"ch":122}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":125},"end":{"line":5,"ch":481}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,180 @@
+prog_853.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 43
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":88}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":103}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":225}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":149}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":2,"ch":9},"end":{"line":2,"ch":14}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":2,"ch":15},"end":{"line":2,"ch":23}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":39}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":48}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":65}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":74}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":75},"end":{"line":2,"ch":81}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":102}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":111}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":123},"end":{"line":2,"ch":129}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":115}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":115}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":3,"ch":8},"end":{"line":3,"ch":14}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":3,"ch":59},"end":{"line":3,"ch":70}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":71},"end":{"line":3,"ch":77}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":179}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":179}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":7,"ch":10},"end":{"line":7,"ch":16}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":7,"ch":17},"end":{"line":7,"ch":23}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":7,"ch":24},"end":{"line":7,"ch":30}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":7,"ch":127},"end":{"line":7,"ch":135}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":17,"ch":35},"end":{"line":17,"ch":82}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":17,"ch":158},"end":{"line":17,"ch":159}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":17,"ch":166},"end":{"line":17,"ch":167}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":17,"ch":170},"end":{"line":17,"ch":363}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":18,"ch":24},"end":{"line":18,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":18,"ch":24},"end":{"line":18,"ch":66}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":18,"ch":33},"end":{"line":18,"ch":34}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":41},"end":{"line":18,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":18,"ch":43},"end":{"line":18,"ch":45}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":18,"ch":53},"end":{"line":18,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":18,"ch":62},"end":{"line":18,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":62},"end":{"line":18,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":18,"ch":66},"end":{"line":18,"ch":1631}}
+    Property getter or setter expected
+    ERROR

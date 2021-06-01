@@ -1,0 +1,4 @@
+const val __773 = --9 % return-- || return / true * ++690_2++ + --26_9_96 * 2++ / return-- / return / ++true++ * --0l--
+inline fun _5_9(crossinline q9_028 : Int) : Short = 3++ * return-- / ++__773++ / 7l / --q9_028++ % --__773-- + ++8L * return % ++5++ * false-- - --return-- / --942_0_0++ % 8_5_37-- * 690_2l * q9_028 * ++q9_028-- * 3l++ % return % return++ % __773-- / true % return % return++ * --false * ++q9_028 % q9_028 / --__773-- != __773 / ++q9_028 * q9_028++ + ++q9_028 / q9_028 + __773-- / 7_____6 / __773 % __773++ % --q9_028 / --3____0l++ * ++q9_028 * ++return / return % return % return / return-- > q9_028-- + --false / 8_5_37L % 8 / 2959_4l-- + --1 + 8__3_87-- * ++true + --942_0_0L
+
+crossinline var J_108 : Long = 5L

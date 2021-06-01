@@ -1,0 +1,38 @@
+prog_648.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 6
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":73}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":14},"end":{"line":1,"ch":16}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":40}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR

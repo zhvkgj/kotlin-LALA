@@ -1,0 +1,2 @@
+ var _f_2O : Boolean = --false
+const val (F83 : Boolean) = ++true++ + --return++ % ++_f_2O++ / --2959_4L * 690_2-- - _f_2O * ++return++ % ++923++ * _f_2O % ++4___7++ % ++return / 690_2 >= --85_9 % 6l++ + --return % _f_2O++ / _f_2O-- - _f_2O * _f_2O * 7

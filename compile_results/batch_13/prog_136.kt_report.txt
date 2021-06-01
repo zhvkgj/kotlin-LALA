@@ -1,0 +1,112 @@
+prog_136.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 25
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":25},"end":{"line":0,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":25},"end":{"line":0,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":36}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":63}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":87}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":52}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":31},"end":{"line":3,"ch":32}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":33},"end":{"line":3,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":52}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":53},"end":{"line":3,"ch":305}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":22},"end":{"line":4,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":22},"end":{"line":4,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":40},"end":{"line":4,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":48},"end":{"line":4,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":475}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":31},"end":{"line":5,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":31},"end":{"line":5,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":40},"end":{"line":5,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":42},"end":{"line":5,"ch":364}}
+    Property getter or setter expected
+    ERROR

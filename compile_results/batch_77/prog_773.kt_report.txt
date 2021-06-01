@@ -1,0 +1,154 @@
+prog_773.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 41
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":53}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":171},"end":{"line":0,"ch":172}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":175},"end":{"line":0,"ch":289}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":22}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":547}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":19}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":22},"end":{"line":2,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":380}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":15},"end":{"line":3,"ch":21}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":3,"ch":36},"end":{"line":3,"ch":42}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":3,"ch":43},"end":{"line":3,"ch":54}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":4,"ch":22},"end":{"line":4,"ch":30}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":8,"ch":11},"end":{"line":8,"ch":16}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":10,"ch":2},"end":{"line":10,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":14,"ch":0},"end":{"line":14,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":14,"ch":28},"end":{"line":14,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":42},"end":{"line":14,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":47},"end":{"line":14,"ch":48}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":14,"ch":53},"end":{"line":14,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":53},"end":{"line":14,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":62},"end":{"line":14,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":66},"end":{"line":14,"ch":72}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":66},"end":{"line":14,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":75},"end":{"line":14,"ch":76}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":14,"ch":83},"end":{"line":14,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":14,"ch":85},"end":{"line":14,"ch":676}}
+    Property getter or setter expected
+    ERROR

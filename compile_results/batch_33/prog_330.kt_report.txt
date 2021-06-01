@@ -1,0 +1,174 @@
+prog_330.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 43
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":219}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    Unresolved reference: e_C7_I
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    Unresolved reference: e_C7_I
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":66}}
+    Unresolved reference: e_C7_I
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":77}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":88}}
+    Unresolved reference: e_C7_I
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":108}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":114}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":126},"end":{"line":1,"ch":132}}
+    Unresolved reference: e_C7_I
+    ERROR
+
+    {"start":{"line":1,"ch":126},"end":{"line":1,"ch":132}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":137},"end":{"line":1,"ch":143}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":137},"end":{"line":1,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":154}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":161}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":169}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":170},"end":{"line":1,"ch":428}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":84}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":11},"end":{"line":3,"ch":16}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":85},"end":{"line":3,"ch":86}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":87},"end":{"line":3,"ch":91}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":10},"end":{"line":4,"ch":63}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":103},"end":{"line":4,"ch":104}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":105},"end":{"line":4,"ch":692}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":10},"end":{"line":6,"ch":15}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":10},"end":{"line":10,"ch":17}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":12,"ch":2},"end":{"line":12,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":18,"ch":0},"end":{"line":18,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

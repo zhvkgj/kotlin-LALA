@@ -1,0 +1,2 @@
+const const var (_7f8 : Boolean, Az_ : Short) = ++return--
+ var L___ = ++544_11-- / --Az_-- % return % --8 % --false / ++Az_++ * ++7l++ / ++return-- * ++false + true++ * true++ / 7-- / Az_++ * ++9++ / 1L / ++return * --8++ / ++true++

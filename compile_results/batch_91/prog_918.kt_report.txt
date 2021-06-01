@@ -1,0 +1,88 @@
+prog_918.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 19
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":50}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":14}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":26}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":71}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":78}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":88}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":99}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":108}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":118},"end":{"line":1,"ch":122}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":1,"ch":125},"end":{"line":1,"ch":129}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":138}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":141},"end":{"line":1,"ch":142}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":149},"end":{"line":1,"ch":150}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":151},"end":{"line":1,"ch":566}}
+    Property getter or setter expected
+    ERROR

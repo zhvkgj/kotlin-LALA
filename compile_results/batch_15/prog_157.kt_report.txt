@@ -1,0 +1,60 @@
+prog_157.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":1,"ch":84}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":1,"ch":84}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":44}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":54}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":66}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Unresolved reference: vararg
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":6}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":29}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

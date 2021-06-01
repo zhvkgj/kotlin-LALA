@@ -1,0 +1,170 @@
+prog_755.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 39
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":28}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":13}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":49}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":85},"end":{"line":1,"ch":350}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":18},"end":{"line":2,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":22},"end":{"line":2,"ch":24}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":35}}
+    Unresolved reference: Ssj_X_
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":45}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":54}}
+    Unresolved reference: y_MVY_
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":65}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":68},"end":{"line":2,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":76},"end":{"line":2,"ch":82}}
+    Unresolved reference: y_MVY_
+    ERROR
+
+    {"start":{"line":2,"ch":76},"end":{"line":2,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":100},"end":{"line":2,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":100},"end":{"line":2,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":101},"end":{"line":2,"ch":102}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":115}}
+    Unresolved reference: Ssj_X_
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":115}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":117}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":122},"end":{"line":2,"ch":128}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":122},"end":{"line":2,"ch":187}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":131},"end":{"line":2,"ch":141}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":135},"end":{"line":2,"ch":141}}
+    Unresolved reference: y_MVY_
+    ERROR
+
+    {"start":{"line":2,"ch":135},"end":{"line":2,"ch":141}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":146},"end":{"line":2,"ch":152}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":146},"end":{"line":2,"ch":187}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":155},"end":{"line":2,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":159},"end":{"line":2,"ch":165}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":159},"end":{"line":2,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":168},"end":{"line":2,"ch":174}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":177},"end":{"line":2,"ch":183}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":186},"end":{"line":2,"ch":187}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":188},"end":{"line":2,"ch":217}}
+    Property getter or setter expected
+    ERROR

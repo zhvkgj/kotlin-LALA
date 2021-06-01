@@ -1,0 +1,264 @@
+prog_997.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 61
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 9
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":21}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":25}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":110}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":54}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":4},"end":{"line":2,"ch":5}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":21}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":84},"end":{"line":2,"ch":85}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":88},"end":{"line":2,"ch":414}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":15},"end":{"line":3,"ch":18}}
+    Unresolved reference: u4_
+    ERROR
+
+    {"start":{"line":3,"ch":15},"end":{"line":3,"ch":18}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":23},"end":{"line":3,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":28},"end":{"line":3,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":39},"end":{"line":3,"ch":44}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":49},"end":{"line":3,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":54},"end":{"line":3,"ch":56}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":61},"end":{"line":3,"ch":66}}
+    Unresolved reference: _ud__
+    ERROR
+
+    {"start":{"line":3,"ch":61},"end":{"line":3,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":73},"end":{"line":3,"ch":75}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":78},"end":{"line":3,"ch":84}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":89},"end":{"line":3,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":109},"end":{"line":3,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":115},"end":{"line":3,"ch":116}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":137},"end":{"line":3,"ch":139}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":146},"end":{"line":3,"ch":151}}
+    Unresolved reference: _ud__
+    ERROR
+
+    {"start":{"line":3,"ch":146},"end":{"line":3,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":146},"end":{"line":3,"ch":153}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":156},"end":{"line":3,"ch":159}}
+    Unresolved reference: u4_
+    ERROR
+
+    {"start":{"line":3,"ch":162},"end":{"line":3,"ch":168}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":171},"end":{"line":3,"ch":176}}
+    Unresolved reference: _ud__
+    ERROR
+
+    {"start":{"line":3,"ch":181},"end":{"line":3,"ch":188}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":206},"end":{"line":3,"ch":207}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":3,"ch":208},"end":{"line":3,"ch":213}}
+    Unresolved reference: _ud__
+    ERROR
+
+    {"start":{"line":3,"ch":208},"end":{"line":3,"ch":213}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":220},"end":{"line":3,"ch":226}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":220},"end":{"line":4,"ch":235}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Unresolved reference: vararg
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":7},"end":{"line":4,"ch":178}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":23},"end":{"line":5,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":28},"end":{"line":5,"ch":30}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":35},"end":{"line":5,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":39},"end":{"line":5,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":56},"end":{"line":5,"ch":58}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":58},"end":{"line":5,"ch":63}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":5,"ch":68},"end":{"line":5,"ch":74}}
+    Unresolved reference: KJ_WC_
+    ERROR
+
+    {"start":{"line":5,"ch":68},"end":{"line":5,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":68},"end":{"line":5,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":81},"end":{"line":5,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":93},"end":{"line":5,"ch":99}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":93},"end":{"line":5,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":104},"end":{"line":5,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":108},"end":{"line":5,"ch":110}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":113},"end":{"line":5,"ch":119}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":122},"end":{"line":5,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":130},"end":{"line":5,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":134},"end":{"line":5,"ch":840}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":10},"end":{"line":6,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":39},"end":{"line":6,"ch":40}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":43},"end":{"line":6,"ch":150}}
+    Property getter or setter expected
+    ERROR

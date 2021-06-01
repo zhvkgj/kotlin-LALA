@@ -1,0 +1,142 @@
+prog_484.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 40
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 11
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":34}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":56}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":57},"end":{"line":0,"ch":65}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":57},"end":{"line":0,"ch":65}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":77}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":77}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":86}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":95}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":109},"end":{"line":0,"ch":117}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":118},"end":{"line":0,"ch":124}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":145},"end":{"line":0,"ch":150}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":155},"end":{"line":0,"ch":159}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":160},"end":{"line":0,"ch":161}}
+    Overload resolution ambiguity: 
+public final operator fun times(other: Byte): Int defined in kotlin.Int
+public final operator fun times(other: Double): Double defined in kotlin.Int
+public final operator fun times(other: Float): Float defined in kotlin.Int
+public final operator fun times(other: Int): Int defined in kotlin.Int
+public final operator fun times(other: Long): Long defined in kotlin.Int
+public final operator fun times(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":0,"ch":162},"end":{"line":0,"ch":168}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":0,"ch":162},"end":{"line":0,"ch":168}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":171},"end":{"line":0,"ch":173}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":8}}
+    Unresolved reference: external
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":8}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":27}}
+    Anonymous functions with names are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":39}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":39}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":48}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":48}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":52}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":68}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":85},"end":{"line":2,"ch":91}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":92},"end":{"line":2,"ch":103}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

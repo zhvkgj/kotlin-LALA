@@ -1,0 +1,50 @@
+prog_293.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 11
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":18}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":33}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":58}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":5},"end":{"line":5,"ch":11}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":133}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":134},"end":{"line":5,"ch":184}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":5},"end":{"line":6,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":129},"end":{"line":6,"ch":130}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":133},"end":{"line":6,"ch":206}}
+    Property getter or setter expected
+    ERROR

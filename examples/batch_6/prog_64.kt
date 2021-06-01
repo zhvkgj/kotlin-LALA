@@ -1,0 +1,9 @@
+tailrec fun _jncd_( __g5_ : Int, crossinline fKyjd_ : Short,  s__2 : Boolean,  m1_h : Short,  Vlk : Short,  _w___4 : Boolean, crossinline crossinline vararg noinline crossinline _7P_ : Short) {
+  
+}
+
+const tailrec const var (fKyjd_ : Short, _nt_) = --0++ / --false++ / return / ++return + return % --_jncd_ * 3____0 / ++_jncd_-- <= --return++ % --_jncd_++ * ++return % _jncd_ - ++false / return-- / return++ % ++return * return++ + --return * ++return % return-- * --return / ++return % ++return-- / --false % return / true++ / --true % --return % true / ++return && ++9_3_6 + --_jncd_-- * ++_jncd_-- - return++ * 8l * false * _jncd_ / ++false++ + _jncd_ / --return-- / --_jncd_ * false-- * return++ * ++return++ * ++return++ - --2959_4 / _jncd_-- / true++ % _jncd_++ * ++_jncd_ - _jncd_ * true % return++ - false++ % 9_3_6 + ++true++ % return / 7851L++ * return-- * _jncd_ + ++_jncd_ + ++_jncd_-- % --_jncd_ >= 96 - 6 % --_jncd_-- % ++_jncd_ % --return++ % return / --_jncd_ % return-- - ++3_1 % --_jncd_ || --7_____6l % ++true++ / --1L-- / _jncd_-- / --true++ / ++return-- * ++3l++ + _jncd_ % 9 * ++_jncd_ / --8l++ * --_jncd_ % 8L++ / _jncd_-- * ++return++ != return++ * _jncd_ % --_jncd_ / --690_2++ % --true % return++ * return + --8__3_87++ * _jncd_++ % ++_jncd_-- / ++return - --923
+tailrec fun tL8v_Z() : Int = return++ - --fKyjd_-- % --_jncd_ % --_jncd_-- / --return++ % ++_jncd_
+
+inline val nds = --_nt_-- * tL8v_Z + --true-- % --return++ / _jncd_ / --26_9_96L-- * --return % 2l * --return * ++fKyjd_--
+operator fun Wjh5_() : Short = --_nt_++ / 481-- <= fKyjd_ / ++1 % --return - return++ + ++return-- * _jncd_-- - fKyjd_-- % return-- + --tL8v_Z / return * ++return-- % ++fKyjd_-- / ++fKyjd_++ / ++_jncd_++ % --nds++ + _jncd_++ - fKyjd_-- * ++return-- % --return % --3____0L++ / 3 * ++300-- / --56_9L-- % tL8v_Z++ && ++false % return * false++ - ++true - ++nds++ % return++ >= _jncd_

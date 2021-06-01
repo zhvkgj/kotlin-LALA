@@ -1,0 +1,218 @@
+prog_723.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 52
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 6
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":10}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":237},"end":{"line":1,"ch":238}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":241},"end":{"line":1,"ch":706}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":26}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":30}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":88}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":35},"end":{"line":3,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":171},"end":{"line":3,"ch":172}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":182},"end":{"line":3,"ch":183}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":189},"end":{"line":3,"ch":190}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":200},"end":{"line":3,"ch":201}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":213},"end":{"line":3,"ch":214}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":219},"end":{"line":3,"ch":220}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":308},"end":{"line":3,"ch":310}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":318},"end":{"line":3,"ch":319}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":320},"end":{"line":3,"ch":592}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":9},"end":{"line":4,"ch":17}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":40},"end":{"line":4,"ch":44}}
+    Unresolved reference: d___
+    ERROR
+
+    {"start":{"line":4,"ch":49},"end":{"line":4,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":60},"end":{"line":4,"ch":64}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":4,"ch":67},"end":{"line":4,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":79},"end":{"line":4,"ch":85}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":79},"end":{"line":4,"ch":215}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":99},"end":{"line":4,"ch":106}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":105},"end":{"line":4,"ch":106}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":111},"end":{"line":4,"ch":114}}
+    Unresolved reference: X4_
+    ERROR
+
+    {"start":{"line":4,"ch":119},"end":{"line":4,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":132},"end":{"line":4,"ch":138}}
+    Unresolved reference: __363W
+    ERROR
+
+    {"start":{"line":4,"ch":132},"end":{"line":4,"ch":138}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":141},"end":{"line":4,"ch":145}}
+    Unresolved reference: d___
+    ERROR
+
+    {"start":{"line":4,"ch":141},"end":{"line":4,"ch":145}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":152},"end":{"line":4,"ch":155}}
+    Unresolved reference: Vlk
+    ERROR
+
+    {"start":{"line":4,"ch":152},"end":{"line":4,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":160},"end":{"line":4,"ch":166}}
+    Unresolved reference: __363W
+    ERROR
+
+    {"start":{"line":4,"ch":160},"end":{"line":4,"ch":166}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":169},"end":{"line":4,"ch":170}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":176},"end":{"line":4,"ch":177}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":182},"end":{"line":4,"ch":188}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":182},"end":{"line":4,"ch":215}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":191},"end":{"line":4,"ch":192}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":201},"end":{"line":4,"ch":202}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":201},"end":{"line":4,"ch":205}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":211},"end":{"line":4,"ch":212}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":211},"end":{"line":4,"ch":215}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":215},"end":{"line":4,"ch":344}}
+    Property getter or setter expected
+    ERROR

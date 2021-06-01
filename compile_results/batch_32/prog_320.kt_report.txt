@@ -1,0 +1,378 @@
+prog_320.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 95
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":17}}
+    'Nothing' return type needs to be specified explicitly
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":47}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":51}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":60}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":65}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":67}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":68},"end":{"line":0,"ch":70}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":72}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":74}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":75},"end":{"line":0,"ch":77}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":77},"end":{"line":0,"ch":81}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":83}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":84},"end":{"line":0,"ch":85}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":86},"end":{"line":0,"ch":88}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":92}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":93},"end":{"line":0,"ch":94}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":95},"end":{"line":0,"ch":101}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":101},"end":{"line":0,"ch":103}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":104},"end":{"line":0,"ch":105}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":106},"end":{"line":0,"ch":108}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":108},"end":{"line":0,"ch":110}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":110},"end":{"line":0,"ch":112}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":113},"end":{"line":0,"ch":114}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":115},"end":{"line":0,"ch":117}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":117},"end":{"line":0,"ch":123}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":124},"end":{"line":0,"ch":125}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":126},"end":{"line":0,"ch":132}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":133},"end":{"line":0,"ch":134}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":135},"end":{"line":0,"ch":139}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":139},"end":{"line":0,"ch":141}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":142},"end":{"line":0,"ch":143}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":144},"end":{"line":0,"ch":146}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":146},"end":{"line":0,"ch":151}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":151},"end":{"line":0,"ch":153}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":154},"end":{"line":0,"ch":155}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":156},"end":{"line":0,"ch":158}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":158},"end":{"line":0,"ch":160}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":160},"end":{"line":0,"ch":162}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":163},"end":{"line":0,"ch":164}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":165},"end":{"line":0,"ch":167}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":167},"end":{"line":0,"ch":173}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":173},"end":{"line":0,"ch":175}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":176},"end":{"line":0,"ch":177}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":178},"end":{"line":0,"ch":182}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":182},"end":{"line":0,"ch":184}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":185},"end":{"line":0,"ch":186}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":187},"end":{"line":0,"ch":191}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":192},"end":{"line":0,"ch":193}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":194},"end":{"line":0,"ch":198}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":199},"end":{"line":0,"ch":200}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":201},"end":{"line":0,"ch":203}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":203},"end":{"line":0,"ch":207}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":208},"end":{"line":0,"ch":209}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":210},"end":{"line":0,"ch":216}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":216},"end":{"line":0,"ch":218}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":219},"end":{"line":0,"ch":220}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":221},"end":{"line":0,"ch":223}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":223},"end":{"line":0,"ch":229}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":230},"end":{"line":0,"ch":231}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":232},"end":{"line":0,"ch":234}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":234},"end":{"line":0,"ch":240}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":240},"end":{"line":0,"ch":242}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":243},"end":{"line":0,"ch":244}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":245},"end":{"line":0,"ch":250}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":250},"end":{"line":0,"ch":252}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":253},"end":{"line":0,"ch":254}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":255},"end":{"line":0,"ch":259}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":260},"end":{"line":0,"ch":261}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":262},"end":{"line":0,"ch":264}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":264},"end":{"line":0,"ch":268}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":269},"end":{"line":0,"ch":270}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":271},"end":{"line":0,"ch":275}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":276},"end":{"line":0,"ch":277}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":278},"end":{"line":0,"ch":284}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":285},"end":{"line":0,"ch":286}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":287},"end":{"line":0,"ch":292}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":52}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":40}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":34},"end":{"line":9,"ch":84}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":9,"ch":118},"end":{"line":9,"ch":119}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":122},"end":{"line":9,"ch":661}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":10,"ch":110},"end":{"line":10,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":116},"end":{"line":10,"ch":117}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":122},"end":{"line":10,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":124},"end":{"line":10,"ch":1170}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":11,"ch":5},"end":{"line":11,"ch":53}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":11,"ch":95},"end":{"line":11,"ch":96}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":104},"end":{"line":11,"ch":105}}
+    Expecting an element
+    ERROR

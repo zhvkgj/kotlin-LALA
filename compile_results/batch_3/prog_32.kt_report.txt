@@ -1,0 +1,34 @@
+prog_32.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 8
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":112}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":227},"end":{"line":0,"ch":229}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":230},"end":{"line":0,"ch":395}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":2},"end":{"line":2,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":11},"end":{"line":2,"ch":14}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":6,"ch":0},"end":{"line":6,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

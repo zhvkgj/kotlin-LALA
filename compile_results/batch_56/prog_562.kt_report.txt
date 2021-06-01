@@ -1,0 +1,70 @@
+prog_562.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 25
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 7
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":63}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":97},"end":{"line":0,"ch":108}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":97},"end":{"line":0,"ch":108}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":109},"end":{"line":0,"ch":117}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":109},"end":{"line":0,"ch":117}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":118},"end":{"line":0,"ch":129}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":150},"end":{"line":0,"ch":158}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":77}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":5},"end":{"line":7,"ch":18}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":7,"ch":59},"end":{"line":7,"ch":60}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":70},"end":{"line":7,"ch":71}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":72},"end":{"line":7,"ch":122}}
+    Property getter or setter expected
+    ERROR

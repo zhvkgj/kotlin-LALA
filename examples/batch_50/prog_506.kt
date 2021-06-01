@@ -1,0 +1,3 @@
+vararg noinline const crossinline external var n___8 : Int = 3_1++ % 2 == --return % --return-- || false <= return++ && return++ - --3L
+inline var (d_W86, _2k3_p, __6__ : Int) = 4-- * --n___8++ % --return % ++n___8 / return++ + return++ * --3____0++ % ++8__3_87L-- * n___8++ + false + --n___8 % false / 1l-- * 1-- % 544_11++ + return++ * --n___8 * --return-- + 4___7++ * n___8 * ++n___8 + --return++ - 2 / 942_0_0L + return != return-- % --51l++
+ val __22 : Int = ++true++ / --return-- % n___8++ * false / ++return % ++return++ % return - ++return / return % __6__++ - return-- / ++return % 690_2l++ / ++_2k3_p / d_W86++ / ++_2k3_p-- * 481L * return / _2k3_p - false-- % return * ++return % 6_3-- % return-- / ++_2k3_p / ++3 * --return / --__6__-- * --return++

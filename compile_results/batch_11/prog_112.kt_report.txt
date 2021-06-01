@@ -1,0 +1,200 @@
+prog_112.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 46
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":30}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":21}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":72}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":112}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":51}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":18}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":33}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":64}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun times(other: Byte): Int defined in kotlin.Short
+public final operator fun times(other: Double): Double defined in kotlin.Short
+public final operator fun times(other: Float): Float defined in kotlin.Short
+public final operator fun times(other: Int): Int defined in kotlin.Short
+public final operator fun times(other: Long): Long defined in kotlin.Short
+public final operator fun times(other: Short): Int defined in kotlin.Short
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":73}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":80},"end":{"line":2,"ch":86}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":80},"end":{"line":2,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":94}}
+    Unresolved reference: o9_
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":97},"end":{"line":2,"ch":103}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":106},"end":{"line":2,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":110},"end":{"line":2,"ch":114}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":110},"end":{"line":2,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":119},"end":{"line":2,"ch":125}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":130},"end":{"line":2,"ch":132}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":136},"end":{"line":2,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":142},"end":{"line":2,"ch":143}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":150},"end":{"line":2,"ch":153}}
+    Unresolved reference: Mmy
+    ERROR
+
+    {"start":{"line":2,"ch":150},"end":{"line":2,"ch":153}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":158},"end":{"line":2,"ch":164}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":158},"end":{"line":3,"ch":183}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":167},"end":{"line":2,"ch":168}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":167},"end":{"line":2,"ch":171}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":7}}
+    Function invocation 'suspend(...)' expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":7}}
+    ''suspend'' function can only be called in a form of modifier of a lambda: suspend { ... }
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":7}}
+    No value passed for parameter 'block'
+    ERROR
+
+    {"start":{"line":3,"ch":6},"end":{"line":3,"ch":7}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":12},"end":{"line":3,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":115}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":118},"end":{"line":3,"ch":190}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":22},"end":{"line":4,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":22},"end":{"line":4,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":35},"end":{"line":4,"ch":282}}
+    Property getter or setter expected
+    ERROR

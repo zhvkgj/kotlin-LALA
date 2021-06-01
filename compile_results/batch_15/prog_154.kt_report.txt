@@ -1,0 +1,366 @@
+prog_154.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 88
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 12
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":13}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":24}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":35}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":76}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":89}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":121},"end":{"line":1,"ch":127}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":121},"end":{"line":1,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":138}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":138}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":151}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":153}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":156},"end":{"line":1,"ch":162}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":165},"end":{"line":1,"ch":175}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":175}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":175}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":178},"end":{"line":1,"ch":184}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":178},"end":{"line":1,"ch":184}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":191},"end":{"line":1,"ch":197}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":191},"end":{"line":1,"ch":197}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":207},"end":{"line":1,"ch":213}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":225},"end":{"line":1,"ch":232}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":230},"end":{"line":1,"ch":232}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":235},"end":{"line":1,"ch":241}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":246},"end":{"line":1,"ch":252}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":1,"ch":246},"end":{"line":1,"ch":252}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":246},"end":{"line":1,"ch":254}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":259},"end":{"line":1,"ch":261}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":259},"end":{"line":1,"ch":263}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":266},"end":{"line":1,"ch":272}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":277},"end":{"line":1,"ch":283}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":277},"end":{"line":1,"ch":290}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":286},"end":{"line":1,"ch":287}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":286},"end":{"line":1,"ch":290}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":290},"end":{"line":1,"ch":2121}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":6},"end":{"line":2,"ch":11}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":17}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":38}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":41},"end":{"line":2,"ch":1348}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":17},"end":{"line":3,"ch":18}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":35}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":43}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":58},"end":{"line":3,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":62},"end":{"line":3,"ch":64}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":69},"end":{"line":3,"ch":73}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":84},"end":{"line":3,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":94}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":104},"end":{"line":3,"ch":110}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":113},"end":{"line":3,"ch":114}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":113},"end":{"line":3,"ch":117}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":126},"end":{"line":3,"ch":135}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":148},"end":{"line":3,"ch":154}}
+    Unresolved reference: q9_41_
+    ERROR
+
+    {"start":{"line":3,"ch":148},"end":{"line":3,"ch":154}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":175},"end":{"line":3,"ch":181}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":175},"end":{"line":3,"ch":207}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":184},"end":{"line":3,"ch":191}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":188},"end":{"line":3,"ch":189}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":188},"end":{"line":3,"ch":191}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":194},"end":{"line":3,"ch":200}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":203},"end":{"line":3,"ch":204}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":203},"end":{"line":3,"ch":207}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":207},"end":{"line":3,"ch":506}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":29},"end":{"line":4,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":29},"end":{"line":4,"ch":42}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":39}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":42},"end":{"line":4,"ch":100}}
+    Property getter or setter expected
+    ERROR

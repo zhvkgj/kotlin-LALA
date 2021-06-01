@@ -1,0 +1,634 @@
+prog_947.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 173
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 7
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":34}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":66}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":73}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":85}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":99},"end":{"line":0,"ch":105}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":141},"end":{"line":0,"ch":142}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":145},"end":{"line":0,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":161},"end":{"line":0,"ch":163}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":166},"end":{"line":0,"ch":168}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":168},"end":{"line":0,"ch":174}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":177},"end":{"line":0,"ch":178}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":179},"end":{"line":0,"ch":184}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":185},"end":{"line":0,"ch":186}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":187},"end":{"line":0,"ch":189}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":189},"end":{"line":0,"ch":193}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":194},"end":{"line":0,"ch":195}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":196},"end":{"line":0,"ch":200}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":200},"end":{"line":0,"ch":202}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":203},"end":{"line":0,"ch":204}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":205},"end":{"line":0,"ch":207}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":207},"end":{"line":0,"ch":213}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":214},"end":{"line":0,"ch":215}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":216},"end":{"line":0,"ch":219}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":219},"end":{"line":0,"ch":221}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":222},"end":{"line":0,"ch":223}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":224},"end":{"line":0,"ch":225}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":226},"end":{"line":0,"ch":227}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":228},"end":{"line":0,"ch":230}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":230},"end":{"line":0,"ch":231}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":232},"end":{"line":0,"ch":233}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":234},"end":{"line":0,"ch":240}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":241},"end":{"line":0,"ch":242}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":243},"end":{"line":0,"ch":245}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":245},"end":{"line":0,"ch":246}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":247},"end":{"line":0,"ch":248}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":249},"end":{"line":0,"ch":251}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":251},"end":{"line":0,"ch":257}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":258},"end":{"line":0,"ch":259}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":260},"end":{"line":0,"ch":264}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":265},"end":{"line":0,"ch":266}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":267},"end":{"line":0,"ch":269}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":269},"end":{"line":0,"ch":275}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":276},"end":{"line":0,"ch":277}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":278},"end":{"line":0,"ch":284}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":284},"end":{"line":0,"ch":286}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":287},"end":{"line":0,"ch":288}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":289},"end":{"line":0,"ch":291}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":291},"end":{"line":0,"ch":295}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":296},"end":{"line":0,"ch":297}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":298},"end":{"line":0,"ch":304}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":304},"end":{"line":0,"ch":306}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":307},"end":{"line":0,"ch":308}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":309},"end":{"line":0,"ch":311}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":312},"end":{"line":0,"ch":313}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":314},"end":{"line":0,"ch":320}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":321},"end":{"line":0,"ch":322}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":323},"end":{"line":0,"ch":329}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":329},"end":{"line":0,"ch":331}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":332},"end":{"line":0,"ch":333}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":334},"end":{"line":0,"ch":340}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":340},"end":{"line":0,"ch":342}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":343},"end":{"line":0,"ch":344}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":345},"end":{"line":0,"ch":349}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":350},"end":{"line":0,"ch":351}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":352},"end":{"line":0,"ch":358}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":358},"end":{"line":0,"ch":360}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":361},"end":{"line":0,"ch":362}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":363},"end":{"line":0,"ch":369}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":369},"end":{"line":0,"ch":371}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":372},"end":{"line":0,"ch":373}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":374},"end":{"line":0,"ch":375}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":375},"end":{"line":0,"ch":377}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":378},"end":{"line":0,"ch":379}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":380},"end":{"line":0,"ch":386}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":387},"end":{"line":0,"ch":388}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":389},"end":{"line":0,"ch":391}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":391},"end":{"line":0,"ch":394}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":395},"end":{"line":0,"ch":396}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":397},"end":{"line":0,"ch":403}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":404},"end":{"line":0,"ch":405}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":406},"end":{"line":0,"ch":412}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":412},"end":{"line":0,"ch":414}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":130},"end":{"line":2,"ch":132}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":133},"end":{"line":2,"ch":257}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":24}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":38},"end":{"line":3,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":48}}
+    Unresolved reference: _75_y0
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":61},"end":{"line":3,"ch":67}}
+    Unresolved reference: _75_y0
+    ERROR
+
+    {"start":{"line":3,"ch":70},"end":{"line":3,"ch":72}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":72},"end":{"line":3,"ch":76}}
+    No value passed for parameter '_gE'
+    ERROR
+
+    {"start":{"line":3,"ch":72},"end":{"line":3,"ch":76}}
+    Function invocation 'j_c_(...)' expected
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":85}}
+    No value passed for parameter '_gE'
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":85}}
+    Function invocation 'j_c_(...)' expected
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":85},"end":{"line":3,"ch":87}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":96}}
+    Unresolved reference: _75_y0
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":101},"end":{"line":3,"ch":103}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":110},"end":{"line":3,"ch":116}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":119},"end":{"line":3,"ch":120}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":119},"end":{"line":3,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":134},"end":{"line":3,"ch":135}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":134},"end":{"line":3,"ch":137}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":142},"end":{"line":3,"ch":148}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":142},"end":{"line":3,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":151},"end":{"line":3,"ch":152}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":151},"end":{"line":3,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":155},"end":{"line":3,"ch":1388}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":15},"end":{"line":4,"ch":23}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":5,"ch":3},"end":{"line":5,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":11},"end":{"line":5,"ch":22}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":23},"end":{"line":5,"ch":29}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":30},"end":{"line":5,"ch":41}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":42},"end":{"line":5,"ch":53}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":54},"end":{"line":5,"ch":60}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":5,"ch":73},"end":{"line":5,"ch":81}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":93},"end":{"line":5,"ch":101}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":102},"end":{"line":5,"ch":108}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":109},"end":{"line":5,"ch":115}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":5,"ch":131},"end":{"line":5,"ch":137}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":161},"end":{"line":5,"ch":167}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":9,"ch":3},"end":{"line":9,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":8}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":17,"ch":3},"end":{"line":17,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":17,"ch":28},"end":{"line":17,"ch":31}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":44}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":21,"ch":11},"end":{"line":21,"ch":14}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":21,"ch":20},"end":{"line":21,"ch":28}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":25,"ch":3},"end":{"line":25,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":29,"ch":2},"end":{"line":29,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":29,"ch":11},"end":{"line":29,"ch":14}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":29,"ch":20},"end":{"line":29,"ch":26}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":29,"ch":39},"end":{"line":29,"ch":45}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":31,"ch":2},"end":{"line":31,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":33,"ch":10},"end":{"line":33,"ch":13}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":37,"ch":0},"end":{"line":37,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":39,"ch":28},"end":{"line":39,"ch":79}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":39,"ch":190},"end":{"line":39,"ch":191}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":39,"ch":194},"end":{"line":39,"ch":294}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":40,"ch":0},"end":{"line":40,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":40,"ch":29},"end":{"line":40,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":40,"ch":38},"end":{"line":40,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":40,"ch":47},"end":{"line":40,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":40,"ch":47},"end":{"line":40,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":40,"ch":51},"end":{"line":40,"ch":211}}
+    Property getter or setter expected
+    ERROR

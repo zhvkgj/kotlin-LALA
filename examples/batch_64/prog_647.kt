@@ -1,0 +1,2 @@
+const var P_7 = ++return++ - --true % ++7 - 1L++ * return || 7L++ % return-- / 2959_4 * --85_9--
+external fun ha0_x( _4_9_5 : Short, noinline crossinline noinline noinline z_16RE : Int, crossinline vararg b_1y : Int, crossinline vararg noinline g7___ : Short,  _t51 : Boolean, noinline q1O_ : Long, crossinline ___6 : Boolean, noinline noinline vararg _96 : Int,  __Y1 : Boolean,  ______ : Long) = z_16RE++ / ______ % ++z_16RE++ - --return % ++9l / --return-- % 2l + ++false + ++return - return++ * z_16RE++ % --return-- / ++true

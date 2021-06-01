@@ -1,0 +1,62 @@
+prog_325.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":32}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":80}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":157}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":203},"end":{"line":1,"ch":204}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":205},"end":{"line":1,"ch":501}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":19},"end":{"line":2,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

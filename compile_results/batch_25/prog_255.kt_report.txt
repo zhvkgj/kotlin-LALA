@@ -1,0 +1,70 @@
+prog_255.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 19
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":22}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":48}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":48}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":60}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":60}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":602}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":25}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":4,"ch":28},"end":{"line":4,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":40},"end":{"line":4,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":49},"end":{"line":4,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":51},"end":{"line":4,"ch":602}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":10},"end":{"line":5,"ch":23}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":156},"end":{"line":5,"ch":157}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":160},"end":{"line":5,"ch":533}}
+    Property getter or setter expected
+    ERROR

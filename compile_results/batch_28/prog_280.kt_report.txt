@@ -1,0 +1,130 @@
+prog_280.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 34
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 7
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":30}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun times(other: Byte): Long defined in kotlin.Long
+public final operator fun times(other: Double): Double defined in kotlin.Long
+public final operator fun times(other: Float): Float defined in kotlin.Long
+public final operator fun times(other: Int): Long defined in kotlin.Long
+public final operator fun times(other: Long): Long defined in kotlin.Long
+public final operator fun times(other: Short): Long defined in kotlin.Long
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":51}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":72}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":80}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":44}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":56}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":82}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":82}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":94}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":103}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":103}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":112}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":128},"end":{"line":1,"ch":136}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":166},"end":{"line":1,"ch":172}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":37},"end":{"line":5,"ch":85}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":117},"end":{"line":5,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":119},"end":{"line":5,"ch":220}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":5},"end":{"line":6,"ch":71}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":130},"end":{"line":6,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":153},"end":{"line":6,"ch":154}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":307},"end":{"line":6,"ch":308}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":309},"end":{"line":6,"ch":429}}
+    Property getter or setter expected
+    ERROR

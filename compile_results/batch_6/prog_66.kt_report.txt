@@ -1,0 +1,54 @@
+prog_66.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 11
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":18}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":25}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":51}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":55}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":58},"end":{"line":0,"ch":117}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":29}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":96}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":609}}
+    Property getter or setter expected
+    ERROR

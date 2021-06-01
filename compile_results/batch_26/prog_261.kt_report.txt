@@ -1,0 +1,230 @@
+prog_261.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 55
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 6
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":124}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":46}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":149}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":152},"end":{"line":1,"ch":459}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":59}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":144},"end":{"line":2,"ch":145}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":155},"end":{"line":2,"ch":156}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":163},"end":{"line":2,"ch":164}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":167},"end":{"line":2,"ch":429}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":22}}
+    Unresolved reference: __ze
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":60},"end":{"line":3,"ch":64}}
+    Unresolved reference: DlrM
+    ERROR
+
+    {"start":{"line":3,"ch":60},"end":{"line":3,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":71},"end":{"line":3,"ch":77}}
+    Unresolved reference: _0585_
+    ERROR
+
+    {"start":{"line":3,"ch":71},"end":{"line":3,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":100},"end":{"line":3,"ch":106}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":100},"end":{"line":3,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":109},"end":{"line":3,"ch":110}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":111},"end":{"line":3,"ch":192}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":21}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":32}}
+    Unresolved reference: k____y
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":42}}
+    Unresolved reference: pWk
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":49},"end":{"line":4,"ch":50}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":53},"end":{"line":4,"ch":59}}
+    Unresolved reference: k____y
+    ERROR
+
+    {"start":{"line":4,"ch":64},"end":{"line":4,"ch":70}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":64},"end":{"line":4,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":75},"end":{"line":4,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":75},"end":{"line":4,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":86},"end":{"line":4,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":86},"end":{"line":4,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":95},"end":{"line":4,"ch":101}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":95},"end":{"line":4,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":104},"end":{"line":4,"ch":110}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":113},"end":{"line":4,"ch":150}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":115},"end":{"line":4,"ch":121}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":124},"end":{"line":4,"ch":125}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":133},"end":{"line":4,"ch":134}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":146},"end":{"line":4,"ch":147}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":146},"end":{"line":4,"ch":150}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":150},"end":{"line":4,"ch":467}}
+    Property getter or setter expected
+    ERROR

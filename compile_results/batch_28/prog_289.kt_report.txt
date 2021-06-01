@@ -1,0 +1,82 @@
+prog_289.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":26},"end":{"line":1,"ch":44}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":1,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Unresolved reference: tailrec
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":7}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":6,"ch":11},"end":{"line":6,"ch":19}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":6,"ch":20},"end":{"line":6,"ch":28}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":6,"ch":46},"end":{"line":6,"ch":54}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":46},"end":{"line":6,"ch":54}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":6,"ch":55},"end":{"line":6,"ch":66}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":55},"end":{"line":6,"ch":66}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":6,"ch":67},"end":{"line":6,"ch":73}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":6,"ch":74},"end":{"line":6,"ch":82}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":6,"ch":97},"end":{"line":6,"ch":108}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":10,"ch":0},"end":{"line":10,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

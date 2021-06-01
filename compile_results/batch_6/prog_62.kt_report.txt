@@ -1,0 +1,274 @@
+prog_62.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 65
+Count of type mismatch errors: 6
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":11},"end":{"line":0,"ch":16}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":132}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":132}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":17}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":17}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":35}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":47}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":59}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":71}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":96}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":105}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":112}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":113},"end":{"line":1,"ch":119}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":7,"ch":10},"end":{"line":7,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":7,"ch":65},"end":{"line":7,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":163},"end":{"line":7,"ch":164}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":171},"end":{"line":7,"ch":172}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":173},"end":{"line":7,"ch":335}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":8,"ch":15},"end":{"line":8,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":20},"end":{"line":8,"ch":22}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":8,"ch":25},"end":{"line":8,"ch":27}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":8,"ch":35},"end":{"line":8,"ch":38}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":8,"ch":41},"end":{"line":8,"ch":43}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":8,"ch":43},"end":{"line":8,"ch":48}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":8,"ch":43},"end":{"line":8,"ch":48}}
+    No value passed for parameter '_3_29_'
+    ERROR
+
+    {"start":{"line":8,"ch":43},"end":{"line":8,"ch":48}}
+    Function invocation '_____(...)' expected
+    ERROR
+
+    {"start":{"line":8,"ch":53},"end":{"line":8,"ch":56}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":8,"ch":53},"end":{"line":8,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":53},"end":{"line":8,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":63},"end":{"line":8,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":8,"ch":63},"end":{"line":8,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":74},"end":{"line":8,"ch":77}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":8,"ch":74},"end":{"line":8,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":74},"end":{"line":8,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":6},"end":{"line":9,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":9,"ch":32},"end":{"line":9,"ch":143}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":9,"ch":42},"end":{"line":9,"ch":47}}
+    Unresolved reference: __0_Z
+    ERROR
+
+    {"start":{"line":9,"ch":50},"end":{"line":9,"ch":55}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":9,"ch":50},"end":{"line":9,"ch":55}}
+    No value passed for parameter '_3_29_'
+    ERROR
+
+    {"start":{"line":9,"ch":50},"end":{"line":9,"ch":55}}
+    Function invocation '_____(...)' expected
+    ERROR
+
+    {"start":{"line":9,"ch":55},"end":{"line":9,"ch":57}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":60},"end":{"line":9,"ch":66}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":71},"end":{"line":9,"ch":76}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":9,"ch":71},"end":{"line":9,"ch":76}}
+    No value passed for parameter '_3_29_'
+    ERROR
+
+    {"start":{"line":9,"ch":71},"end":{"line":9,"ch":76}}
+    Function invocation '_____(...)' expected
+    ERROR
+
+    {"start":{"line":9,"ch":71},"end":{"line":9,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":76},"end":{"line":9,"ch":78}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":81},"end":{"line":9,"ch":86}}
+    Unresolved reference: __0_Z
+    ERROR
+
+    {"start":{"line":9,"ch":91},"end":{"line":9,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":96},"end":{"line":9,"ch":98}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":103},"end":{"line":9,"ch":106}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":9,"ch":103},"end":{"line":9,"ch":106}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":103},"end":{"line":9,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":113},"end":{"line":9,"ch":116}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":9,"ch":113},"end":{"line":9,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":113},"end":{"line":9,"ch":118}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":121},"end":{"line":9,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":122},"end":{"line":9,"ch":123}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":9,"ch":130},"end":{"line":9,"ch":136}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":130},"end":{"line":9,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":139},"end":{"line":9,"ch":140}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":139},"end":{"line":9,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":143},"end":{"line":9,"ch":645}}
+    Property getter or setter expected
+    ERROR

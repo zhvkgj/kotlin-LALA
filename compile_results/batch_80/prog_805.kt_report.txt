@@ -1,0 +1,106 @@
+prog_805.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 24
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":23},"end":{"line":1,"ch":28}}
+    Unresolved reference: _31_8
+    ERROR
+
+    {"start":{"line":1,"ch":23},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":23},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":142}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":19},"end":{"line":2,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":130},"end":{"line":2,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":134},"end":{"line":2,"ch":175}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":9},"end":{"line":3,"ch":17}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":25}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":39},"end":{"line":3,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":58},"end":{"line":3,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":66},"end":{"line":3,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":70},"end":{"line":3,"ch":487}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":15},"end":{"line":4,"ch":20}}
+    Unresolved reference: _mXx6
+    ERROR
+
+    {"start":{"line":4,"ch":15},"end":{"line":4,"ch":20}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":23},"end":{"line":4,"ch":29}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":33}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":34},"end":{"line":4,"ch":630}}
+    Property getter or setter expected
+    ERROR

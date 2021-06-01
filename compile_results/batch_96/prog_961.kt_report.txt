@@ -1,0 +1,284 @@
+prog_961.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 66
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 12
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":114}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":459}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":30},"end":{"line":2,"ch":34}}
+    Unresolved reference: y0K5
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":60}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":68}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":71},"end":{"line":2,"ch":421}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":6},"end":{"line":3,"ch":12}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":13},"end":{"line":3,"ch":18}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":3,"ch":43},"end":{"line":3,"ch":45}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":56}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":259}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":61},"end":{"line":3,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":65},"end":{"line":3,"ch":67}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":76}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":83}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":88},"end":{"line":3,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":95},"end":{"line":3,"ch":101}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":95},"end":{"line":3,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":106},"end":{"line":3,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":121}}
+    Unresolved reference: __7B0
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":121}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":126},"end":{"line":3,"ch":128}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":133},"end":{"line":3,"ch":138}}
+    Unresolved reference: __7B0
+    ERROR
+
+    {"start":{"line":3,"ch":143},"end":{"line":3,"ch":149}}
+    Unresolved reference: P045wb
+    ERROR
+
+    {"start":{"line":3,"ch":143},"end":{"line":3,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":155},"end":{"line":3,"ch":159}}
+    Unresolved reference: y0K5
+    ERROR
+
+    {"start":{"line":3,"ch":155},"end":{"line":3,"ch":159}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":155},"end":{"line":3,"ch":161}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":164},"end":{"line":3,"ch":167}}
+    Unresolved reference: _Y_
+    ERROR
+
+    {"start":{"line":3,"ch":164},"end":{"line":3,"ch":167}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":179},"end":{"line":3,"ch":185}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":196},"end":{"line":3,"ch":198}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":208},"end":{"line":3,"ch":214}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":208},"end":{"line":3,"ch":259}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":217},"end":{"line":3,"ch":226}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":219},"end":{"line":3,"ch":224}}
+    Unresolved reference: f0___
+    ERROR
+
+    {"start":{"line":3,"ch":219},"end":{"line":3,"ch":224}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":231},"end":{"line":3,"ch":236}}
+    Unresolved reference: C_Jls
+    ERROR
+
+    {"start":{"line":3,"ch":231},"end":{"line":3,"ch":236}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":239},"end":{"line":3,"ch":245}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":248},"end":{"line":3,"ch":249}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":258},"end":{"line":3,"ch":259}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":260},"end":{"line":3,"ch":329}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":32}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":37},"end":{"line":4,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":37},"end":{"line":4,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":44},"end":{"line":4,"ch":50}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":61}}
+    Unresolved reference: P045wb
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":68},"end":{"line":4,"ch":72}}
+    Unresolved reference: __82
+    ERROR
+
+    {"start":{"line":4,"ch":68},"end":{"line":4,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":77},"end":{"line":4,"ch":83}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":77},"end":{"line":4,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":86},"end":{"line":4,"ch":90}}
+    Unresolved reference: __82
+    ERROR
+
+    {"start":{"line":4,"ch":86},"end":{"line":4,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":95},"end":{"line":4,"ch":99}}
+    Unresolved reference: __82
+    ERROR

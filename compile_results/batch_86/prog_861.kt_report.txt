@@ -1,0 +1,46 @@
+prog_861.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 9
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":39}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":60}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":21}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":30}}
+    Unresolved reference: _E_P85
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":52}}
+    Unresolved reference: _E_P85
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":52}}
+    Variable expected
+    ERROR

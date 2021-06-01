@@ -1,0 +1,182 @@
+prog_47.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 40
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":75},"end":{"line":0,"ch":81}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":94}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":97},"end":{"line":0,"ch":99}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":99},"end":{"line":0,"ch":105}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":99},"end":{"line":0,"ch":105}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":108},"end":{"line":0,"ch":115}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":133},"end":{"line":0,"ch":141}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":144},"end":{"line":0,"ch":146}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":155},"end":{"line":0,"ch":157}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":166},"end":{"line":0,"ch":167}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":166},"end":{"line":0,"ch":170}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":179},"end":{"line":0,"ch":180}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":179},"end":{"line":0,"ch":183}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":193},"end":{"line":0,"ch":195}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":198},"end":{"line":0,"ch":200}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":200},"end":{"line":0,"ch":206}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":212},"end":{"line":0,"ch":219}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":222},"end":{"line":0,"ch":224}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":231},"end":{"line":0,"ch":232}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":0,"ch":244},"end":{"line":0,"ch":252}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":251},"end":{"line":0,"ch":252}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":257},"end":{"line":0,"ch":259}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":257},"end":{"line":0,"ch":261}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":264},"end":{"line":0,"ch":265}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":298},"end":{"line":0,"ch":300}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":300},"end":{"line":0,"ch":306}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":316},"end":{"line":0,"ch":318}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":329},"end":{"line":0,"ch":331}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":343},"end":{"line":0,"ch":344}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":347},"end":{"line":0,"ch":348}}
+    Overload resolution ambiguity: 
+public final operator fun div(other: Byte): Int defined in kotlin.Int
+public final operator fun div(other: Double): Double defined in kotlin.Int
+public final operator fun div(other: Float): Float defined in kotlin.Int
+public final operator fun div(other: Int): Int defined in kotlin.Int
+public final operator fun div(other: Long): Long defined in kotlin.Int
+public final operator fun div(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":0,"ch":349},"end":{"line":0,"ch":355}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":367},"end":{"line":0,"ch":369}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":57}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":60},"end":{"line":2,"ch":785}}
+    Property getter or setter expected
+    ERROR

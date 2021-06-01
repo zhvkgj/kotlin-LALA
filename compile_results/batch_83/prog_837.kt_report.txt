@@ -1,0 +1,90 @@
+prog_837.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":17}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":32}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":62}}
+    Type mismatch: inferred type is Long but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":105}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":62}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":68},"end":{"line":0,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":98}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":105}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":101},"end":{"line":0,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":101},"end":{"line":0,"ch":105}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":105},"end":{"line":0,"ch":211}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":129}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":44}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":256},"end":{"line":2,"ch":257}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":260},"end":{"line":2,"ch":497}}
+    Property getter or setter expected
+    ERROR

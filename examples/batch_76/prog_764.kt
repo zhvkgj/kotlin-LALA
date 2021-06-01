@@ -1,0 +1,4 @@
+inline var __E = ++return++ % 2959_4L++ > return++ % return
+inline fun sr4(crossinline noinline X4_ : Short,  _bZy_0 : Int, vararg vararg crossinline T__T04 : Long, noinline vararg _8G6_ : Short, vararg _6wP : Long, vararg noinline Ri6 : Int, crossinline vararg x9WT : Int, noinline vararg s_a_ : Boolean) : Boolean = 3l-- * --false % return++ % T__T04 + return + 26_9_96l-- % ++T__T04 / return-- - _8G6_ + return % ++7
+
+suspend const crossinline val (___ : Long, x___j : Int) = ++sr4++ / 7L++ / return++ - --sr4 * --false % sr4 - ++8 / --return-- / --return >= sr4 % return++ * true-- * 8__3_87-- * return-- * sr4 * return-- / --return % 942_0_0L * --return - ++return * sr4++ - --return + --__E * false-- - ++__E++ / __E--

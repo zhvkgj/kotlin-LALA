@@ -1,0 +1,102 @@
+prog_757.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":33}}
+    Type mismatch: inferred type is Int but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":67}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":41}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":65}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":15}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":64},"end":{"line":1,"ch":70}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":74}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":80}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":252}}
+    Property getter or setter expected
+    ERROR

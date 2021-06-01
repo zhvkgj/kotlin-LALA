@@ -1,0 +1,2 @@
+ var (__6__ : Boolean) = --return + ++5
+const infix var (d_W86 : Int) = --return / __6__ % ++false / ++return-- * --return * 6___4l++ * ++__6__ % --3l % return-- * __6__ + ++__6__ || ++return++ / --__6__++ % __6__ * false++ / --__6__++ * ++8 + 4___7l - 3-- / --return++ / __6__

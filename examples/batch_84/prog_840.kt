@@ -1,0 +1,4 @@
+infix const const const var (____2b : Short, SPC) = 7_____6++ <= return++ / 7
+ var W_0 = ____2b * SPC % true + --return++ / ++481 % ++6l++ % ++return++ % --SPC++ + return
+const const operator val (__JT5) = --5-- % W_0 / --SPC + --2L * --W_0 / --return * return-- % ++false / W_0 / SPC-- / SPC / --return-- - 85_9L + SPC-- * ____2b++ * --____2b-- / return / --2++ / --300++ - true++ % SPC++ % ++8L + ++7L-- - return - ++W_0 + 51 * --return-- % return++ % ++return++ * ++1++ + 6l++ % --____2b % return++ % ++926 % ____2b++ % SPC-- * --return++ % ++W_0--
+ val um_W_ : Long = return-- % return * --true++ * ____2b++ == ++____2b-- * ++return + SPC++ - --5l + SPC

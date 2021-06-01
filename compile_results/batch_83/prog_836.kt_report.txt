@@ -1,0 +1,66 @@
+prog_836.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":22}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":34}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":47}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":22}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":741}}
+    Property getter or setter expected
+    ERROR

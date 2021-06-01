@@ -1,0 +1,220 @@
+prog_197.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 53
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 10
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":36}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":84}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":19}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":31}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":47}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":56}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":59},"end":{"line":1,"ch":65}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":69}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":129}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":111},"end":{"line":2,"ch":112}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":113},"end":{"line":2,"ch":416}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":29}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":49},"end":{"line":3,"ch":50}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":57},"end":{"line":3,"ch":63}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":57},"end":{"line":3,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":68},"end":{"line":3,"ch":72}}
+    Unresolved reference: r9_g
+    ERROR
+
+    {"start":{"line":3,"ch":68},"end":{"line":3,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":79}}
+    Unresolved reference: r9_g
+    ERROR
+
+    {"start":{"line":3,"ch":84},"end":{"line":3,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":84},"end":{"line":4,"ch":231}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":94}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Unresolved reference: inline
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":13},"end":{"line":4,"ch":16}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":4,"ch":17},"end":{"line":4,"ch":21}}
+    Anonymous functions with names are prohibited
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":40}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":4,"ch":41},"end":{"line":4,"ch":43}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":54},"end":{"line":4,"ch":59}}
+    Unresolved reference: _8_2h
+    ERROR
+
+    {"start":{"line":4,"ch":62},"end":{"line":4,"ch":68}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":4,"ch":62},"end":{"line":4,"ch":68}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":4,"ch":62},"end":{"line":4,"ch":68}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":4,"ch":71},"end":{"line":4,"ch":75}}
+    Unresolved reference: WB60
+    ERROR
+
+    {"start":{"line":4,"ch":78},"end":{"line":4,"ch":80}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":93}}
+    Unresolved reference: N48
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":98},"end":{"line":4,"ch":103}}
+    Unresolved reference: _8_2h
+    ERROR
+
+    {"start":{"line":4,"ch":98},"end":{"line":4,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":108},"end":{"line":4,"ch":111}}
+    Unresolved reference: y7U
+    ERROR
+
+    {"start":{"line":4,"ch":108},"end":{"line":4,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":116},"end":{"line":4,"ch":118}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":127},"end":{"line":4,"ch":128}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":129},"end":{"line":4,"ch":1033}}
+    Property getter or setter expected
+    ERROR

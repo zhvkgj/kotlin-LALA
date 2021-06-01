@@ -1,0 +1,86 @@
+prog_903.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 28
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":39}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":55}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":10},"end":{"line":5,"ch":16}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":58}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":0},"end":{"line":11,"ch":55}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":11,"ch":17},"end":{"line":11,"ch":25}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":16,"ch":16},"end":{"line":16,"ch":27}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":28},"end":{"line":16,"ch":39}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":16,"ch":57},"end":{"line":16,"ch":65}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":57},"end":{"line":16,"ch":65}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":16,"ch":66},"end":{"line":16,"ch":77}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":66},"end":{"line":16,"ch":77}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":20,"ch":0},"end":{"line":20,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

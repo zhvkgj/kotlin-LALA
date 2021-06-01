@@ -1,0 +1,136 @@
+prog_839.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 40
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 12
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":79}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":26},"end":{"line":1,"ch":27}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":40}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":270}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":27}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":55}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":55}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":64}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":64}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":78},"end":{"line":2,"ch":89}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":146},"end":{"line":2,"ch":154}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":146},"end":{"line":2,"ch":154}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":155},"end":{"line":2,"ch":163}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":164},"end":{"line":2,"ch":170}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":2,"ch":171},"end":{"line":2,"ch":182}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":171},"end":{"line":2,"ch":182}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":51}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":51}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":3,"ch":27},"end":{"line":3,"ch":33}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":20},"end":{"line":11,"ch":31}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":11,"ch":32},"end":{"line":11,"ch":38}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":11,"ch":39},"end":{"line":11,"ch":45}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":11,"ch":63},"end":{"line":11,"ch":71}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":19,"ch":0},"end":{"line":19,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

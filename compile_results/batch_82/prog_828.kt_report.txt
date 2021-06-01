@@ -1,0 +1,218 @@
+prog_828.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 53
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":18}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":70}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":71},"end":{"line":0,"ch":126}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":23}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":32}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":41}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":50}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":59}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":94}}
+    Unresolved reference: _w___4
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":102}}
+    Unresolved reference: _u4
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":113}}
+    Unresolved reference: _w___4
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":113}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":116},"end":{"line":1,"ch":118}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":118},"end":{"line":1,"ch":124}}
+    This function must return a value of type Short
+    ERROR
+
+    {"start":{"line":1,"ch":118},"end":{"line":1,"ch":124}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":1,"ch":129},"end":{"line":1,"ch":132}}
+    Unresolved reference: _u4
+    ERROR
+
+    {"start":{"line":1,"ch":129},"end":{"line":1,"ch":132}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":129},"end":{"line":1,"ch":134}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":146},"end":{"line":1,"ch":147}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":166},"end":{"line":1,"ch":167}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":177},"end":{"line":1,"ch":282}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":179},"end":{"line":1,"ch":181}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":192},"end":{"line":1,"ch":193}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":192},"end":{"line":1,"ch":195}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":200},"end":{"line":1,"ch":208}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":211},"end":{"line":1,"ch":214}}
+    Unresolved reference: _u4
+    ERROR
+
+    {"start":{"line":1,"ch":211},"end":{"line":1,"ch":214}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":230},"end":{"line":1,"ch":233}}
+    Unresolved reference: _u4
+    ERROR
+
+    {"start":{"line":1,"ch":243},"end":{"line":1,"ch":249}}
+    This function must return a value of type Short
+    ERROR
+
+    {"start":{"line":1,"ch":252},"end":{"line":1,"ch":258}}
+    Unresolved reference: _w___4
+    ERROR
+
+    {"start":{"line":1,"ch":278},"end":{"line":1,"ch":279}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":278},"end":{"line":1,"ch":282}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":282},"end":{"line":1,"ch":287}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":287},"end":{"line":1,"ch":289}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":290},"end":{"line":1,"ch":291}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":292},"end":{"line":1,"ch":296}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":297},"end":{"line":1,"ch":298}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":299},"end":{"line":1,"ch":301}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":301},"end":{"line":1,"ch":306}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":307},"end":{"line":1,"ch":308}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":309},"end":{"line":1,"ch":311}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":312},"end":{"line":1,"ch":313}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":314},"end":{"line":1,"ch":316}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":316},"end":{"line":1,"ch":322}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":322},"end":{"line":1,"ch":324}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":325},"end":{"line":1,"ch":327}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":328},"end":{"line":1,"ch":330}}
+    Expecting a top level declaration
+    ERROR

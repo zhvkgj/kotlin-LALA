@@ -1,0 +1,128 @@
+prog_733.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 28
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":15}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":47}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun div(other: Byte): Int defined in kotlin.Int
+public final operator fun div(other: Double): Double defined in kotlin.Int
+public final operator fun div(other: Float): Float defined in kotlin.Int
+public final operator fun div(other: Int): Int defined in kotlin.Int
+public final operator fun div(other: Long): Long defined in kotlin.Int
+public final operator fun div(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":89}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":87}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":89}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":105}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":105}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":114},"end":{"line":1,"ch":116}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":125},"end":{"line":1,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":125},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":126},"end":{"line":1,"ch":127}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":133}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":140},"end":{"line":1,"ch":147}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":147}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":159}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":169}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":172},"end":{"line":1,"ch":179}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":181}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":182},"end":{"line":1,"ch":184}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":184},"end":{"line":1,"ch":188}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":188},"end":{"line":1,"ch":190}}
+    Expecting a top level declaration
+    ERROR

@@ -1,0 +1,180 @@
+prog_546.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 43
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":43}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":49}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":62}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":64}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":72}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":75}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":77}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":80}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":83}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":83},"end":{"line":0,"ch":89}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":36}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":19}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":44}}
+    Function invocation '_6Q_D()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":158}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":68}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":79}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":84},"end":{"line":2,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":84},"end":{"line":2,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":95},"end":{"line":2,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":99},"end":{"line":2,"ch":101}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":106},"end":{"line":2,"ch":109}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":115},"end":{"line":2,"ch":120}}
+    Function invocation '_6Q_D()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":115},"end":{"line":2,"ch":120}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":115},"end":{"line":2,"ch":122}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":128},"end":{"line":2,"ch":133}}
+    Function invocation '_6Q_D()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":128},"end":{"line":2,"ch":133}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":128},"end":{"line":2,"ch":135}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":138},"end":{"line":2,"ch":143}}
+    Function invocation '_6Q_D()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":138},"end":{"line":2,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":148},"end":{"line":2,"ch":154}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":157},"end":{"line":2,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":159},"end":{"line":2,"ch":334}}
+    Property getter or setter expected
+    ERROR

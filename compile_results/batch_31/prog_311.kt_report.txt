@@ -1,0 +1,176 @@
+prog_311.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 40
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":25}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":29}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":75}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":30}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":314}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":87},"end":{"line":2,"ch":88}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":504}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":9},"end":{"line":3,"ch":16}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":45}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":51}}
+    Unresolved reference: __h
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":56},"end":{"line":3,"ch":59}}
+    Unresolved reference: __h
+    ERROR
+
+    {"start":{"line":3,"ch":64},"end":{"line":3,"ch":69}}
+    Unresolved reference: D_P0Q
+    ERROR
+
+    {"start":{"line":3,"ch":64},"end":{"line":3,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":64},"end":{"line":3,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":78},"end":{"line":3,"ch":80}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":83},"end":{"line":3,"ch":85}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":95},"end":{"line":3,"ch":101}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":95},"end":{"line":3,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":106},"end":{"line":3,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":122}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":125},"end":{"line":3,"ch":126}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":125},"end":{"line":3,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":129},"end":{"line":3,"ch":484}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":5},"end":{"line":4,"ch":10}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":58},"end":{"line":4,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":68},"end":{"line":4,"ch":69}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":70},"end":{"line":4,"ch":107}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":26},"end":{"line":5,"ch":54}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":143},"end":{"line":5,"ch":144}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":147},"end":{"line":5,"ch":280}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":44},"end":{"line":6,"ch":58}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":95},"end":{"line":6,"ch":96}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":97},"end":{"line":6,"ch":1242}}
+    Property getter or setter expected
+    ERROR

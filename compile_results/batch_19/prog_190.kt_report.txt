@@ -1,0 +1,112 @@
+prog_190.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 29
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":11},"end":{"line":0,"ch":23}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":58}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":75}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":36}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Unresolved reference: _B_
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":63}}
+    Unresolved reference: _B_
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":76}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":80}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":913}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":40}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":40}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":41},"end":{"line":2,"ch":52}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":41},"end":{"line":2,"ch":52}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":53},"end":{"line":2,"ch":61}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

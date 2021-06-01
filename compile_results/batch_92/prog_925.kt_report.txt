@@ -1,0 +1,62 @@
+prog_925.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":39}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":26}}
+    Unresolved reference: d_5f_
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":1029}}
+    Property getter or setter expected
+    ERROR

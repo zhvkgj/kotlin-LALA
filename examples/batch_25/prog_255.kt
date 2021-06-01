@@ -1,0 +1,6 @@
+inline suspend suspend tailrec fun __R9(noinline crossinline _z__4_ : Long,  T_W2_ : Short, vararg __9_6 : Short) : Int {
+  
+}
+
+inline external val QNk_D = 8__3_87++ / return++ % 0++ % --8__3_87 - ++__R9 / return % --return - return * --return * __R9 / return++ + return * ++return++ % false || ++__R9 - --return++ % return++ == __R9 % ++7851++ % 300 * 5l - __R9 / --return++ + return * __R9++ % --__R9 + __R9 * ++__R9++ * return++ > ++true * return++ % --true % __R9++ / return * ++return / return++ * return * return % ++7851++ + --__R9 % ++7L % __R9-- * ++__R9++ % ++__R9 - return++ * __R9-- / --__R9 / --__R9++ / 3____0L++ % return++ / __R9 * return / --return-- * __R9-- / return - 1l * 0l * --return-- % ++return % ++false--
+const var (__4P5 : Int) = --1L-- % __R9++ / QNk_D-- % ++__R9 - 9l++ % return + --3l-- % ++false++ * true / return++ - ++__R9-- / return % ++__R9 / return-- * --51L-- / ++return-- / --QNk_D-- * true++ / ++__R9 / --return++ / return++ * --return-- * ++return-- / --return-- / return++ * true / --return * --return++ % return-- * QNk_D - 6-- <= return == ++__R9++ * __R9-- * __R9 % --return++ % return-- + ++return * --__R9 * ++9_3_6 * return-- % 3 % --QNk_D-- * __R9 + ++QNk_D - return + ++return - --26_9_96 / ++__R9 * ++__R9 + return

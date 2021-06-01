@@ -1,0 +1,310 @@
+prog_519.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 78
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 9
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":11},"end":{"line":0,"ch":17}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":45}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":57}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":64}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":89}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":118}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":118}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":119},"end":{"line":1,"ch":127}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":119},"end":{"line":1,"ch":127}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":128},"end":{"line":1,"ch":136}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":151},"end":{"line":1,"ch":157}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":185},"end":{"line":1,"ch":191}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":9},"end":{"line":5,"ch":15}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":40},"end":{"line":5,"ch":224}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":5,"ch":46},"end":{"line":5,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.minus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.minus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Iterable<TypeVariable(T)>.minus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(key: TypeVariable(K)): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Array<out TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Iterable<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Sequence<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.minus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":56}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":77},"end":{"line":5,"ch":78}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    No value passed for parameter '_s_'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    No value passed for parameter 'GXn'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    No value passed for parameter '_31_8'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    No value passed for parameter '_v___I'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    No value passed for parameter 'sr4'
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    Function invocation 'Gj_XQ_(...)' expected
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":91}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":94},"end":{"line":5,"ch":100}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":105},"end":{"line":5,"ch":111}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":105},"end":{"line":5,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":116},"end":{"line":5,"ch":122}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":116},"end":{"line":5,"ch":122}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":125},"end":{"line":5,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":126},"end":{"line":5,"ch":127}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    No value passed for parameter '_s_'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    No value passed for parameter 'GXn'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    No value passed for parameter '_31_8'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    No value passed for parameter '_v___I'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    No value passed for parameter 'sr4'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    Function invocation 'Gj_XQ_(...)' expected
+    ERROR
+
+    {"start":{"line":5,"ch":143},"end":{"line":5,"ch":147}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":143},"end":{"line":5,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":146},"end":{"line":5,"ch":147}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    No value passed for parameter '_s_'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    No value passed for parameter 'GXn'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    No value passed for parameter '_31_8'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    No value passed for parameter '_v___I'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    No value passed for parameter 'sr4'
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    Function invocation 'Gj_XQ_(...)' expected
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":168}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":162},"end":{"line":5,"ch":170}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":173},"end":{"line":5,"ch":174}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    No value passed for parameter '_s_'
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    No value passed for parameter 'GXn'
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    No value passed for parameter '_31_8'
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    No value passed for parameter '_v___I'
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    No value passed for parameter 'sr4'
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    Function invocation 'Gj_XQ_(...)' expected
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":187}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":181},"end":{"line":5,"ch":189}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":192},"end":{"line":5,"ch":194}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":202},"end":{"line":5,"ch":208}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":211},"end":{"line":5,"ch":217}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":220},"end":{"line":5,"ch":221}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":220},"end":{"line":5,"ch":224}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":224},"end":{"line":5,"ch":561}}
+    Property getter or setter expected
+    ERROR

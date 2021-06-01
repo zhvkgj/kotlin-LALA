@@ -1,0 +1,128 @@
+prog_796.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 33
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":16}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":124},"end":{"line":0,"ch":125}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":128},"end":{"line":0,"ch":138}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":115}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":76},"end":{"line":2,"ch":683}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":7},"end":{"line":3,"ch":15}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":3,"ch":68},"end":{"line":3,"ch":70}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":76},"end":{"line":3,"ch":144}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":3,"ch":79},"end":{"line":3,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":83},"end":{"line":3,"ch":87}}
+    Unresolved reference: l1__
+    ERROR
+
+    {"start":{"line":3,"ch":83},"end":{"line":3,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":100}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":93},"end":{"line":3,"ch":98}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":98},"end":{"line":3,"ch":100}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":111}}
+    Unresolved reference: _0T4_1
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":120}}
+    Unresolved reference: j2Wj
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":120}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":123},"end":{"line":3,"ch":129}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":3,"ch":123},"end":{"line":3,"ch":129}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":3,"ch":136},"end":{"line":3,"ch":138}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":138},"end":{"line":3,"ch":144}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":5,"ch":10},"end":{"line":5,"ch":44}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":199},"end":{"line":5,"ch":200}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":209},"end":{"line":5,"ch":210}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":213},"end":{"line":5,"ch":818}}
+    Property getter or setter expected
+    ERROR

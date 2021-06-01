@@ -1,0 +1,194 @@
+prog_165.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 46
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 8
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":130}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":159},"end":{"line":0,"ch":160}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":161},"end":{"line":0,"ch":263}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":23}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":18},"end":{"line":2,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":92}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":100},"end":{"line":2,"ch":101}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":111},"end":{"line":2,"ch":112}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":115},"end":{"line":2,"ch":1386}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":36},"end":{"line":3,"ch":37}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":63},"end":{"line":3,"ch":69}}
+    Unresolved reference: __04Xk
+    ERROR
+
+    {"start":{"line":3,"ch":63},"end":{"line":3,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":91}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":98},"end":{"line":3,"ch":99}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":107},"end":{"line":3,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":111},"end":{"line":3,"ch":761}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":154}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":4,"ch":34},"end":{"line":4,"ch":38}}
+    Unresolved reference: p3w_
+    ERROR
+
+    {"start":{"line":4,"ch":34},"end":{"line":4,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":43},"end":{"line":4,"ch":46}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":4,"ch":43},"end":{"line":4,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":64},"end":{"line":4,"ch":67}}
+    Unresolved reference: _6_
+    ERROR
+
+    {"start":{"line":4,"ch":70},"end":{"line":4,"ch":76}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":79},"end":{"line":4,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":83},"end":{"line":4,"ch":87}}
+    Unresolved reference: _802
+    ERROR
+
+    {"start":{"line":4,"ch":83},"end":{"line":4,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":94}}
+    Unresolved reference: p3w_
+    ERROR
+
+    {"start":{"line":4,"ch":97},"end":{"line":4,"ch":100}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":4,"ch":97},"end":{"line":4,"ch":100}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":105},"end":{"line":4,"ch":113}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":118},"end":{"line":4,"ch":124}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":127},"end":{"line":4,"ch":133}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":136},"end":{"line":4,"ch":142}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":145},"end":{"line":4,"ch":146}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":145},"end":{"line":4,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":153},"end":{"line":4,"ch":154}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":155},"end":{"line":4,"ch":905}}
+    Property getter or setter expected
+    ERROR

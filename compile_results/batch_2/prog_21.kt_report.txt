@@ -1,0 +1,178 @@
+prog_21.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 43
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":33}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":44}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":40}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":42}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":53}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":74}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":77},"end":{"line":1,"ch":83}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":86},"end":{"line":1,"ch":92}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":103}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":114}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":117},"end":{"line":1,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":117},"end":{"line":1,"ch":121}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":128},"end":{"line":1,"ch":129}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":10},"end":{"line":3,"ch":18}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":3,"ch":19},"end":{"line":3,"ch":24}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":25},"end":{"line":3,"ch":31}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":42},"end":{"line":9,"ch":91}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":9,"ch":139},"end":{"line":9,"ch":140}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":141},"end":{"line":9,"ch":327}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":10,"ch":16},"end":{"line":10,"ch":50}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":10,"ch":75},"end":{"line":10,"ch":76}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":79},"end":{"line":10,"ch":582}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":11,"ch":0},"end":{"line":11,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":11,"ch":6},"end":{"line":11,"ch":13}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":11,"ch":28},"end":{"line":11,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":28},"end":{"line":11,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":39},"end":{"line":11,"ch":45}}
+    Unresolved reference: zf_4R_
+    ERROR
+
+    {"start":{"line":11,"ch":39},"end":{"line":11,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":50},"end":{"line":11,"ch":53}}
+    Unresolved reference: _6s
+    ERROR
+
+    {"start":{"line":11,"ch":50},"end":{"line":11,"ch":53}}
+    Variable expected
+    ERROR

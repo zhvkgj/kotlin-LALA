@@ -1,0 +1,3 @@
+tailrec const val (X4_ : Short, l_vL : Short, c61p : Long, L__3V4 : Boolean) = --return++ % ++return-- % --false > 7 % return++
+inline crossinline var _cEK7 = --return <= --return - ++X4_ * ++X4_-- * --2 / ++return || false % X4_ % ++4___7L % --6++ * --return
+const const var (N_4k6, RR8 : Boolean, s9x6, d_6g_, _27 : Int, L1___, Z64H6 : Int) = 8l++ * --true / _cEK7-- / 923-- % ++l_vL + return / --l_vL++ + ++6 * ++return-- * true / L__3V4++ % ++return

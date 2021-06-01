@@ -1,0 +1,2 @@
+const var (O1MPw_, JY7, Q_f822 : Long, _1_ : Int) = ++return++ / return++ / ++9 > --return || return++ + return-- % ++return > return / return-- / return-- % --return % return == --return / ++return++ % ++return
+suspend val Vj043p : Boolean = --O1MPw_ * --O1MPw_ && return * return-- % JY7++ % --return-- / --O1MPw_-- % _1_++ % --return++ % ++300 % false / return-- % return-- / ++JY7 / return / ++Q_f822 / --Q_f822-- + --_1_ * _1_ % true++ / 3++ % --3_74-- * O1MPw_-- * Q_f822 / ++JY7-- * 0l

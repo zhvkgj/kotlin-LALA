@@ -1,0 +1,70 @@
+prog_812.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 15
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":33}}
+    Unresolved reference: _n8_
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":61},"end":{"line":1,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":61},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":92}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":320}}
+    Property getter or setter expected
+    ERROR

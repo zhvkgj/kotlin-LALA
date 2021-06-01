@@ -1,0 +1,82 @@
+prog_11.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":10}}
+    'Nothing' return type needs to be specified explicitly
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":21}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":25}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":36}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":39}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":48}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":50}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":53}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":62}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":65}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":70}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":47},"end":{"line":2,"ch":75}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":89},"end":{"line":2,"ch":90}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":93},"end":{"line":2,"ch":664}}
+    Property getter or setter expected
+    ERROR

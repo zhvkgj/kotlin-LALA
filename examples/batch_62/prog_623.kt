@@ -1,0 +1,2 @@
+const external vararg noinline val (t_6) = 56_9l == false++ % 4l % return * --return % return && false++
+const external var (__8 : Short) = ++false + true-- / t_6 - return++ % ++false-- / 7++ * ++3_74L / true / --t_6 / ++false-- * return-- - true % t_6++ * ++return++ % --1l-- % ++return / ++t_6-- / --6l--

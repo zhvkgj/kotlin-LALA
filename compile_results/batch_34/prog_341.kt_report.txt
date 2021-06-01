@@ -1,0 +1,70 @@
+prog_341.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 15
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":45}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":14}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":34}}
+    Type mismatch: inferred type is Int but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":45}}
+    Type mismatch: inferred type is Long but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":45}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":129}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":9},"end":{"line":2,"ch":608}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":24},"end":{"line":3,"ch":36}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":111},"end":{"line":3,"ch":112}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":113},"end":{"line":3,"ch":485}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":16},"end":{"line":4,"ch":124}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":148},"end":{"line":4,"ch":149}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":150},"end":{"line":4,"ch":241}}
+    Property getter or setter expected
+    ERROR

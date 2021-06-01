@@ -1,0 +1,62 @@
+prog_282.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":67}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":15}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":21}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":9},"end":{"line":1,"ch":17}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":53}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":57}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":57}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":688}}
+    Property getter or setter expected
+    ERROR

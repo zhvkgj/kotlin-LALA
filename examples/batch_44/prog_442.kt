@@ -1,0 +1,2 @@
+const var BC33 = return * ++3____0L % return / 3_74l
+noinline val tPy_ : Short = 3-- <= return + --return * ++return-- - ++return + BC33 * 942_0_0l % ++return-- - --1++ - BC33++ % ++return / return % 8L - BC33 - --0l++ / ++return++ % 1++ * ++false / BC33 % ++BC33 / return - BC33 && BC33++ - --BC33-- - --return % return * --3L-- / ++BC33 * ++return % return++ % ++BC33 * false % 4___7--

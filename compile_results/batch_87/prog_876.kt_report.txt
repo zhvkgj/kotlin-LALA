@@ -1,0 +1,116 @@
+prog_876.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":26}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":30}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":75}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":130},"end":{"line":1,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":139},"end":{"line":1,"ch":140}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":149}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":204}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":6},"end":{"line":2,"ch":14}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":34},"end":{"line":2,"ch":39}}
+    Unresolved reference: _5p77
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":60}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":74},"end":{"line":2,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":74},"end":{"line":2,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":99},"end":{"line":2,"ch":100}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":107},"end":{"line":2,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":114},"end":{"line":2,"ch":115}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":154}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":37}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":58},"end":{"line":3,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":60},"end":{"line":3,"ch":222}}
+    Property getter or setter expected
+    ERROR

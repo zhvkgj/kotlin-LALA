@@ -1,0 +1,134 @@
+prog_659.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 38
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":54}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":79},"end":{"line":0,"ch":81}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":201}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":13}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":23},"end":{"line":1,"ch":106}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":29}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":40}}
+    Unresolved reference: T__g6M
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":49}}
+    Unresolved reference: T__g6M
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":64},"end":{"line":1,"ch":65}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":95}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":105},"end":{"line":1,"ch":106}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":587}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":34},"end":{"line":2,"ch":42}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":43},"end":{"line":2,"ch":49}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":68},"end":{"line":2,"ch":71}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":80},"end":{"line":2,"ch":91}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":122},"end":{"line":2,"ch":130}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":131},"end":{"line":2,"ch":137}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":6,"ch":13},"end":{"line":6,"ch":76}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":111},"end":{"line":6,"ch":112}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":117},"end":{"line":6,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":127},"end":{"line":6,"ch":128}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":131},"end":{"line":6,"ch":182}}
+    Property getter or setter expected
+    ERROR

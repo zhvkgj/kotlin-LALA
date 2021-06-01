@@ -1,0 +1,3 @@
+ fun ____2b(crossinline vararg Q__2_ : Int,  _xvr_ : Boolean) : Boolean = ++Q__2_++ % return++ - _xvr_++ * ++7_____6-- / true / 45687_9L-- * return++ * Q__2_ * return / ++_xvr_-- % Q__2_ / 690_2l / --Q__2_ - ++return % return + _xvr_-- / --7_____6L % 7++ / Q__2_++ - Q__2_-- % return-- / ++true++ * --26_9_96l++
+
+ val (kk_1__ : Int) = ++return - 8++ - false++ + return++ / ____2b++ - return-- * --return++ / ++3_74l-- % return++ - return++ * ++9l-- / ++____2b * 0L * 3l % false / ++26_9_96 / --____2b-- * ++____2b-- % return++ / true % ++____2b / --return++ / 6___4 / ++____2b % return * ____2b * --____2b-- / --return-- + true % ____2b++ / --____2b - ++false % ++____2b / --return % ++7_____6L % 8__3_87l / ++return / ____2b++

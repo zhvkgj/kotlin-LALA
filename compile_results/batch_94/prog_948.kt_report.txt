@@ -1,0 +1,50 @@
+prog_948.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 10
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":18}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":36}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Unresolved reference: const
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":4},"end":{"line":1,"ch":5}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":26}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":30}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":1234}}
+    Property getter or setter expected
+    ERROR

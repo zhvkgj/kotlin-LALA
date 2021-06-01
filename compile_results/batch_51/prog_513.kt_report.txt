@@ -1,0 +1,446 @@
+prog_513.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 107
+Count of type mismatch errors: 6
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":50}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":25}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":34}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":7,"ch":7},"end":{"line":7,"ch":12}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":7,"ch":35},"end":{"line":7,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":48},"end":{"line":7,"ch":50}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":55},"end":{"line":7,"ch":58}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":55},"end":{"line":7,"ch":58}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":55},"end":{"line":7,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":63},"end":{"line":7,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":67},"end":{"line":7,"ch":69}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":72},"end":{"line":7,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":84},"end":{"line":7,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":84},"end":{"line":7,"ch":486}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":93},"end":{"line":7,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":97},"end":{"line":7,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":101},"end":{"line":7,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":107},"end":{"line":7,"ch":113}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":124},"end":{"line":7,"ch":127}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":124},"end":{"line":7,"ch":127}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":124},"end":{"line":7,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":132},"end":{"line":7,"ch":135}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":132},"end":{"line":7,"ch":135}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":132},"end":{"line":7,"ch":135}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":140},"end":{"line":7,"ch":141}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":146},"end":{"line":7,"ch":149}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":146},"end":{"line":7,"ch":149}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":146},"end":{"line":7,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":146},"end":{"line":7,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":154},"end":{"line":7,"ch":157}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":154},"end":{"line":7,"ch":157}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":162},"end":{"line":7,"ch":165}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":162},"end":{"line":7,"ch":165}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":162},"end":{"line":7,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":170},"end":{"line":7,"ch":173}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":170},"end":{"line":7,"ch":173}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":170},"end":{"line":7,"ch":173}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":176},"end":{"line":7,"ch":178}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":187},"end":{"line":7,"ch":194}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":192},"end":{"line":7,"ch":194}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":199},"end":{"line":7,"ch":205}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":199},"end":{"line":7,"ch":205}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":208},"end":{"line":7,"ch":211}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":208},"end":{"line":7,"ch":211}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":214},"end":{"line":7,"ch":217}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":214},"end":{"line":7,"ch":217}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":214},"end":{"line":7,"ch":217}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":222},"end":{"line":7,"ch":225}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":222},"end":{"line":7,"ch":225}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":232},"end":{"line":7,"ch":235}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":232},"end":{"line":7,"ch":235}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":238},"end":{"line":7,"ch":241}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":238},"end":{"line":7,"ch":241}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":238},"end":{"line":7,"ch":241}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":248},"end":{"line":7,"ch":254}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":248},"end":{"line":7,"ch":254}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":267},"end":{"line":7,"ch":271}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":276},"end":{"line":7,"ch":282}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":276},"end":{"line":7,"ch":282}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":292},"end":{"line":7,"ch":295}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":292},"end":{"line":7,"ch":295}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":292},"end":{"line":7,"ch":295}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":300},"end":{"line":7,"ch":303}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":300},"end":{"line":7,"ch":303}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":300},"end":{"line":7,"ch":303}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":314},"end":{"line":7,"ch":315}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":316},"end":{"line":7,"ch":319}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":316},"end":{"line":7,"ch":319}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":327},"end":{"line":7,"ch":328}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":7,"ch":331},"end":{"line":7,"ch":339}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":342},"end":{"line":7,"ch":345}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":342},"end":{"line":7,"ch":345}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":342},"end":{"line":7,"ch":345}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":354},"end":{"line":7,"ch":357}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":354},"end":{"line":7,"ch":357}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":360},"end":{"line":7,"ch":366}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":369},"end":{"line":7,"ch":375}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":380},"end":{"line":7,"ch":386}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":380},"end":{"line":7,"ch":386}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":390},"end":{"line":7,"ch":391}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":398},"end":{"line":7,"ch":404}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":398},"end":{"line":7,"ch":404}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":409},"end":{"line":7,"ch":412}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":417},"end":{"line":7,"ch":420}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":417},"end":{"line":7,"ch":420}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":417},"end":{"line":7,"ch":420}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":417},"end":{"line":7,"ch":422}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":427},"end":{"line":7,"ch":434}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":432},"end":{"line":7,"ch":434}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":437},"end":{"line":7,"ch":440}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":437},"end":{"line":7,"ch":440}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":437},"end":{"line":7,"ch":440}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":445},"end":{"line":7,"ch":447}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":452},"end":{"line":7,"ch":458}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":461},"end":{"line":7,"ch":468}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":465},"end":{"line":7,"ch":468}}
+    No value passed for parameter '_xvr_'
+    ERROR
+
+    {"start":{"line":7,"ch":465},"end":{"line":7,"ch":468}}
+    Function invocation '__F(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":465},"end":{"line":7,"ch":468}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":473},"end":{"line":7,"ch":479}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":473},"end":{"line":7,"ch":486}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":482},"end":{"line":7,"ch":483}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":482},"end":{"line":7,"ch":486}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":486},"end":{"line":7,"ch":545}}
+    Property getter or setter expected
+    ERROR

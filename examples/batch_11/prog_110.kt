@@ -1,0 +1,3 @@
+vararg val (_36 : Long, __363W, ____ : Long) = true
+suspend const vararg operator external val _f_y7 : Int = ++false-- * --690_2++ / true * ++return-- * 6_3L-- - ++____ % return++ * ++6L++ * ++return + ++return-- / --__363W / true-- + 6 * ++return++ * __363W++ % return-- % ++8 - ____-- * ++return++ + --return * 3++ % ____-- % ++return + 481 % 300l % --false / ++return++ * ____++ % return * 26_9_96L-- > return / ++____--
+crossinline var ljVF = return % return / ++3_1L * _36-- < 45687_9l++

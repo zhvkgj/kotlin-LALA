@@ -1,0 +1,54 @@
+prog_470.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 11
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":18}}
+    The integer literal does not conform to the expected type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":32}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":45}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":109}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":230},"end":{"line":1,"ch":231}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":234},"end":{"line":1,"ch":432}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":37}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":74},"end":{"line":2,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":78},"end":{"line":2,"ch":405}}
+    Property getter or setter expected
+    ERROR

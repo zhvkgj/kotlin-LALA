@@ -1,0 +1,82 @@
+prog_821.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":22}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":31}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":59}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":296},"end":{"line":1,"ch":297}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":300},"end":{"line":1,"ch":957}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":38}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":94},"end":{"line":2,"ch":95}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":122},"end":{"line":2,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":124},"end":{"line":2,"ch":432}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":30},"end":{"line":3,"ch":62}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":101},"end":{"line":3,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":103},"end":{"line":3,"ch":446}}
+    Property getter or setter expected
+    ERROR

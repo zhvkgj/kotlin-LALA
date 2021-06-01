@@ -1,0 +1,192 @@
+prog_670.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 53
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 9
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":5},"end":{"line":4,"ch":10}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":30},"end":{"line":4,"ch":31}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":383}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":34},"end":{"line":5,"ch":45}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":60},"end":{"line":5,"ch":66}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":81},"end":{"line":5,"ch":87}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":88},"end":{"line":5,"ch":96}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":97},"end":{"line":5,"ch":103}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":138}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":156},"end":{"line":5,"ch":167}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":168},"end":{"line":5,"ch":174}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":204},"end":{"line":5,"ch":212}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":204},"end":{"line":5,"ch":212}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":213},"end":{"line":5,"ch":219}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":220},"end":{"line":5,"ch":231}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":220},"end":{"line":5,"ch":231}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":9,"ch":9},"end":{"line":9,"ch":14}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":9,"ch":15},"end":{"line":9,"ch":20}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":9,"ch":32},"end":{"line":9,"ch":37}}
+    Function invocation '_8___()' expected
+    ERROR
+
+    {"start":{"line":9,"ch":38},"end":{"line":9,"ch":39}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":40},"end":{"line":9,"ch":42}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":42},"end":{"line":9,"ch":47}}
+    Function invocation '_8___()' expected
+    ERROR
+
+    {"start":{"line":9,"ch":54},"end":{"line":9,"ch":56}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":59},"end":{"line":9,"ch":61}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":72},"end":{"line":9,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":72},"end":{"line":9,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":81},"end":{"line":9,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":83},"end":{"line":9,"ch":88}}
+    Function invocation '_8___()' expected
+    ERROR
+
+    {"start":{"line":9,"ch":88},"end":{"line":9,"ch":90}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    Suspend function 'Z3w_o7' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    No value passed for parameter '_01O6'
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    No value passed for parameter 'y_MVY_'
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    No value passed for parameter 'yc73'
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    No value passed for parameter '___P'
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    Function invocation 'Z3w_o7(...)' expected
+    ERROR
+
+    {"start":{"line":9,"ch":93},"end":{"line":9,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":113},"end":{"line":9,"ch":119}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":113},"end":{"line":9,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":122},"end":{"line":9,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":124},"end":{"line":9,"ch":834}}
+    Property getter or setter expected
+    ERROR

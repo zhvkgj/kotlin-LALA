@@ -1,0 +1,6 @@
+ var h__3_5 : Int = false - ++return-- % 2959_4-- / ++26_9_96l - return
+crossinline var _6_ = --return-- % ++return-- * --85_9l-- * --7L++ / h__3_5++ / return++ % ++h__3_5-- % --return-- * ++3l-- % return-- * ++h__3_5++ / --9_3_6l-- % --return * --h__3_5 % return-- * return-- / return / h__3_5-- / ++return + return-- % h__3_5
+crossinline suspend external operator var _8J5m : Short = h__3_5-- * false % _6_++ * return + 85_9 * --_6_++ * ++false++ % ++9L++ * h__3_5++ % 8 % ++8++ * --return * h__3_5-- * return-- % return++ % ++h__3_5 / ++1l * _6_++ + 85_9L - ++h__3_5++ * ++return % _6_-- / h__3_5 / ++false++
+inline fun W25x4(vararg noinline crossinline crossinline C73e : Int,  J8_8 : Long,  _432 : Boolean,  _L_6Re : Boolean) : Int = ++C73e-- / ++8_5_37l * return * _6_ % h__3_5++ / --true++ * return++ / return / --return++ % _8J5m % ++true + ++_432-- / ++return || _8J5m * return-- + --return++ == return * --h__3_5-- + --h__3_5 - 544_11++ >= --true % ++return % --return++ % 7l - return + _8J5m / 942_0_0l % --return-- - _432
+
+vararg crossinline const const tailrec val (_p4 : Int, _n_) = 96l-- / _8J5m + ++W25x4 / --return / ++return * _6_++ / 45687_9l-- % --W25x4++ * --W25x4 / --true++ - ++h__3_5 * --3-- * false++ + ++return++ / 7-- / ++1 % ++return++ + ++_8J5m-- * return * return

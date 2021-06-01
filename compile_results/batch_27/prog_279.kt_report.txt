@@ -1,0 +1,138 @@
+prog_279.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":22}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":2,"ch":56}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":36}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":36}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":41}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Unresolved reference: const
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":34},"end":{"line":2,"ch":37}}
+    Function invocation 'IFU()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":66}}
+    Function invocation 'IFU()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":76}}
+    Function invocation 'IFU()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":83},"end":{"line":2,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":83},"end":{"line":2,"ch":124}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":92},"end":{"line":2,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":99}}
+    Function invocation 'IFU()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":106},"end":{"line":2,"ch":109}}
+    Function invocation 'IFU()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":106},"end":{"line":2,"ch":109}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":106},"end":{"line":2,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":116},"end":{"line":2,"ch":122}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":116},"end":{"line":2,"ch":124}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":123},"end":{"line":2,"ch":124}}
+    Expecting an element
+    ERROR

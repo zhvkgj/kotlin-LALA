@@ -1,0 +1,136 @@
+prog_920.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 41
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 17
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":41}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":65}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":18},"end":{"line":1,"ch":26}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":47}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":47}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":59}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":59}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":98}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":122}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":123},"end":{"line":1,"ch":134}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":135},"end":{"line":1,"ch":146}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":165},"end":{"line":1,"ch":176}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":165},"end":{"line":1,"ch":176}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":177},"end":{"line":1,"ch":188}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":197}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":197}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":211},"end":{"line":1,"ch":217}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":218},"end":{"line":1,"ch":229}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":218},"end":{"line":1,"ch":229}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":230},"end":{"line":1,"ch":238}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":230},"end":{"line":1,"ch":238}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":239},"end":{"line":1,"ch":250}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":251},"end":{"line":1,"ch":262}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":295},"end":{"line":1,"ch":301}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":302},"end":{"line":1,"ch":310}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

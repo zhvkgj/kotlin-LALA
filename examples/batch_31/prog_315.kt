@@ -1,0 +1,2 @@
+suspend crossinline noinline const var (____ : Boolean, _xC) = --9_3_6l * true * ++2l-- % return * return % ++return-- % --return < --return == --return % --return
+noinline val (t_0L : Long) = return % --7l-- % ++return++ * ++_xC++ % return * ____++

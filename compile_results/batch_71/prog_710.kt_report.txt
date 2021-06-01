@@ -1,0 +1,210 @@
+prog_710.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 56
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 12
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":18}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":24}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":24}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":34}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":34}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.minus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.minus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Iterable<TypeVariable(T)>.minus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(key: TypeVariable(K)): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Array<out TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Iterable<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Sequence<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.minus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":41},"end":{"line":2,"ch":43}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":64}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":68}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":78},"end":{"line":2,"ch":79}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":82},"end":{"line":2,"ch":198}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":20},"end":{"line":3,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":20},"end":{"line":3,"ch":23}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":38},"end":{"line":3,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":50}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":53},"end":{"line":3,"ch":54}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":53},"end":{"line":3,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":57},"end":{"line":3,"ch":536}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":215}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":215}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":4,"ch":9},"end":{"line":4,"ch":17}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":4,"ch":25},"end":{"line":4,"ch":31}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":4,"ch":60},"end":{"line":4,"ch":71}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":131},"end":{"line":4,"ch":139}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":180},"end":{"line":4,"ch":183}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":191},"end":{"line":4,"ch":199}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":34},"end":{"line":5,"ch":42}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":34},"end":{"line":5,"ch":42}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":43},"end":{"line":5,"ch":54}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":43},"end":{"line":5,"ch":54}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":71},"end":{"line":5,"ch":79}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":94},"end":{"line":5,"ch":105}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":192},"end":{"line":5,"ch":203}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":38}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":9,"ch":19},"end":{"line":9,"ch":22}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

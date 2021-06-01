@@ -1,0 +1,7 @@
+inline fun ET_5O( _448 : Int, crossinline vararg crossinline vararg vararg C4X_vq : Int, crossinline zX_4 : Int,  _60H_ : Boolean,  _w___4 : Boolean,  H__p20 : Boolean, vararg aU3_ : Boolean,  bhY__ : Short,  __V : Boolean) : Long = ++return % ++4 / zX_4 - return-- * return++ * false * ++C4X_vq * bhY__-- / return-- % aU3_++ % return++ * --return++ + return++ - ++_60H_-- / return - return-- + H__p20 / ++H__p20 - ++zX_4-- % --C4X_vq * ++return++ % ++return++ * return++ - --true - ++8 / --false++ * return-- % return / return + --_w___4 || _60H_ + ++923 / ++2L / --51l * ++bhY__++ * --7 * return-- * return % _448--
+
+ fun v8SV_() : Int {
+  
+}
+
+infix const noinline operator const val P5F3_ : Int = 9l || ++6-- % ET_5O % --true-- * --return++ % ++6_3 / ++v8SV_-- * ET_5O-- / return * ++v8SV_ % true++ % false-- % ++return-- * v8SV_-- / --3l * ET_5O / --v8SV_ % --return-- * ET_5O / ++return * return / ++return-- / --ET_5O % --return / ++ET_5O++ / --return-- - --return-- % 3++ - ++true++ * 8l + ++9_3_6l % false++ % return++ % ++3_1L-- % 300l++ / --true-- * ET_5O % ++return-- % ++true-- % return * ++ET_5O++ % --false / return + --false * 3_74l++ * --v8SV_ % 7L / ++ET_5O-- / ++return % ++ET_5O % return / return / ET_5O-- % --return++ % ++0++ - 9l + 3l % ++ET_5O * ET_5O++ + --return++ * --return-- + ++return % ET_5O % ++ET_5O

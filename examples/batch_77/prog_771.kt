@@ -1,0 +1,3 @@
+tailrec fun ___( __L : Long, noinline vararg noinline O635 : Boolean,  d_W86 : Long,  O92I_ : Long,  __82 : Short,  b7_ : Long, crossinline vararg noinline _zg_ : Short, noinline crossinline noinline _5X_ : Short,  Zd86 : Int,  V___ : Boolean) = --return / --return-- * return-- + 96l * O92I_ % --__L-- * return-- * d_W86 / false + ++d_W86-- == b7_ % __82-- / ++return-- % --O635++ % O92I_ * return / ++d_W86 % d_W86-- / --__82-- / 8__3_87L++
+
+ var (__j, _HU__1, _a_ZY1 : Long, Eb7_1p, Vo__, W1_f : Int) = return++ + --return-- * ++7 * return + --___ / ___++ / --return * ___-- - --___ % ++8l++ * --return++ / --___ / ___-- * --1 * 85_9-- / --return * return / --3-- / ++return-- / --51++ % --false++ % ++___-- - --return / 8L * ___

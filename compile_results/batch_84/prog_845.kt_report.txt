@@ -1,0 +1,134 @@
+prog_845.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 29
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":45}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":17}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":26},"end":{"line":1,"ch":28}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":38}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":49}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":64},"end":{"line":1,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":70}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":86},"end":{"line":1,"ch":92}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":7}}
+    ''suspend'' function can only be called in a form of modifier of a lambda: suspend { ... }
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":7}}
+    Not enough information to infer type variable R
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":7}}
+    No value passed for parameter 'block'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":7}}
+    Function invocation 'suspend(...)' expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":7}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":17},"end":{"line":2,"ch":247}}
+    Declarations are not allowed in this position
+    ERROR
+
+    {"start":{"line":2,"ch":215},"end":{"line":2,"ch":216}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":225},"end":{"line":2,"ch":226}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":235},"end":{"line":2,"ch":236}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":243},"end":{"line":2,"ch":244}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":247},"end":{"line":2,"ch":1476}}
+    Property getter or setter expected
+    ERROR

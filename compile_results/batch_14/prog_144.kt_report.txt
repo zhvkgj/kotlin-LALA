@@ -1,0 +1,118 @@
+prog_144.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 38
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 8
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":16}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":42}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":98}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":113},"end":{"line":0,"ch":124}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":113},"end":{"line":0,"ch":124}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":125},"end":{"line":0,"ch":136}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":137},"end":{"line":0,"ch":145}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":137},"end":{"line":0,"ch":145}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":192},"end":{"line":0,"ch":203}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":218},"end":{"line":0,"ch":224}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":12},"end":{"line":5,"ch":18}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":0},"end":{"line":11,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'f__6AU'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter '_C_'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'C_Y_6i'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter '_2_H'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'Bs5Z3'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'G6__67'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'ff_f_5'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    No value passed for parameter 'eU83_'
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    Function invocation '_l2H(...)' expected
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":22},"end":{"line":11,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":33},"end":{"line":11,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":33},"end":{"line":11,"ch":39}}
+    Variable expected
+    ERROR

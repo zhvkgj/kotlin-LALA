@@ -1,0 +1,5 @@
+ fun o9_(noinline VD_04 : Int) : Long {
+  
+}
+
+noinline const tailrec const val (k__A, e_Z__z, Ydz_ : Int) = ++false++ + return++ % ++false % return / o9_-- * --return++ * ++o9_-- + return-- % ++3l * --o9_ * 7++ % o9_-- % false * o9_++ % ++6++ % --o9_ / ++o9_++ % o9_++ / o9_ % --return++ - --o9_ % ++o9_ / ++o9_++ % ++return / return / ++1 / 4___7l-- - ++7L++ % --return++ + true-- * true * --return++ + --return-- * o9_-- / return++ + ++o9_++ * o9_ % ++return == o9_ > o9_++ + o9_-- * --o9_ % ++o9_ * o9_ * --return * o9_-- / ++return++ % --1L / 2l-- - --return++ % return++ % o9_++ % --true * false++ * o9_-- * return - --7l-- + o9_-- * ++o9_ / return / ++o9_ / ++return++ * o9_-- / ++o9_ % o9_ / ++return % ++o9_++ % o9_-- / o9_ % o9_++ % return / o9_ * o9_++ % --true++ % --return * --7851 % ++3_74 - o9_ / return-- * o9_++ % 8L++ % return % return-- * ++o9_++ / 1 % 8_5_37L - o9_++ / o9_-- * o9_-- * o9_ / 8_5_37 * ++return++ * o9_ * false * --o9_

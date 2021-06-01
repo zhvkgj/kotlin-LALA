@@ -1,0 +1,50 @@
+prog_492.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 11
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":34}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":94}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":73}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":73}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":15}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":21}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":30}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":3},"end":{"line":2,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":6,"ch":0},"end":{"line":6,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

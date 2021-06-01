@@ -1,0 +1,160 @@
+prog_603.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 37
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":29}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":466}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":38}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":114},"end":{"line":2,"ch":115}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":126},"end":{"line":2,"ch":127}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":132},"end":{"line":2,"ch":133}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":187},"end":{"line":2,"ch":188}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":189},"end":{"line":2,"ch":242}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":23}}
+    Unresolved reference: _na6_
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":23}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":30},"end":{"line":3,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":38},"end":{"line":3,"ch":39}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":43},"end":{"line":3,"ch":44}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":56}}
+    Unresolved reference: _na6_
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":51},"end":{"line":3,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":63},"end":{"line":3,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":69}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":72},"end":{"line":3,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":83},"end":{"line":3,"ch":404}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":8},"end":{"line":4,"ch":16}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":21},"end":{"line":4,"ch":24}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":35},"end":{"line":4,"ch":39}}
+    Unresolved reference: _6wP
+    ERROR
+
+    {"start":{"line":4,"ch":35},"end":{"line":4,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":53},"end":{"line":4,"ch":58}}
+    Unresolved reference: _na6_
+    ERROR
+
+    {"start":{"line":4,"ch":53},"end":{"line":4,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":83},"end":{"line":4,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":83},"end":{"line":4,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":92},"end":{"line":4,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":94},"end":{"line":4,"ch":595}}
+    Property getter or setter expected
+    ERROR

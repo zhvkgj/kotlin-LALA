@@ -1,0 +1,60 @@
+prog_800.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":36}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":1,"ch":167}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":1,"ch":167}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":1,"ch":167}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Unresolved reference: noinline
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":103}}
+    Declarations are not allowed in this position
+    ERROR
+
+    {"start":{"line":1,"ch":96},"end":{"line":1,"ch":97}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":103}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":1008}}
+    Property getter or setter expected
+    ERROR

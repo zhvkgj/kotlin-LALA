@@ -1,0 +1,202 @@
+prog_232.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 46
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":20}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":29}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":35}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":77}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":71}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun compareTo(other: Byte): Int defined in kotlin.Int
+public final operator fun compareTo(other: Double): Int defined in kotlin.Int
+public final operator fun compareTo(other: Float): Int defined in kotlin.Int
+public open fun compareTo(other: Int): Int defined in kotlin.Int
+public final operator fun compareTo(other: Long): Int defined in kotlin.Int
+public final operator fun compareTo(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":25}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":29}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":39}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":642}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":15},"end":{"line":2,"ch":21}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":15},"end":{"line":2,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":25}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":26},"end":{"line":2,"ch":98}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":10},"end":{"line":3,"ch":25}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":148},"end":{"line":3,"ch":149}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":158},"end":{"line":3,"ch":159}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":162},"end":{"line":3,"ch":260}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":12},"end":{"line":4,"ch":18}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":21},"end":{"line":4,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":28},"end":{"line":4,"ch":29}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":4,"ch":41},"end":{"line":4,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":45},"end":{"line":4,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":82},"end":{"line":4,"ch":85}}
+    Unresolved reference: s__
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":97},"end":{"line":4,"ch":99}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":97},"end":{"line":4,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":102},"end":{"line":4,"ch":136}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":19},"end":{"line":5,"ch":23}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":5,"ch":30},"end":{"line":5,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":30},"end":{"line":5,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":36},"end":{"line":5,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":45},"end":{"line":5,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":45},"end":{"line":5,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":49},"end":{"line":5,"ch":478}}
+    Property getter or setter expected
+    ERROR

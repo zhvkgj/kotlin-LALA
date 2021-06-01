@@ -1,0 +1,168 @@
+prog_71.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 39
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":14}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":48}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":11}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":17}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":36}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":76}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":119},"end":{"line":1,"ch":120}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":128},"end":{"line":1,"ch":129}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":130},"end":{"line":1,"ch":444}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":22},"end":{"line":2,"ch":56}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":99},"end":{"line":2,"ch":100}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":101},"end":{"line":2,"ch":1432}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":52}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":112},"end":{"line":3,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":120},"end":{"line":3,"ch":121}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":449}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":48}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":5,"ch":8},"end":{"line":5,"ch":13}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":36},"end":{"line":11,"ch":48}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":11,"ch":99},"end":{"line":11,"ch":100}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":101},"end":{"line":11,"ch":631}}
+    Property getter or setter expected
+    ERROR

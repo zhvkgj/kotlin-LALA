@@ -1,0 +1,38 @@
+prog_698.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 7
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":44}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":44}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":51}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

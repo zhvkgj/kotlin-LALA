@@ -1,0 +1,138 @@
+prog_522.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 60
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":183}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":57}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":58},"end":{"line":0,"ch":64}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":73}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":118},"end":{"line":0,"ch":124}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":141},"end":{"line":0,"ch":147}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":148},"end":{"line":0,"ch":154}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":155},"end":{"line":0,"ch":161}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":162},"end":{"line":0,"ch":168}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":16}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":42},"end":{"line":5,"ch":53}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":24},"end":{"line":9,"ch":30}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":9,"ch":57},"end":{"line":9,"ch":63}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":19,"ch":2},"end":{"line":19,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":25,"ch":21},"end":{"line":25,"ch":27}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":25,"ch":42},"end":{"line":25,"ch":50}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":25,"ch":63},"end":{"line":25,"ch":74}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":25,"ch":135},"end":{"line":25,"ch":143}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":25,"ch":162},"end":{"line":25,"ch":168}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":25,"ch":183},"end":{"line":25,"ch":189}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":25,"ch":203},"end":{"line":25,"ch":209}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":27,"ch":2},"end":{"line":27,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":29,"ch":2},"end":{"line":29,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":31,"ch":2},"end":{"line":31,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":35,"ch":2},"end":{"line":35,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":39,"ch":22},"end":{"line":39,"ch":97}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":39,"ch":142},"end":{"line":39,"ch":143}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":39,"ch":146},"end":{"line":39,"ch":251}}
+    Property getter or setter expected
+    ERROR

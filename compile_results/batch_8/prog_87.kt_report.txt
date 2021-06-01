@@ -1,0 +1,58 @@
+prog_87.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":56}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":35}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":45},"end":{"line":4,"ch":68}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":135},"end":{"line":4,"ch":136}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":139},"end":{"line":4,"ch":212}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":15},"end":{"line":5,"ch":21}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":15},"end":{"line":5,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":25}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":26},"end":{"line":5,"ch":251}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":5},"end":{"line":6,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

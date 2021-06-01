@@ -1,0 +1,302 @@
+prog_544.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 76
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":19}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":53}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":58},"end":{"line":0,"ch":60}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":76}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":93}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":98},"end":{"line":0,"ch":104}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":98},"end":{"line":0,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":107},"end":{"line":0,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":107},"end":{"line":0,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":111},"end":{"line":0,"ch":142}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":15}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":75}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":83}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":101}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":108}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":117}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":1,"ch":120},"end":{"line":1,"ch":121}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":122},"end":{"line":1,"ch":127}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":127},"end":{"line":1,"ch":129}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":130},"end":{"line":1,"ch":131}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":134}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":134},"end":{"line":1,"ch":139}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":140},"end":{"line":1,"ch":141}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":142},"end":{"line":1,"ch":148}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":149},"end":{"line":1,"ch":150}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":151},"end":{"line":1,"ch":155}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":156},"end":{"line":1,"ch":157}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":158},"end":{"line":1,"ch":160}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":160},"end":{"line":1,"ch":166}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":166},"end":{"line":1,"ch":168}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":170}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":171},"end":{"line":1,"ch":173}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":173},"end":{"line":1,"ch":179}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":179},"end":{"line":1,"ch":181}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":182},"end":{"line":1,"ch":183}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":184},"end":{"line":1,"ch":189}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":190},"end":{"line":1,"ch":191}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":192},"end":{"line":1,"ch":194}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":194},"end":{"line":1,"ch":200}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":200},"end":{"line":1,"ch":202}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":203},"end":{"line":1,"ch":204}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":205},"end":{"line":1,"ch":207}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":207},"end":{"line":1,"ch":213}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":213},"end":{"line":1,"ch":215}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":216},"end":{"line":1,"ch":217}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":218},"end":{"line":1,"ch":220}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":221},"end":{"line":1,"ch":222}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":223},"end":{"line":1,"ch":225}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":1,"ch":225},"end":{"line":1,"ch":231}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":55}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":17},"end":{"line":4,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":7},"end":{"line":5,"ch":12}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":5,"ch":13},"end":{"line":5,"ch":18}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":38},"end":{"line":5,"ch":41}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":50}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":53},"end":{"line":5,"ch":54}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":53},"end":{"line":5,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":57},"end":{"line":5,"ch":922}}
+    Property getter or setter expected
+    ERROR

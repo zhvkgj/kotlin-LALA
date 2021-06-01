@@ -1,0 +1,58 @@
+prog_44.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":17}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":23}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":147}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":8},"end":{"line":5,"ch":13}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":9,"ch":18},"end":{"line":9,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":9,"ch":68},"end":{"line":9,"ch":69}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":72},"end":{"line":9,"ch":93}}
+    Property getter or setter expected
+    ERROR

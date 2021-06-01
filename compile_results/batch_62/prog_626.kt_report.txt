@@ -1,0 +1,246 @@
+prog_626.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 82
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 15
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":42}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":42}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":54}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":54}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":66}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":183},"end":{"line":1,"ch":191}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":206},"end":{"line":1,"ch":214}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":215},"end":{"line":1,"ch":223}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":7,"ch":30},"end":{"line":7,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":41},"end":{"line":7,"ch":47}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":41},"end":{"line":7,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":52},"end":{"line":7,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":52},"end":{"line":7,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":64}}
+    No value passed for parameter '_2k3_p'
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":64}}
+    No value passed for parameter 'j31_8'
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":64}}
+    No value passed for parameter '__7'
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":64}}
+    Function invocation '_A_(...)' expected
+    ERROR
+
+    {"start":{"line":8,"ch":59},"end":{"line":8,"ch":70}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":86},"end":{"line":8,"ch":97}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":115},"end":{"line":8,"ch":123}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":124},"end":{"line":8,"ch":132}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":8,"ch":133},"end":{"line":8,"ch":141}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":99}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":99}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":9,"ch":11},"end":{"line":9,"ch":19}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":9,"ch":20},"end":{"line":9,"ch":26}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":9,"ch":27},"end":{"line":9,"ch":33}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":9,"ch":43},"end":{"line":9,"ch":51}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":13,"ch":10},"end":{"line":13,"ch":17}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":13,"ch":26},"end":{"line":13,"ch":34}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":100}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":100}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":21,"ch":10},"end":{"line":21,"ch":15}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":21,"ch":16},"end":{"line":21,"ch":21}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":21,"ch":31},"end":{"line":21,"ch":37}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":23,"ch":2},"end":{"line":23,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":27,"ch":0},"end":{"line":27,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":27,"ch":29},"end":{"line":27,"ch":36}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":29,"ch":0},"end":{"line":29,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":31,"ch":0},"end":{"line":31,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":31,"ch":9},"end":{"line":31,"ch":14}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter 'K9gL_8'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter '_5_9'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter '__8__'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter 'we_o10'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter 'w__JV'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    No value passed for parameter 'G6_n'
+    ERROR
+
+    {"start":{"line":31,"ch":32},"end":{"line":31,"ch":38}}
+    Function invocation '_2k3_p(...)' expected
+    ERROR
+
+    {"start":{"line":31,"ch":39},"end":{"line":31,"ch":40}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":31,"ch":43},"end":{"line":31,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":31,"ch":43},"end":{"line":31,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":31,"ch":62},"end":{"line":31,"ch":68}}
+    Suspend function 'Zx21HY' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":31,"ch":62},"end":{"line":31,"ch":68}}
+    Function invocation 'Zx21HY()' expected
+    ERROR
+
+    {"start":{"line":31,"ch":62},"end":{"line":31,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":31,"ch":62},"end":{"line":31,"ch":70}}
+    Variable expected
+    ERROR

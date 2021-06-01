@@ -1,0 +1,202 @@
+prog_982.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 57
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 7
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":20}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":27}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":52}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":52}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":61}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":61}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":68}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":99},"end":{"line":0,"ch":105}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":139},"end":{"line":0,"ch":145}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":176},"end":{"line":0,"ch":180}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":190},"end":{"line":0,"ch":201}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":214},"end":{"line":0,"ch":222}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":251},"end":{"line":0,"ch":252}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":257},"end":{"line":0,"ch":259}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":260},"end":{"line":0,"ch":261}}
+    Overload resolution ambiguity: 
+public final operator fun times(other: Byte): Long defined in kotlin.Long
+public final operator fun times(other: Double): Double defined in kotlin.Long
+public final operator fun times(other: Float): Float defined in kotlin.Long
+public final operator fun times(other: Int): Long defined in kotlin.Long
+public final operator fun times(other: Long): Long defined in kotlin.Long
+public final operator fun times(other: Short): Long defined in kotlin.Long
+    ERROR
+
+    {"start":{"line":0,"ch":262},"end":{"line":0,"ch":268}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":262},"end":{"line":0,"ch":268}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":291},"end":{"line":0,"ch":295}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":0,"ch":291},"end":{"line":0,"ch":297}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":302},"end":{"line":0,"ch":310}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":8,"ch":0},"end":{"line":8,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter 'Kz4_14'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter '_b_DgU'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter '_4__'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter '____'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter 'b_1y'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    No value passed for parameter '__6__'
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    Function invocation '_5o(...)' expected
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":20}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":25},"end":{"line":10,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":10,"ch":25},"end":{"line":10,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":34},"end":{"line":10,"ch":40}}
+    Suspend function 'B8Ja3X' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":10,"ch":34},"end":{"line":10,"ch":40}}
+    Function invocation 'B8Ja3X()' expected
+    ERROR
+
+    {"start":{"line":10,"ch":34},"end":{"line":10,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":45},"end":{"line":10,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":10,"ch":56},"end":{"line":10,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":75},"end":{"line":10,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":77},"end":{"line":10,"ch":78}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":10,"ch":83},"end":{"line":10,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":10,"ch":92},"end":{"line":10,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":103},"end":{"line":10,"ch":104}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":112},"end":{"line":10,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":120},"end":{"line":10,"ch":121}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":124},"end":{"line":10,"ch":629}}
+    Property getter or setter expected
+    ERROR

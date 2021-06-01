@@ -1,0 +1,214 @@
+prog_124.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 49
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 8
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":60}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":91}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":94},"end":{"line":0,"ch":119}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":17}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":18},"end":{"line":1,"ch":24}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":190}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":45}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":67}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":74}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":97}}
+    Unresolved reference: sU27
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":106}}
+    Unresolved reference: _sx_
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":115}}
+    Unresolved reference: sU27
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":115}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":117}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":122},"end":{"line":1,"ch":127}}
+    Unresolved reference: ___p5
+    ERROR
+
+    {"start":{"line":1,"ch":122},"end":{"line":1,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":136},"end":{"line":1,"ch":137}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":1,"ch":140},"end":{"line":1,"ch":145}}
+    Unresolved reference: IyQN_
+    ERROR
+
+    {"start":{"line":1,"ch":140},"end":{"line":1,"ch":145}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":153}}
+    Unresolved reference: _7219
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":153}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":158},"end":{"line":1,"ch":164}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":175}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":173},"end":{"line":1,"ch":175}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":186}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":190}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":190}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":191},"end":{"line":1,"ch":675}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":24}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":27}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":32}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":41}}
+    Unresolved reference: IyQN_
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":50}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":65}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":317}}
+    Property getter or setter expected
+    ERROR

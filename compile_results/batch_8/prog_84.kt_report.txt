@@ -1,0 +1,34 @@
+prog_84.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 6
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":1,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Unresolved reference: external
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":9},"end":{"line":1,"ch":207}}
+    Property getter or setter expected
+    ERROR

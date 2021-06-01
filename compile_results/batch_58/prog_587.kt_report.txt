@@ -1,0 +1,120 @@
+prog_587.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":32}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":71}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":42}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":76},"end":{"line":1,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":76},"end":{"line":1,"ch":79}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":84},"end":{"line":1,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":85},"end":{"line":1,"ch":86}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":24}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":2,"ch":38},"end":{"line":2,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":38},"end":{"line":2,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":51}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":1021}}
+    Property getter or setter expected
+    ERROR

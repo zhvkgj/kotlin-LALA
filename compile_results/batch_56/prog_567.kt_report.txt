@@ -1,0 +1,64 @@
+prog_567.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":30}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":74}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":75},"end":{"line":0,"ch":83}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":13}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":74}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":87}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Unresolved reference: inline
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":30},"end":{"line":7,"ch":75}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":7,"ch":89},"end":{"line":7,"ch":91}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":94},"end":{"line":7,"ch":123}}
+    Property getter or setter expected
+    ERROR

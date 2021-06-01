@@ -1,0 +1,292 @@
+prog_186.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 69
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 11
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":67}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":79},"end":{"line":0,"ch":80}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":114}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":204}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":26},"end":{"line":1,"ch":32}}
+    Unresolved reference: y_MVY_
+    ERROR
+
+    {"start":{"line":1,"ch":26},"end":{"line":1,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":43}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":54}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":59},"end":{"line":1,"ch":62}}
+    Unresolved reference: _8_
+    ERROR
+
+    {"start":{"line":1,"ch":59},"end":{"line":1,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":68}}
+    Unresolved reference: u3g
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":79}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":83}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":95},"end":{"line":1,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":102}}
+    Unresolved reference: u3g
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":112},"end":{"line":1,"ch":114}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":127}}
+    Unresolved reference: u3g
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":135}}
+    Unresolved reference: XYy
+    ERROR
+
+    {"start":{"line":1,"ch":138},"end":{"line":1,"ch":140}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":162}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":164}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":171}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":170},"end":{"line":1,"ch":171}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":176},"end":{"line":1,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":176},"end":{"line":1,"ch":183}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":187},"end":{"line":1,"ch":188}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":191},"end":{"line":1,"ch":197}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":200},"end":{"line":1,"ch":201}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":200},"end":{"line":1,"ch":204}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":204},"end":{"line":1,"ch":418}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":29}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":19},"end":{"line":3,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":11},"end":{"line":4,"ch":46}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":76},"end":{"line":4,"ch":77}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":133}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":23},"end":{"line":5,"ch":26}}
+    Unresolved reference: XYy
+    ERROR
+
+    {"start":{"line":5,"ch":23},"end":{"line":5,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":23},"end":{"line":5,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":31},"end":{"line":5,"ch":34}}
+    Unresolved reference: u3g
+    ERROR
+
+    {"start":{"line":5,"ch":31},"end":{"line":5,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":39},"end":{"line":5,"ch":45}}
+    Unresolved reference: U0Yc1_
+    ERROR
+
+    {"start":{"line":5,"ch":39},"end":{"line":5,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":56}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":59},"end":{"line":5,"ch":60}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":61},"end":{"line":5,"ch":236}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":11},"end":{"line":6,"ch":17}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":6,"ch":22},"end":{"line":6,"ch":26}}
+    Unresolved reference: Vo__
+    ERROR
+
+    {"start":{"line":6,"ch":34},"end":{"line":6,"ch":35}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":6,"ch":40},"end":{"line":6,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":40},"end":{"line":6,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":51},"end":{"line":6,"ch":57}}
+    Unresolved reference: U0Yc1_
+    ERROR
+
+    {"start":{"line":6,"ch":51},"end":{"line":6,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":60},"end":{"line":6,"ch":66}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":69},"end":{"line":6,"ch":70}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":71},"end":{"line":6,"ch":1422}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":7,"ch":23},"end":{"line":7,"ch":29}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":32},"end":{"line":7,"ch":38}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":41},"end":{"line":7,"ch":42}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":43},"end":{"line":7,"ch":166}}
+    Property getter or setter expected
+    ERROR

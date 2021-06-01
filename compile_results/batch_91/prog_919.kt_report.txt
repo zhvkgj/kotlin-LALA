@@ -1,0 +1,160 @@
+prog_919.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 43
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":23}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":48}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":56}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":14}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":727}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":128},"end":{"line":2,"ch":129}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":132},"end":{"line":2,"ch":752}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":130},"end":{"line":3,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":139},"end":{"line":3,"ch":140}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":146},"end":{"line":3,"ch":147}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":5},"end":{"line":4,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":98},"end":{"line":4,"ch":99}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":139},"end":{"line":4,"ch":140}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":141},"end":{"line":4,"ch":308}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":41}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":6,"ch":21},"end":{"line":6,"ch":29}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":61},"end":{"line":6,"ch":72}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":112},"end":{"line":6,"ch":120}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":112},"end":{"line":6,"ch":120}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":6,"ch":121},"end":{"line":6,"ch":129}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":6,"ch":130},"end":{"line":6,"ch":138}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":6,"ch":139},"end":{"line":6,"ch":150}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":139},"end":{"line":6,"ch":150}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":6,"ch":158},"end":{"line":6,"ch":162}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":10,"ch":0},"end":{"line":10,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

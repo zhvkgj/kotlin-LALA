@@ -1,0 +1,122 @@
+prog_67.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 28
+Count of type mismatch errors: 6
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":20}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":44}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":223}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":50}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":50}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":93},"end":{"line":0,"ch":95}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":128},"end":{"line":0,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":137},"end":{"line":0,"ch":139}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":144},"end":{"line":0,"ch":145}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":144},"end":{"line":0,"ch":147}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":152},"end":{"line":0,"ch":158}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":184},"end":{"line":0,"ch":185}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":0,"ch":192},"end":{"line":0,"ch":223}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":195},"end":{"line":0,"ch":204}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":202},"end":{"line":0,"ch":204}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":207},"end":{"line":0,"ch":213}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":217},"end":{"line":0,"ch":223}}
+    Type mismatch: inferred type is Int but Boolean was expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":18}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":33}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":55}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":102},"end":{"line":2,"ch":103}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":115},"end":{"line":2,"ch":116}}
+    Expecting an element
+    ERROR

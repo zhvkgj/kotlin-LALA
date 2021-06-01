@@ -1,0 +1,138 @@
+prog_69.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":35}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":12}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":25}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":68}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":47}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":77},"end":{"line":1,"ch":78}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":566}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":46},"end":{"line":2,"ch":147}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":445}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":3,"ch":32},"end":{"line":3,"ch":38}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":41},"end":{"line":3,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":54}}
+    Unresolved reference: f__6AU
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":71},"end":{"line":3,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":79}}
+    Unresolved reference: ___0
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":86},"end":{"line":3,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":98},"end":{"line":3,"ch":104}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":98},"end":{"line":3,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":109},"end":{"line":3,"ch":115}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":109},"end":{"line":3,"ch":122}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":118},"end":{"line":3,"ch":119}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":118},"end":{"line":3,"ch":122}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":445}}
+    Property getter or setter expected
+    ERROR

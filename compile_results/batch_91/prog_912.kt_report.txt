@@ -1,0 +1,82 @@
+prog_912.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 17
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":35}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":48}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":66}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":71}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":89}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":16}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":43}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":58}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":59},"end":{"line":1,"ch":646}}
+    Property getter or setter expected
+    ERROR

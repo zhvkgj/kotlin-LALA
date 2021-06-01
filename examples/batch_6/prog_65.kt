@@ -1,0 +1,2 @@
+crossinline tailrec val _3Xs = ++return || return++
+const val (_LT__X, J_o : Int) = ++_3Xs + ++return % false * return % --_3Xs-- + --return-- * return - --926 / _3Xs * --_3Xs * _3Xs * return-- - ++return-- / 4 + return-- * 9_3_6++ - return

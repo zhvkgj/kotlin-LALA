@@ -1,0 +1,526 @@
+prog_741.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 139
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 16
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":20}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":20}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":25},"end":{"line":0,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":25},"end":{"line":0,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":35}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":74}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":111}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":146}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":149},"end":{"line":1,"ch":804}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":46},"end":{"line":2,"ch":1046}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":6},"end":{"line":3,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":3,"ch":35},"end":{"line":3,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":35},"end":{"line":3,"ch":144}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":54},"end":{"line":3,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":54},"end":{"line":3,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":73},"end":{"line":3,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":73},"end":{"line":3,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":80},"end":{"line":3,"ch":83}}
+    Unresolved reference: N__
+    ERROR
+
+    {"start":{"line":3,"ch":80},"end":{"line":3,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":88},"end":{"line":3,"ch":91}}
+    Unresolved reference: N__
+    ERROR
+
+    {"start":{"line":3,"ch":88},"end":{"line":3,"ch":91}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":106},"end":{"line":3,"ch":110}}
+    Unresolved reference: ___f
+    ERROR
+
+    {"start":{"line":3,"ch":106},"end":{"line":3,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":115},"end":{"line":3,"ch":119}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":118},"end":{"line":3,"ch":119}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":128}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":131},"end":{"line":3,"ch":137}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":140},"end":{"line":3,"ch":141}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":140},"end":{"line":3,"ch":144}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":144},"end":{"line":3,"ch":516}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":24},"end":{"line":4,"ch":30}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":39}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":39}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":4,"ch":40},"end":{"line":4,"ch":51}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":40},"end":{"line":4,"ch":51}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":143}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":132},"end":{"line":5,"ch":143}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":144},"end":{"line":5,"ch":152}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":144},"end":{"line":5,"ch":152}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":153},"end":{"line":5,"ch":164}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":180},"end":{"line":5,"ch":188}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":12},"end":{"line":15,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":15,"ch":65},"end":{"line":15,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":98},"end":{"line":15,"ch":99}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":102},"end":{"line":15,"ch":949}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":16,"ch":16},"end":{"line":16,"ch":27}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":16},"end":{"line":16,"ch":27}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":16,"ch":28},"end":{"line":16,"ch":36}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":28},"end":{"line":16,"ch":36}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":16,"ch":63},"end":{"line":16,"ch":68}}
+    Unresolved reference: T_W2_
+    ERROR
+
+    {"start":{"line":16,"ch":73},"end":{"line":16,"ch":77}}
+    Unresolved reference: h_S9
+    ERROR
+
+    {"start":{"line":16,"ch":73},"end":{"line":16,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":16,"ch":80},"end":{"line":16,"ch":82}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":16,"ch":82},"end":{"line":16,"ch":88}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":16,"ch":91},"end":{"line":16,"ch":92}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":16,"ch":93},"end":{"line":16,"ch":99}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":100},"end":{"line":16,"ch":101}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":102},"end":{"line":16,"ch":105}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":105},"end":{"line":16,"ch":107}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":108},"end":{"line":16,"ch":109}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":110},"end":{"line":16,"ch":112}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":112},"end":{"line":16,"ch":113}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":114},"end":{"line":16,"ch":115}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":116},"end":{"line":16,"ch":122}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":122},"end":{"line":16,"ch":124}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":125},"end":{"line":16,"ch":126}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":127},"end":{"line":16,"ch":133}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":133},"end":{"line":16,"ch":135}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":136},"end":{"line":16,"ch":137}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":138},"end":{"line":16,"ch":140}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":140},"end":{"line":16,"ch":143}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":143},"end":{"line":16,"ch":145}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":146},"end":{"line":16,"ch":147}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":148},"end":{"line":16,"ch":153}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":154},"end":{"line":16,"ch":155}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":156},"end":{"line":16,"ch":158}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":158},"end":{"line":16,"ch":164}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":164},"end":{"line":16,"ch":166}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":167},"end":{"line":16,"ch":168}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":169},"end":{"line":16,"ch":171}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":171},"end":{"line":16,"ch":176}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":176},"end":{"line":16,"ch":178}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":179},"end":{"line":16,"ch":180}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":181},"end":{"line":16,"ch":183}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":183},"end":{"line":16,"ch":186}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":187},"end":{"line":16,"ch":188}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":189},"end":{"line":16,"ch":195}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":196},"end":{"line":16,"ch":197}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":198},"end":{"line":16,"ch":202}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":203},"end":{"line":16,"ch":204}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":205},"end":{"line":16,"ch":208}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":209},"end":{"line":16,"ch":210}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":211},"end":{"line":16,"ch":216}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":216},"end":{"line":16,"ch":218}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":219},"end":{"line":16,"ch":220}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":221},"end":{"line":16,"ch":226}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":227},"end":{"line":16,"ch":228}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":229},"end":{"line":16,"ch":231}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":231},"end":{"line":16,"ch":237}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":237},"end":{"line":16,"ch":239}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":240},"end":{"line":16,"ch":241}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":242},"end":{"line":16,"ch":247}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":16,"ch":247},"end":{"line":16,"ch":249}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":18,"ch":0},"end":{"line":18,"ch":105}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":18,"ch":26},"end":{"line":18,"ch":27}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.minus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.minus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Iterable<TypeVariable(T)>.minus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(key: TypeVariable(K)): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Array<out TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Iterable<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Sequence<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.minus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":18,"ch":29},"end":{"line":18,"ch":30}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":18,"ch":33},"end":{"line":18,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":18,"ch":42},"end":{"line":18,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":52},"end":{"line":18,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":18,"ch":68},"end":{"line":18,"ch":74}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":18,"ch":77},"end":{"line":18,"ch":78}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":79},"end":{"line":18,"ch":105}}
+    Property getter or setter expected
+    ERROR

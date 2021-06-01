@@ -1,0 +1,232 @@
+prog_357.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 54
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":139}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":139}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":84}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":106},"end":{"line":0,"ch":112}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":106},"end":{"line":0,"ch":114}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":111},"end":{"line":0,"ch":112}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":117},"end":{"line":0,"ch":119}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":129},"end":{"line":0,"ch":135}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":129},"end":{"line":0,"ch":139}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":138},"end":{"line":0,"ch":139}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":140},"end":{"line":0,"ch":169}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":53}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":86}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":22}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":40}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":43},"end":{"line":2,"ch":49}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":56}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":81},"end":{"line":2,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":81},"end":{"line":2,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":124}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":129},"end":{"line":2,"ch":134}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":137},"end":{"line":2,"ch":143}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":156},"end":{"line":2,"ch":162}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":156},"end":{"line":2,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":165},"end":{"line":2,"ch":166}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":165},"end":{"line":2,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":169},"end":{"line":2,"ch":192}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

@@ -1,0 +1,158 @@
+prog_269.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 50
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 10
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":26}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":51}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":58}}
+    Type mismatch: inferred type is Int but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":71}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":75},"end":{"line":0,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":84},"end":{"line":0,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":20}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":34}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":6,"ch":67},"end":{"line":6,"ch":78}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":12,"ch":2},"end":{"line":12,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":14,"ch":2},"end":{"line":14,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":14,"ch":8},"end":{"line":14,"ch":13}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":14,"ch":48},"end":{"line":14,"ch":54}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":18,"ch":12},"end":{"line":18,"ch":23}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":18,"ch":24},"end":{"line":18,"ch":35}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":20,"ch":2},"end":{"line":20,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":22,"ch":13},"end":{"line":22,"ch":21}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":22,"ch":13},"end":{"line":22,"ch":21}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":22,"ch":22},"end":{"line":22,"ch":33}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":22,"ch":22},"end":{"line":22,"ch":33}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":22,"ch":49},"end":{"line":22,"ch":57}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":24,"ch":2},"end":{"line":24,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":26,"ch":2},"end":{"line":26,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":28,"ch":2},"end":{"line":28,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":30,"ch":10},"end":{"line":30,"ch":18}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":30,"ch":19},"end":{"line":30,"ch":27}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":30,"ch":38},"end":{"line":30,"ch":49}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":32,"ch":2},"end":{"line":32,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

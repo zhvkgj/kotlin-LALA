@@ -1,0 +1,30 @@
+prog_922.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 6
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":17}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":33},"end":{"line":4,"ch":59}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":83},"end":{"line":4,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":87},"end":{"line":4,"ch":906}}
+    Property getter or setter expected
+    ERROR

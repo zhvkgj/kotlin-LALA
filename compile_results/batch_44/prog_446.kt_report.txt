@@ -1,0 +1,152 @@
+prog_446.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 44
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":43}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":92}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":38}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":98}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":132}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":137},"end":{"line":2,"ch":138}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":146},"end":{"line":2,"ch":147}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":148},"end":{"line":2,"ch":482}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":159},"end":{"line":3,"ch":160}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":163},"end":{"line":3,"ch":338}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":32}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":4,"ch":33},"end":{"line":4,"ch":39}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":4,"ch":53},"end":{"line":4,"ch":61}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":89},"end":{"line":4,"ch":95}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":4,"ch":115},"end":{"line":4,"ch":121}}
+    Unresolved reference: _bZy_0
+    ERROR
+
+    {"start":{"line":4,"ch":126},"end":{"line":4,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":130},"end":{"line":4,"ch":134}}
+    Unresolved reference: _U_W
+    ERROR
+
+    {"start":{"line":4,"ch":137},"end":{"line":4,"ch":142}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":4,"ch":142},"end":{"line":4,"ch":144}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":147},"end":{"line":4,"ch":153}}
+    This function must return a value of type Int
+    ERROR
+
+    {"start":{"line":4,"ch":147},"end":{"line":4,"ch":153}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":4,"ch":156},"end":{"line":4,"ch":162}}
+    Unresolved reference: k____y
+    ERROR
+
+    {"start":{"line":4,"ch":165},"end":{"line":4,"ch":170}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":169},"end":{"line":4,"ch":170}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":182},"end":{"line":4,"ch":188}}
+    Type mismatch: inferred type is Long but Int was expected
+    ERROR
+
+    {"start":{"line":4,"ch":184},"end":{"line":4,"ch":186}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":8},"end":{"line":6,"ch":13}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":8,"ch":0},"end":{"line":8,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

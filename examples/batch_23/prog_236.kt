@@ -1,0 +1,2 @@
+vararg var M___1 : Short = ++return-- / ++return * 300 - --942_0_0 != --return++ / ++true++ || 1++ + 9 / --7++ % --51
+tailrec external suspend inline operator tailrec suspend fun _R_V9_( ___ : Int,  T__U8A : Short, crossinline noinline noinline Gi4 : Short,  t_0L : Boolean) = ++T__U8A / 5l - true + t_0L++ == --___ % ++___ * --return + ++Gi4-- / false-- * --85_9++ * return % return - --return % 7-- + ++return * ++return-- / return * return++ % ++return-- || --1 * t_0L % --false++ + ++___-- * ++4___7 % --0l * ++return-- + ++Gi4 / --true * --M___1++ / ++false++ / M___1

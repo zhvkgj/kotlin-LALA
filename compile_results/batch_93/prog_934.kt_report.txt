@@ -1,0 +1,66 @@
+prog_934.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":20}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":29}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":38}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":29},"end":{"line":5,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":39},"end":{"line":5,"ch":40}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":5,"ch":65},"end":{"line":5,"ch":71}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":65},"end":{"line":5,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":74},"end":{"line":5,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":76},"end":{"line":5,"ch":927}}
+    Property getter or setter expected
+    ERROR

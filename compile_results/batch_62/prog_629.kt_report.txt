@@ -1,0 +1,64 @@
+prog_629.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":89}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":160}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":13}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":18},"end":{"line":1,"ch":24}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":36}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":48}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":59},"end":{"line":1,"ch":61}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":58}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

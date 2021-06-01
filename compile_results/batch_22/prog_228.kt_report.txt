@@ -1,0 +1,102 @@
+prog_228.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 27
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":76}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":524}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":48}}
+    This function must return a value of type Int
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":48}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":2,"ch":53},"end":{"line":2,"ch":57}}
+    Unresolved reference: ___8
+    ERROR
+
+    {"start":{"line":2,"ch":53},"end":{"line":2,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":12},"end":{"line":4,"ch":18}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":127},"end":{"line":4,"ch":128}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":131},"end":{"line":4,"ch":206}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":0},"end":{"line":10,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":12,"ch":22},"end":{"line":12,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":33},"end":{"line":12,"ch":36}}
+    Unresolved reference: _35
+    ERROR
+
+    {"start":{"line":12,"ch":33},"end":{"line":12,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":33},"end":{"line":12,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":41},"end":{"line":12,"ch":45}}
+    Unresolved reference: n0P_
+    ERROR
+
+    {"start":{"line":12,"ch":41},"end":{"line":12,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":50},"end":{"line":12,"ch":54}}
+    Unresolved reference: F_Ej
+    ERROR
+
+    {"start":{"line":12,"ch":57},"end":{"line":12,"ch":61}}
+    Unresolved reference: n0P_
+    ERROR
+
+    {"start":{"line":12,"ch":64},"end":{"line":12,"ch":70}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":73},"end":{"line":12,"ch":74}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":12,"ch":82},"end":{"line":12,"ch":83}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":12,"ch":84},"end":{"line":12,"ch":654}}
+    Property getter or setter expected
+    ERROR

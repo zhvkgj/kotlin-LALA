@@ -1,0 +1,4 @@
+const val ______ = ++return || --true++ * 6l < --3-- != return--
+operator fun Gi4() : Boolean = false * ++______ / return % true-- % --______++ % 4++ / 8++ % ++______ / --return++ * 0-- + --false - ______ + ++return-- + --______ * --3_74 / --______ / return-- % ++2959_4++ / ++return % ++3 * ______ / ++return / --______-- - ______ / --______++ * ++______ / 3____0 - --______-- * --return % --______++ / ++2L / ++______-- - ++7l < return - return++ / return / --481 * --return-- + ++return / return * ++return - ++300L / ++96-- % --return-- % --return++ + --return + return - ++false + --______++ - ______ % --1-- % --8++ % --______++ % return-- * ++return++
+
+external var (_2_Z68 : Boolean, f_6_) = --8++ / Gi4 * 96L-- - ++true-- + ++______-- / return * --false / return-- % ++return / return && ++return * ++2l++ % return++ + ++______++ % ++______++ / true * ______-- / ______++ * ++3l % --Gi4-- / --return++

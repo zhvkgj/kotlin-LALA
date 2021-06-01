@@ -1,0 +1,200 @@
+prog_951.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 53
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 10
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":24}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":36}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":93}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":93}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":109}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":109}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":5},"end":{"line":15,"ch":11}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":15,"ch":83},"end":{"line":15,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":87},"end":{"line":15,"ch":196}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":16,"ch":0},"end":{"line":16,"ch":219}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":16,"ch":0},"end":{"line":16,"ch":39}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":16,"ch":9},"end":{"line":16,"ch":16}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":16,"ch":28},"end":{"line":16,"ch":31}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":16,"ch":51},"end":{"line":16,"ch":52}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":16,"ch":53},"end":{"line":16,"ch":219}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":17,"ch":0},"end":{"line":17,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":17,"ch":12},"end":{"line":17,"ch":17}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":17,"ch":31},"end":{"line":17,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":17,"ch":31},"end":{"line":17,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":38},"end":{"line":17,"ch":39}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":17,"ch":40},"end":{"line":17,"ch":45}}
+    Suspend function 'H1E__' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":17,"ch":40},"end":{"line":17,"ch":45}}
+    No value passed for parameter 'fa__81'
+    ERROR
+
+    {"start":{"line":17,"ch":40},"end":{"line":17,"ch":45}}
+    Function invocation 'H1E__(...)' expected
+    ERROR
+
+    {"start":{"line":17,"ch":50},"end":{"line":17,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":56},"end":{"line":17,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":17,"ch":56},"end":{"line":17,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":65},"end":{"line":17,"ch":68}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":17,"ch":73},"end":{"line":17,"ch":77}}
+    Unresolved reference: _Z2K
+    ERROR
+
+    {"start":{"line":17,"ch":73},"end":{"line":17,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":82},"end":{"line":17,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":86},"end":{"line":17,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":97},"end":{"line":17,"ch":103}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":17,"ch":97},"end":{"line":17,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":18,"ch":10},"end":{"line":18,"ch":47}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":18,"ch":91},"end":{"line":18,"ch":92}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":95},"end":{"line":18,"ch":548}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":19,"ch":0},"end":{"line":19,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":19,"ch":32},"end":{"line":19,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":19,"ch":41},"end":{"line":19,"ch":46}}
+    Unresolved reference: _015_
+    ERROR
+
+    {"start":{"line":19,"ch":41},"end":{"line":19,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":19,"ch":61},"end":{"line":19,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":19,"ch":66},"end":{"line":19,"ch":68}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR

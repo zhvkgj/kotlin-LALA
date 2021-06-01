@@ -1,0 +1,138 @@
+prog_688.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 10
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":89}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":105}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":143}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Unresolved reference: __h
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":41}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":50}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":59}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":70}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":79}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":84},"end":{"line":1,"ch":88}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":84},"end":{"line":1,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":108}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":115}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":115}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":120},"end":{"line":1,"ch":123}}
+    Unresolved reference: __h
+    ERROR
+
+    {"start":{"line":1,"ch":126},"end":{"line":1,"ch":129}}
+    Unresolved reference: __h
+    ERROR
+
+    {"start":{"line":1,"ch":126},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":137},"end":{"line":1,"ch":141}}
+    Unresolved reference: __2_
+    ERROR
+
+    {"start":{"line":1,"ch":137},"end":{"line":1,"ch":141}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":137},"end":{"line":1,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

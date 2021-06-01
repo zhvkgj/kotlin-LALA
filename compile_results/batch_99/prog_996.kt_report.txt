@@ -1,0 +1,64 @@
+prog_996.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":17}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":23}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":32}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":78}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":57},"end":{"line":0,"ch":59}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":16}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":36}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":43},"end":{"line":1,"ch":44}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":531}}
+    Property getter or setter expected
+    ERROR

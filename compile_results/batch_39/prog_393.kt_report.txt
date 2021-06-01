@@ -1,0 +1,68 @@
+prog_393.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":23}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":65}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":136}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":29}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":224}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":26},"end":{"line":2,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":33}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":42}}
+    Unresolved reference: Mj3_3z
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":51}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":63},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":791}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,90 @@
+prog_957.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":113}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":23}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":47}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":58},"end":{"line":0,"ch":59}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":70}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":88}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":94},"end":{"line":0,"ch":100}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":94},"end":{"line":0,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":103},"end":{"line":0,"ch":104}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":105},"end":{"line":0,"ch":113}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":41}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":71}}
+    Expecting an element
+    ERROR

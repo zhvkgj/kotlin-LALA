@@ -1,0 +1,82 @@
+prog_116.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":86}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":23}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":29}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":30},"end":{"line":2,"ch":35}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":44}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":62}}
+    Unresolved reference: coj
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":26},"end":{"line":3,"ch":47}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":61},"end":{"line":3,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":64},"end":{"line":3,"ch":270}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":12},"end":{"line":4,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":56}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":57},"end":{"line":4,"ch":474}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":11},"end":{"line":5,"ch":17}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":20},"end":{"line":5,"ch":21}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":20},"end":{"line":5,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":51}}
+    Property getter or setter expected
+    ERROR

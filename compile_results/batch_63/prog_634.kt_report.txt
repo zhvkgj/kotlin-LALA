@@ -1,0 +1,218 @@
+prog_634.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 52
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":32}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":37}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":43}}
+    This function must return a value of type Int
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":43}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":48}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    This function must return a value of type Int
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":76}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":79},"end":{"line":3,"ch":125}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":7},"end":{"line":4,"ch":18}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":41}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":53},"end":{"line":4,"ch":57}}
+    Unresolved reference: rO_3
+    ERROR
+
+    {"start":{"line":4,"ch":60},"end":{"line":4,"ch":64}}
+    Unresolved reference: rO_3
+    ERROR
+
+    {"start":{"line":4,"ch":67},"end":{"line":4,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":83}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":92}}
+    Unresolved reference: _hZN
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":92}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":99},"end":{"line":4,"ch":100}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":99},"end":{"line":4,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":105},"end":{"line":4,"ch":111}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":122},"end":{"line":4,"ch":126}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":125},"end":{"line":4,"ch":126}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":133},"end":{"line":4,"ch":139}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":137},"end":{"line":4,"ch":139}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":144},"end":{"line":4,"ch":150}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":144},"end":{"line":4,"ch":150}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":155},"end":{"line":4,"ch":162}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":160},"end":{"line":4,"ch":162}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":6},"end":{"line":5,"ch":17}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":42},"end":{"line":5,"ch":99}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":47}}
+    Function invocation 'ZK7()' expected
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":53}}
+    Unresolved reference: ___
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":60},"end":{"line":5,"ch":63}}
+    Function invocation 'ZK7()' expected
+    ERROR
+
+    {"start":{"line":5,"ch":60},"end":{"line":5,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":66},"end":{"line":5,"ch":69}}
+    Function invocation 'ZK7()' expected
+    ERROR
+
+    {"start":{"line":5,"ch":66},"end":{"line":5,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":76},"end":{"line":5,"ch":80}}
+    Unresolved reference: _hZN
+    ERROR
+
+    {"start":{"line":5,"ch":76},"end":{"line":5,"ch":80}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":83},"end":{"line":5,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":92},"end":{"line":5,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":98},"end":{"line":5,"ch":99}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":100},"end":{"line":5,"ch":1237}}
+    Property getter or setter expected
+    ERROR

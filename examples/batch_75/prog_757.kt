@@ -1,0 +1,2 @@
+const var _B_ : Short = --4___7++ && --0l++ % --return / --return++
+ val _1_ = 85_9++ * ++_B_++ > 1++ - 3____0++ / ++return / _B_ / return++ % _B_ % --0l++ - --5 / return++ * true || ++false + --6_3L * return-- % ++return-- / ++0L % _B_++ / return * true-- % --return - _B_++ / ++923l + return / _B_ * 0L - ++_B_ / --_B_

@@ -1,0 +1,2 @@
+infix var (_D_6 : Int, AMB6, _48_s_, _xC : Long) = --false-- / ++return != return - --return * return++ * return--
+infix var (_n_5 : Int) = ++AMB6 / 6l * --51l / return / 85_9-- % ++9_3_6l++ * return++ / return % _xC % 6 * return * ++8L % ++_D_6 + --_48_s_-- / 6L-- / 3____0++ && false % ++false + return % 3L++

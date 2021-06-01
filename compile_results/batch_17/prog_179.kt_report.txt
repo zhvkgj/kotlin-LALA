@@ -1,0 +1,380 @@
+prog_179.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 116
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 20
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":52}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":60},"end":{"line":5,"ch":71}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":60},"end":{"line":5,"ch":71}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":72},"end":{"line":5,"ch":80}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":72},"end":{"line":5,"ch":80}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":81},"end":{"line":5,"ch":92}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":9,"ch":19},"end":{"line":9,"ch":27}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":19},"end":{"line":9,"ch":27}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":9,"ch":28},"end":{"line":9,"ch":39}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":28},"end":{"line":9,"ch":39}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":17,"ch":52},"end":{"line":17,"ch":60}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":17,"ch":92},"end":{"line":17,"ch":98}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":17,"ch":114},"end":{"line":17,"ch":125}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":17,"ch":126},"end":{"line":17,"ch":137}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":17,"ch":138},"end":{"line":17,"ch":144}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":44}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":23,"ch":2},"end":{"line":23,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":25,"ch":0},"end":{"line":25,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":27,"ch":10},"end":{"line":27,"ch":99}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":27,"ch":251},"end":{"line":27,"ch":252}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":27,"ch":253},"end":{"line":27,"ch":568}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":28,"ch":10},"end":{"line":28,"ch":97}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":28,"ch":219},"end":{"line":28,"ch":220}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":28,"ch":221},"end":{"line":28,"ch":692}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":29,"ch":0},"end":{"line":29,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":29,"ch":6},"end":{"line":29,"ch":14}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":29,"ch":15},"end":{"line":29,"ch":23}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":29,"ch":43},"end":{"line":29,"ch":46}}
+    No value passed for parameter 'P__i2_'
+    ERROR
+
+    {"start":{"line":29,"ch":43},"end":{"line":29,"ch":46}}
+    Function invocation '__o(...)' expected
+    ERROR
+
+    {"start":{"line":29,"ch":46},"end":{"line":29,"ch":48}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":29,"ch":51},"end":{"line":29,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":29,"ch":60},"end":{"line":29,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":29,"ch":62},"end":{"line":29,"ch":258}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":30,"ch":25},"end":{"line":30,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.plus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.plus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Array<TypeVariable(T)>.plus(element: TypeVariable(T)): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Array<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Array<TypeVariable(T)>.plus(elements: Collection<TypeVariable(T)>): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun BooleanArray.plus(element: Boolean): BooleanArray defined in kotlin.collections
+public operator fun BooleanArray.plus(elements: BooleanArray): BooleanArray defined in kotlin.collections
+public operator fun BooleanArray.plus(elements: Collection<Boolean>): BooleanArray defined in kotlin.collections
+public operator fun ByteArray.plus(element: Byte): ByteArray defined in kotlin.collections
+public operator fun ByteArray.plus(elements: ByteArray): ByteArray defined in kotlin.collections
+public operator fun ByteArray.plus(elements: Collection<Byte>): ByteArray defined in kotlin.collections
+public inline operator fun Char.plus(other: String): String defined in kotlin.text
+public operator fun CharArray.plus(element: Char): CharArray defined in kotlin.collections
+public operator fun CharArray.plus(elements: CharArray): CharArray defined in kotlin.collections
+public operator fun CharArray.plus(elements: Collection<Char>): CharArray defined in kotlin.collections
+public operator fun DoubleArray.plus(element: Double): DoubleArray defined in kotlin.collections
+public operator fun DoubleArray.plus(elements: DoubleArray): DoubleArray defined in kotlin.collections
+public operator fun DoubleArray.plus(elements: Collection<Double>): DoubleArray defined in kotlin.collections
+public operator fun FloatArray.plus(element: Float): FloatArray defined in kotlin.collections
+public operator fun FloatArray.plus(elements: FloatArray): FloatArray defined in kotlin.collections
+public operator fun FloatArray.plus(elements: Collection<Float>): FloatArray defined in kotlin.collections
+public operator fun IntArray.plus(element: Int): IntArray defined in kotlin.collections
+public operator fun IntArray.plus(elements: IntArray): IntArray defined in kotlin.collections
+public operator fun IntArray.plus(elements: Collection<Int>): IntArray defined in kotlin.collections
+public operator fun LongArray.plus(element: Long): LongArray defined in kotlin.collections
+public operator fun LongArray.plus(elements: LongArray): LongArray defined in kotlin.collections
+public operator fun LongArray.plus(elements: Collection<Long>): LongArray defined in kotlin.collections
+public operator fun ShortArray.plus(element: Short): ShortArray defined in kotlin.collections
+public operator fun ShortArray.plus(elements: ShortArray): ShortArray defined in kotlin.collections
+public operator fun ShortArray.plus(elements: Collection<Short>): ShortArray defined in kotlin.collections
+public operator fun String?.plus(other: Any?): String defined in kotlin
+public inline operator fun UByteArray.plus(element: UByte): UByteArray defined in kotlin.collections
+public inline operator fun UByteArray.plus(elements: UByteArray): UByteArray defined in kotlin.collections
+public operator fun UByteArray.plus(elements: Collection<UByte>): UByteArray defined in kotlin.collections
+public inline operator fun UIntArray.plus(element: UInt): UIntArray defined in kotlin.collections
+public inline operator fun UIntArray.plus(elements: UIntArray): UIntArray defined in kotlin.collections
+public operator fun UIntArray.plus(elements: Collection<UInt>): UIntArray defined in kotlin.collections
+public inline operator fun ULongArray.plus(element: ULong): ULongArray defined in kotlin.collections
+public inline operator fun ULongArray.plus(elements: ULongArray): ULongArray defined in kotlin.collections
+public operator fun ULongArray.plus(elements: Collection<ULong>): ULongArray defined in kotlin.collections
+public inline operator fun UShortArray.plus(element: UShort): UShortArray defined in kotlin.collections
+public inline operator fun UShortArray.plus(elements: UShortArray): UShortArray defined in kotlin.collections
+public operator fun UShortArray.plus(elements: Collection<UShort>): UShortArray defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Array<out Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pair: Pair<TypeVariable(K), TypeVariable(V)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Iterable<Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(map: Map<out TypeVariable(K), TypeVariable(V)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Sequence<Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.plus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":30,"ch":29},"end":{"line":30,"ch":33}}
+    Unresolved reference: UBkl
+    ERROR
+
+    {"start":{"line":30,"ch":29},"end":{"line":30,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":30,"ch":29},"end":{"line":30,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":32,"ch":2},"end":{"line":32,"ch":268}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":32,"ch":2},"end":{"line":32,"ch":268}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":32,"ch":11},"end":{"line":32,"ch":17}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":32,"ch":18},"end":{"line":32,"ch":26}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":32,"ch":35},"end":{"line":32,"ch":43}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":32,"ch":55},"end":{"line":32,"ch":63}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":32,"ch":64},"end":{"line":32,"ch":67}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":32,"ch":89},"end":{"line":32,"ch":95}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":32,"ch":96},"end":{"line":32,"ch":102}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":32,"ch":103},"end":{"line":32,"ch":109}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":32,"ch":110},"end":{"line":32,"ch":118}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":32,"ch":211},"end":{"line":32,"ch":217}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":32,"ch":218},"end":{"line":32,"ch":224}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":32,"ch":225},"end":{"line":32,"ch":231}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":32,"ch":248},"end":{"line":32,"ch":254}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":36,"ch":35},"end":{"line":36,"ch":43}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":38,"ch":2},"end":{"line":38,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":40,"ch":0},"end":{"line":40,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":42,"ch":27},"end":{"line":42,"ch":38}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":42,"ch":51},"end":{"line":42,"ch":59}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":43,"ch":2},"end":{"line":43,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":43,"ch":20},"end":{"line":43,"ch":26}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":43,"ch":27},"end":{"line":43,"ch":38}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":43,"ch":51},"end":{"line":43,"ch":57}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":43,"ch":58},"end":{"line":43,"ch":64}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":43,"ch":83},"end":{"line":43,"ch":89}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":45,"ch":2},"end":{"line":45,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":47,"ch":2},"end":{"line":47,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":47,"ch":8},"end":{"line":47,"ch":14}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":51,"ch":27},"end":{"line":51,"ch":35}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":51,"ch":152},"end":{"line":51,"ch":160}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":53,"ch":2},"end":{"line":53,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":55,"ch":0},"end":{"line":55,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

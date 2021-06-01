@@ -1,0 +1,50 @@
+prog_178.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 9
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":38}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":51}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":135},"end":{"line":1,"ch":136}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":144},"end":{"line":1,"ch":145}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":146},"end":{"line":1,"ch":206}}
+    Property getter or setter expected
+    ERROR

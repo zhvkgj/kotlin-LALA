@@ -1,0 +1,144 @@
+prog_621.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 42
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":74}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":91}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":98}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":101},"end":{"line":0,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":103},"end":{"line":0,"ch":109}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":110},"end":{"line":0,"ch":111}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":112},"end":{"line":0,"ch":119}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":119},"end":{"line":0,"ch":121}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":122},"end":{"line":0,"ch":123}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":124},"end":{"line":0,"ch":126}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":126},"end":{"line":0,"ch":130}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":131},"end":{"line":0,"ch":132}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":133},"end":{"line":0,"ch":140}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":46}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":47},"end":{"line":2,"ch":53}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":70},"end":{"line":2,"ch":76}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":22},"end":{"line":9,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":27},"end":{"line":9,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":9,"ch":36},"end":{"line":9,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":36},"end":{"line":9,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":9,"ch":40},"end":{"line":9,"ch":486}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":10,"ch":0},"end":{"line":10,"ch":23}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":10,"ch":26},"end":{"line":10,"ch":31}}
+    No value passed for parameter '_w_BE'
+    ERROR
+
+    {"start":{"line":10,"ch":26},"end":{"line":10,"ch":31}}
+    No value passed for parameter '__3j27'
+    ERROR
+
+    {"start":{"line":10,"ch":26},"end":{"line":10,"ch":31}}
+    Function invocation 'fj_0_(...)' expected
+    ERROR
+
+    {"start":{"line":10,"ch":26},"end":{"line":10,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":38},"end":{"line":10,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":10,"ch":38},"end":{"line":10,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":47},"end":{"line":10,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":49},"end":{"line":10,"ch":53}}
+    Property getter or setter expected
+    ERROR

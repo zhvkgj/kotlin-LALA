@@ -1,0 +1,118 @@
+prog_759.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 33
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":40}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":211}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":38}}
+    Unresolved reference: T_7_0S
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":72}}
+    Unresolved reference: T_7_0S
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":77},"end":{"line":1,"ch":83}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":94}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":118}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":107}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":107}}
+    Unresolved reference: T_7_0S
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":107}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Unresolved reference: T_7_0S
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":61}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":70}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":102},"end":{"line":2,"ch":110}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":102},"end":{"line":2,"ch":110}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":111},"end":{"line":2,"ch":117}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":129}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":129}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":130},"end":{"line":2,"ch":138}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

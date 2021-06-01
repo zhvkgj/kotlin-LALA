@@ -1,0 +1,3 @@
+infix infix fun _DS_4_( KJ_WC_ : Boolean, vararg __C3G : Long) : Int = --return++ / 9-- / ++KJ_WC_ % ++__C3G / --__C3G + 1 % --false++ + --false-- * 3L * KJ_WC_ % 3L - return != return / ++return--
+
+suspend val j_g8HS : Int = ++51L * return / 5-- + _DS_4_ / ++_DS_4_ - return++ / _DS_4_++ / --481 + ++return % --_DS_4_++ - --return-- % --return / --false % return * --return++ % return * ++6l-- / ++_DS_4_--

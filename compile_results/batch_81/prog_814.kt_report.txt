@@ -1,0 +1,84 @@
+prog_814.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":108}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":8}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":25}}
+    Unresolved reference: _u_m_
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":30}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Unresolved reference: _60
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":50}}
+    Unresolved reference: _60
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":47},"end":{"line":1,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":67}}
+    Unresolved reference: _u_m_
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":76}}
+    Unresolved reference: __82
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":85}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":89}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":92}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":92},"end":{"line":1,"ch":623}}
+    Property getter or setter expected
+    ERROR

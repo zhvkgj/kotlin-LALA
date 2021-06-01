@@ -1,0 +1,42 @@
+prog_905.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 8
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":51}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":851}}
+    Property getter or setter expected
+    ERROR

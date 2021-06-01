@@ -1,0 +1,118 @@
+prog_373.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 27
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Unresolved reference: crossinline
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":105}}
+    Declarations are not allowed in this position
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":105},"end":{"line":1,"ch":177}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":11},"end":{"line":2,"ch":64}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":104}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":111},"end":{"line":2,"ch":112}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":117},"end":{"line":2,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":121},"end":{"line":2,"ch":127}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":126},"end":{"line":3,"ch":715}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":28},"end":{"line":4,"ch":50}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":166},"end":{"line":4,"ch":167}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":168},"end":{"line":4,"ch":588}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":11},"end":{"line":5,"ch":15}}
+    Unresolved reference: _2_5
+    ERROR
+
+    {"start":{"line":5,"ch":11},"end":{"line":5,"ch":15}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":22},"end":{"line":5,"ch":27}}
+    Unresolved reference: _y_lu
+    ERROR
+
+    {"start":{"line":5,"ch":22},"end":{"line":5,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":22},"end":{"line":5,"ch":29}}
+    Variable expected
+    ERROR

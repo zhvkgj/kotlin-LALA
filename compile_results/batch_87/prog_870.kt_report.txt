@@ -1,0 +1,46 @@
+prog_870.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 9
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":79}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":28}}
+    Unresolved reference: O1MPw_
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":68}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":180},"end":{"line":2,"ch":181}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":188},"end":{"line":2,"ch":190}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":198},"end":{"line":2,"ch":199}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":200},"end":{"line":2,"ch":532}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,164 @@
+prog_862.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 42
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":38}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":82}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":83},"end":{"line":0,"ch":91}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":100}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":101},"end":{"line":0,"ch":107}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":143},"end":{"line":0,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":147},"end":{"line":0,"ch":149}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":152},"end":{"line":0,"ch":154}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":154},"end":{"line":0,"ch":158}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":0,"ch":163},"end":{"line":0,"ch":164}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":167},"end":{"line":0,"ch":169}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":169},"end":{"line":0,"ch":175}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":178},"end":{"line":0,"ch":179}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":180},"end":{"line":0,"ch":186}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":187},"end":{"line":0,"ch":188}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":189},"end":{"line":0,"ch":195}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":196},"end":{"line":0,"ch":197}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":198},"end":{"line":0,"ch":201}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":201},"end":{"line":0,"ch":203}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":204},"end":{"line":0,"ch":205}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":206},"end":{"line":0,"ch":208}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":208},"end":{"line":0,"ch":210}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":211},"end":{"line":0,"ch":212}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":213},"end":{"line":0,"ch":215}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":215},"end":{"line":0,"ch":222}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":222},"end":{"line":0,"ch":224}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":225},"end":{"line":0,"ch":226}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":227},"end":{"line":0,"ch":229}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":229},"end":{"line":0,"ch":231}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":232},"end":{"line":0,"ch":233}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":234},"end":{"line":0,"ch":240}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":241},"end":{"line":0,"ch":242}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":243},"end":{"line":0,"ch":245}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":245},"end":{"line":0,"ch":246}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":15}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":34}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":1025}}
+    Property getter or setter expected
+    ERROR

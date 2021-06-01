@@ -1,0 +1,7 @@
+ fun T_2__(crossinline crossinline crossinline _t2 : Short) : Int = --0 * --26_9_96l % ++_t2 - return++ * --true % --3l - _t2-- * return * _t2 * _t2++ < 481l-- * ++true-- % 3_1++ * --return-- + --return-- / return % _t2 * return / return-- / false / _t2-- % --_t2-- / ++_t2++ / return++ % return++ + 481 * return++ / false * ++_t2-- % return-- % --_t2-- % ++return * _t2 / --return * ++return % return * return++ % --return % --_t2++ - _t2 / true-- + ++6___4l + false++ / --_t2++ - return - --return + _t2-- % --_t2-- == return / ++0L++ % 300L++ * 0l + true * --return++ * false / --return * _t2-- % return++ / false--
+
+suspend fun __k(crossinline _j9_ : Boolean,  _35 : Int, noinline _X4___ : Int) : Short = --1L-- - ++return * --true - return++ % return-- / _X4___++ - ++return++ / --true-- % ++return * --false-- * 8l / return-- * ++false - return % ++return++ + ++96-- * --true / return++ - _X4___ / ++return % 8_5_37 % ++return % ++_35 % return % --false-- % --6 * return / _j9_ / 8 % _j9_ % return * return * ++true-- % return++ - 3_74l-- - _35 - ++7_____6l + --true % --return * return / ++return % return * return * _j9_ - --45687_9l++ % ++return * return + ++45687_9l % return++ / _X4___++ - ++96l++ - ++3____0L-- / --false++ * T_2__-- % return % ++return++ / return-- * --true % _X4___-- * ++return % ++T_2__++ / 8L-- + ++return % return-- * --return || 3____0l++ * --return <= 26_9_96L
+
+external operator fun _L____(noinline o__7 : Boolean, vararg vararg crossinline noinline Od5_n : Short) : Long {
+  
+}

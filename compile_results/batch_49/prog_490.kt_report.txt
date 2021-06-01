@@ -1,0 +1,38 @@
+prog_490.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 7
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":110}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":197},"end":{"line":0,"ch":198}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":199},"end":{"line":0,"ch":207}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":17}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":76},"end":{"line":1,"ch":291}}
+    Property getter or setter expected
+    ERROR

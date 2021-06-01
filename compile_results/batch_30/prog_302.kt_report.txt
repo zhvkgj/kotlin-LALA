@@ -1,0 +1,106 @@
+prog_302.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":68},"end":{"line":0,"ch":69}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":170}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":19}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":23}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":38}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":64}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":68}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":238}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":7},"end":{"line":2,"ch":12}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":18}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":19},"end":{"line":2,"ch":26}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":52}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":426}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

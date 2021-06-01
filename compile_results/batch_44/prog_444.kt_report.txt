@@ -1,0 +1,336 @@
+prog_444.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 101
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 13
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":12}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":29}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":29}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":41}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":30},"end":{"line":0,"ch":41}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":62}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":115},"end":{"line":0,"ch":126}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":172},"end":{"line":0,"ch":180}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":192},"end":{"line":0,"ch":203}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":204},"end":{"line":0,"ch":210}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":3},"end":{"line":1,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":45}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":10},"end":{"line":5,"ch":13}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":0},"end":{"line":11,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":16,"ch":11},"end":{"line":16,"ch":16}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":16,"ch":17},"end":{"line":16,"ch":25}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":16,"ch":34},"end":{"line":16,"ch":42}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":16,"ch":43},"end":{"line":16,"ch":48}}
+    Repeated 'infix'
+    ERROR
+
+    {"start":{"line":16,"ch":57},"end":{"line":16,"ch":65}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":57},"end":{"line":16,"ch":65}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":16,"ch":66},"end":{"line":16,"ch":77}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":16,"ch":66},"end":{"line":16,"ch":77}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":20,"ch":0},"end":{"line":20,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":22,"ch":7},"end":{"line":22,"ch":13}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":22,"ch":22},"end":{"line":22,"ch":27}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":22,"ch":54},"end":{"line":22,"ch":65}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":22,"ch":98},"end":{"line":22,"ch":109}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":26,"ch":21},"end":{"line":26,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":30},"end":{"line":26,"ch":35}}
+    No value passed for parameter 'f1G2r_'
+    ERROR
+
+    {"start":{"line":26,"ch":30},"end":{"line":26,"ch":35}}
+    No value passed for parameter '_60'
+    ERROR
+
+    {"start":{"line":26,"ch":30},"end":{"line":26,"ch":35}}
+    No value passed for parameter 'F93__A'
+    ERROR
+
+    {"start":{"line":26,"ch":30},"end":{"line":26,"ch":35}}
+    Function invocation 'q_nR6(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":38},"end":{"line":26,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":47},"end":{"line":26,"ch":52}}
+    Function invocation 'fj_0_()' expected
+    ERROR
+
+    {"start":{"line":26,"ch":47},"end":{"line":26,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":59},"end":{"line":26,"ch":65}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":59},"end":{"line":26,"ch":168}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":68},"end":{"line":26,"ch":73}}
+    No value passed for parameter 'f1G2r_'
+    ERROR
+
+    {"start":{"line":26,"ch":68},"end":{"line":26,"ch":73}}
+    No value passed for parameter '_60'
+    ERROR
+
+    {"start":{"line":26,"ch":68},"end":{"line":26,"ch":73}}
+    No value passed for parameter 'F93__A'
+    ERROR
+
+    {"start":{"line":26,"ch":68},"end":{"line":26,"ch":73}}
+    Function invocation 'q_nR6(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":73},"end":{"line":26,"ch":75}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":26,"ch":80},"end":{"line":26,"ch":85}}
+    No value passed for parameter 'f1G2r_'
+    ERROR
+
+    {"start":{"line":26,"ch":80},"end":{"line":26,"ch":85}}
+    No value passed for parameter '_60'
+    ERROR
+
+    {"start":{"line":26,"ch":80},"end":{"line":26,"ch":85}}
+    No value passed for parameter 'F93__A'
+    ERROR
+
+    {"start":{"line":26,"ch":80},"end":{"line":26,"ch":85}}
+    Function invocation 'q_nR6(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":80},"end":{"line":26,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":85},"end":{"line":26,"ch":87}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":26,"ch":92},"end":{"line":26,"ch":98}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":92},"end":{"line":26,"ch":168}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":101},"end":{"line":26,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":26,"ch":101},"end":{"line":26,"ch":105}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":115},"end":{"line":26,"ch":120}}
+    Function invocation 'fj_0_()' expected
+    ERROR
+
+    {"start":{"line":26,"ch":115},"end":{"line":26,"ch":120}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":115},"end":{"line":26,"ch":122}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":123},"end":{"line":26,"ch":124}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun times(other: Byte): Int defined in kotlin.Int
+public final operator fun times(other: Double): Double defined in kotlin.Int
+public final operator fun times(other: Float): Float defined in kotlin.Int
+public final operator fun times(other: Int): Int defined in kotlin.Int
+public final operator fun times(other: Long): Long defined in kotlin.Int
+public final operator fun times(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":26,"ch":125},"end":{"line":26,"ch":130}}
+    No value passed for parameter 'f1G2r_'
+    ERROR
+
+    {"start":{"line":26,"ch":125},"end":{"line":26,"ch":130}}
+    No value passed for parameter '_60'
+    ERROR
+
+    {"start":{"line":26,"ch":125},"end":{"line":26,"ch":130}}
+    No value passed for parameter 'F93__A'
+    ERROR
+
+    {"start":{"line":26,"ch":125},"end":{"line":26,"ch":130}}
+    Function invocation 'q_nR6(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter 'O__13'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter 'KJ_WC_'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter '_5G__9'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter '__015_'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter 've4__7'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter '_ns__'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    No value passed for parameter '__F'
+    ERROR
+
+    {"start":{"line":26,"ch":133},"end":{"line":26,"ch":136}}
+    Function invocation 'XYy(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":141},"end":{"line":26,"ch":146}}
+    Function invocation 'fj_0_()' expected
+    ERROR
+
+    {"start":{"line":26,"ch":141},"end":{"line":26,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":151},"end":{"line":26,"ch":152}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":155},"end":{"line":26,"ch":161}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":164},"end":{"line":26,"ch":165}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":26,"ch":164},"end":{"line":26,"ch":168}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":168},"end":{"line":26,"ch":553}}
+    Property getter or setter expected
+    ERROR

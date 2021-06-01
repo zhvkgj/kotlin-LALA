@@ -4,10 +4,8 @@
 !build/libs
 /build/
 
-/examples
 /out/classes
 /out/kotlin.java
-/compile_results
 
 # Ignore Gradle GUI config
 gradle-app.setting

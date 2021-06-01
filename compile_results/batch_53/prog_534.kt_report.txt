@@ -1,0 +1,100 @@
+prog_534.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 25
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":48}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":55}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":64}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":79},"end":{"line":0,"ch":87}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":104},"end":{"line":0,"ch":112}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":138},"end":{"line":0,"ch":139}}
+    Overload resolution ambiguity: 
+public final operator fun times(other: Byte): Int defined in kotlin.Int
+public final operator fun times(other: Double): Double defined in kotlin.Int
+public final operator fun times(other: Float): Float defined in kotlin.Int
+public final operator fun times(other: Int): Int defined in kotlin.Int
+public final operator fun times(other: Long): Long defined in kotlin.Int
+public final operator fun times(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":0,"ch":140},"end":{"line":0,"ch":146}}
+    This function must return a value of type Int
+    ERROR
+
+    {"start":{"line":0,"ch":140},"end":{"line":0,"ch":146}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":149},"end":{"line":0,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":154},"end":{"line":0,"ch":155}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":169},"end":{"line":0,"ch":178}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":171},"end":{"line":0,"ch":173}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":184},"end":{"line":0,"ch":185}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":191},"end":{"line":0,"ch":197}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":191},"end":{"line":0,"ch":199}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":196},"end":{"line":0,"ch":197}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":204},"end":{"line":0,"ch":210}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":208},"end":{"line":0,"ch":210}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":11},"end":{"line":2,"ch":86}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

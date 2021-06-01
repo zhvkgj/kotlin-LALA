@@ -1,0 +1,11 @@
+Count of successfully compiled files: 0
+Count of fail compiled files: 10
+Count of files produced server error: 0
+Count of mismatch type errors: 23
+Percentage: 2.293120638085743 percents
+Count of unresolved reference errors: 21
+Percentage: 2.093718843469591 percents
+Count of modifier usage errors: 103
+Percentage: 10.269192422731805 percents
+Count of other errors: 856
+Percentage: 85.34396809571287 percents

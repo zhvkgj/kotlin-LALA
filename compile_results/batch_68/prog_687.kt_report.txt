@@ -1,0 +1,82 @@
+prog_687.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":68},"end":{"line":0,"ch":74}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":77},"end":{"line":0,"ch":83}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":86},"end":{"line":0,"ch":87}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":86},"end":{"line":0,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":97}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":33}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":14},"end":{"line":2,"ch":20}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":24}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":672}}
+    Property getter or setter expected
+    ERROR

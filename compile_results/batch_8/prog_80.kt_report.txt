@@ -1,0 +1,90 @@
+prog_80.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":81}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":51}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":98},"end":{"line":1,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":102}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":107},"end":{"line":1,"ch":109}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":118},"end":{"line":1,"ch":120}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":129},"end":{"line":1,"ch":137}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":131},"end":{"line":1,"ch":135}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":140},"end":{"line":1,"ch":142}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":151},"end":{"line":1,"ch":161}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":153},"end":{"line":1,"ch":155}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":155},"end":{"line":1,"ch":161}}
+    This function must return a value of type Boolean
+    ERROR
+
+    {"start":{"line":1,"ch":155},"end":{"line":1,"ch":161}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":3,"ch":5},"end":{"line":3,"ch":63}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":88},"end":{"line":3,"ch":89}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":316}}
+    Property getter or setter expected
+    ERROR

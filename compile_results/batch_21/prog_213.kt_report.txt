@@ -1,0 +1,240 @@
+prog_213.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 52
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":83},"end":{"line":0,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":85},"end":{"line":0,"ch":121}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":36}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":971}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":32}}
+    Unresolved reference: z6__Z
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":45}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":39},"end":{"line":2,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":50},"end":{"line":2,"ch":55}}
+    Unresolved reference: _D1Z_
+    ERROR
+
+    {"start":{"line":2,"ch":50},"end":{"line":2,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":60},"end":{"line":2,"ch":66}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":60},"end":{"line":2,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":70}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":71},"end":{"line":2,"ch":475}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":13},"end":{"line":3,"ch":20}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":34},"end":{"line":3,"ch":35}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":38},"end":{"line":3,"ch":400}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":23},"end":{"line":4,"ch":24}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":25},"end":{"line":4,"ch":31}}
+    Unresolved reference: _u5_4_
+    ERROR
+
+    {"start":{"line":4,"ch":36},"end":{"line":4,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":36},"end":{"line":4,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":45},"end":{"line":4,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":49},"end":{"line":4,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":54},"end":{"line":4,"ch":56}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":59},"end":{"line":4,"ch":64}}
+    Unresolved reference: _D1Z_
+    ERROR
+
+    {"start":{"line":4,"ch":59},"end":{"line":4,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":69},"end":{"line":4,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":86}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":80},"end":{"line":4,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":89},"end":{"line":4,"ch":90}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":89},"end":{"line":4,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":93},"end":{"line":4,"ch":378}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":13},"end":{"line":5,"ch":20}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":21},"end":{"line":5,"ch":29}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":5,"ch":50},"end":{"line":5,"ch":94}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":5,"ch":55},"end":{"line":5,"ch":56}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.minus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.minus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Iterable<TypeVariable(T)>.minus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(key: TypeVariable(K)): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Array<out TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Iterable<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.minus(keys: Sequence<TypeVariable(K)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.minus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.minus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":5,"ch":59},"end":{"line":5,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":59},"end":{"line":5,"ch":63}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":5,"ch":68},"end":{"line":5,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":69},"end":{"line":5,"ch":70}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":5,"ch":75},"end":{"line":5,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":84},"end":{"line":5,"ch":85}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":84},"end":{"line":5,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":93},"end":{"line":5,"ch":94}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":95},"end":{"line":5,"ch":451}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":20},"end":{"line":6,"ch":70}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":6,"ch":102},"end":{"line":6,"ch":103}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":104},"end":{"line":6,"ch":851}}
+    Property getter or setter expected
+    ERROR

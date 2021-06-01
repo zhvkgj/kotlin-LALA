@@ -1,0 +1,160 @@
+prog_949.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 37
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":49}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":15}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":23},"end":{"line":0,"ch":34}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":72}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":74}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.unaryMinus(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.unaryMinus(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":88}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":91},"end":{"line":0,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":94},"end":{"line":0,"ch":123}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":16}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":79}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":99}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":93},"end":{"line":1,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":103},"end":{"line":1,"ch":104}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":127},"end":{"line":1,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":127},"end":{"line":1,"ch":131}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":136},"end":{"line":1,"ch":142}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":146},"end":{"line":1,"ch":152}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":155},"end":{"line":1,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":165}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":174}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":177},"end":{"line":1,"ch":178}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":177},"end":{"line":1,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":181},"end":{"line":1,"ch":458}}
+    Property getter or setter expected
+    ERROR

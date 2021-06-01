@@ -1,0 +1,100 @@
+prog_931.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":24}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":30}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":35}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":46}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":52}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Unresolved reference: crossinline
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    Function invocation 'Ts_9__()' expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":34},"end":{"line":2,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":43},"end":{"line":2,"ch":44}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":43},"end":{"line":2,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":47},"end":{"line":2,"ch":434}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":10},"end":{"line":3,"ch":16}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":30},"end":{"line":3,"ch":31}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":32},"end":{"line":3,"ch":551}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":5},"end":{"line":4,"ch":20}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":59},"end":{"line":4,"ch":60}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":61},"end":{"line":4,"ch":385}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,46 @@
+prog_133.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 9
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":19}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":23}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":165}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":16}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":17},"end":{"line":1,"ch":22}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":47}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":51}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":301}}
+    Property getter or setter expected
+    ERROR

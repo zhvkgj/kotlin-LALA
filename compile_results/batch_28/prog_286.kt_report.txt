@@ -1,0 +1,64 @@
+prog_286.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":21}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":28}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":42}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":51},"end":{"line":0,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":107}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":48}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":74}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":164}}
+    Property getter or setter expected
+    ERROR

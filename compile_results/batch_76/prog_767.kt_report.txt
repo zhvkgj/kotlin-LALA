@@ -1,0 +1,86 @@
+prog_767.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":17}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":38}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":69}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Unresolved reference: __5
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":97}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":43}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":70}}
+    Unresolved reference: __5
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":82}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":93}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":87},"end":{"line":1,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":96},"end":{"line":1,"ch":97}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":98},"end":{"line":1,"ch":192}}
+    Property getter or setter expected
+    ERROR

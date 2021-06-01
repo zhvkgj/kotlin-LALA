@@ -1,0 +1,2 @@
+operator vararg var (Kd_x : Short, DBBg_6) = return * return++ + --return % ++false-- && return-- % --return * ++return++ % ++return-- + return++ != true++ / --false++ % return++ * return-- || ++true % ++true && ++return
+const val _69_ = ++return-- % --8 * 3_1L-- * Kd_x++ / --return - return++ / 8 - DBBg_6-- * --6l / --DBBg_6 * 300 / return-- / ++return++ - ++return + false * --return--

@@ -1,0 +1,602 @@
+prog_932.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 150
+Count of type mismatch errors: 7
+Count of unresolved reference errors: 12
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":30}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":8,"ch":90},"end":{"line":8,"ch":96}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":8,"ch":90},"end":{"line":8,"ch":96}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    No value passed for parameter '_X4___'
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    No value passed for parameter 'ff_f_5'
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    No value passed for parameter '_5A62'
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    No value passed for parameter 'Eb7_1p'
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    Function invocation 'ZE2__(...)' expected
+    ERROR
+
+    {"start":{"line":10,"ch":13},"end":{"line":10,"ch":18}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":23},"end":{"line":10,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":31},"end":{"line":10,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":10,"ch":31},"end":{"line":10,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":40},"end":{"line":10,"ch":42}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":40},"end":{"line":10,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":10,"ch":51},"end":{"line":10,"ch":52}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":10,"ch":53},"end":{"line":10,"ch":80}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":11,"ch":6},"end":{"line":11,"ch":12}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":11,"ch":29},"end":{"line":11,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":29},"end":{"line":11,"ch":111}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":11,"ch":40},"end":{"line":11,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":40},"end":{"line":11,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":51},"end":{"line":11,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":51},"end":{"line":11,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":64},"end":{"line":11,"ch":70}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":64},"end":{"line":11,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":73},"end":{"line":11,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":75},"end":{"line":11,"ch":80}}
+    Unresolved reference: v8SV_
+    ERROR
+
+    {"start":{"line":11,"ch":75},"end":{"line":11,"ch":80}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":85},"end":{"line":11,"ch":88}}
+    Unresolved reference: L_9
+    ERROR
+
+    {"start":{"line":11,"ch":91},"end":{"line":11,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":11,"ch":100},"end":{"line":11,"ch":101}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":100},"end":{"line":11,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":11,"ch":110},"end":{"line":11,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":112},"end":{"line":11,"ch":397}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":12,"ch":5},"end":{"line":12,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":12,"ch":76},"end":{"line":12,"ch":77}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":12,"ch":78},"end":{"line":12,"ch":572}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":151}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":13,"ch":31},"end":{"line":13,"ch":151}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":13,"ch":33},"end":{"line":13,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":13,"ch":33},"end":{"line":13,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":43},"end":{"line":13,"ch":45}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":13,"ch":52},"end":{"line":13,"ch":57}}
+    Unresolved reference: v8SV_
+    ERROR
+
+    {"start":{"line":13,"ch":52},"end":{"line":13,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":62},"end":{"line":13,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":13,"ch":73},"end":{"line":13,"ch":80}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":78},"end":{"line":13,"ch":80}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":13,"ch":85},"end":{"line":13,"ch":91}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":89},"end":{"line":13,"ch":91}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":13,"ch":96},"end":{"line":13,"ch":102}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":13,"ch":96},"end":{"line":13,"ch":102}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":112},"end":{"line":13,"ch":113}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":13,"ch":118},"end":{"line":13,"ch":121}}
+    Unresolved reference: L_9
+    ERROR
+
+    {"start":{"line":13,"ch":118},"end":{"line":13,"ch":121}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":124},"end":{"line":13,"ch":130}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":13,"ch":136},"end":{"line":13,"ch":142}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":13,"ch":136},"end":{"line":13,"ch":142}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":13,"ch":145},"end":{"line":13,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":0},"end":{"line":14,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":14,"ch":29},"end":{"line":14,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":29},"end":{"line":14,"ch":310}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":14,"ch":43},"end":{"line":14,"ch":45}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":14,"ch":50},"end":{"line":14,"ch":56}}
+    Unresolved reference: _u5_4_
+    ERROR
+
+    {"start":{"line":14,"ch":50},"end":{"line":14,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":61},"end":{"line":14,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":61},"end":{"line":14,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":73},"end":{"line":14,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":80},"end":{"line":14,"ch":85}}
+    Unresolved reference: v8SV_
+    ERROR
+
+    {"start":{"line":14,"ch":80},"end":{"line":14,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":88},"end":{"line":14,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":103},"end":{"line":14,"ch":109}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":103},"end":{"line":14,"ch":310}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":112},"end":{"line":14,"ch":121}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":126},"end":{"line":14,"ch":131}}
+    Unresolved reference: v8SV_
+    ERROR
+
+    {"start":{"line":14,"ch":126},"end":{"line":14,"ch":131}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":126},"end":{"line":14,"ch":133}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":138},"end":{"line":14,"ch":143}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":138},"end":{"line":14,"ch":141}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":14,"ch":146},"end":{"line":14,"ch":152}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":157},"end":{"line":14,"ch":163}}
+    Unresolved reference: _u5_4_
+    ERROR
+
+    {"start":{"line":14,"ch":157},"end":{"line":14,"ch":163}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":157},"end":{"line":14,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":170},"end":{"line":14,"ch":175}}
+    Unresolved reference: v8SV_
+    ERROR
+
+    {"start":{"line":14,"ch":170},"end":{"line":14,"ch":175}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    No value passed for parameter '_X4___'
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    No value passed for parameter 'ff_f_5'
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    No value passed for parameter '_5A62'
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    No value passed for parameter 'Eb7_1p'
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    Function invocation 'ZE2__(...)' expected
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":185}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":180},"end":{"line":14,"ch":187}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":200},"end":{"line":14,"ch":206}}
+    Unresolved reference: _u5_4_
+    ERROR
+
+    {"start":{"line":14,"ch":200},"end":{"line":14,"ch":206}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":211},"end":{"line":14,"ch":213}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":211},"end":{"line":14,"ch":215}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":212},"end":{"line":14,"ch":213}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    No value passed for parameter '_X4___'
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    No value passed for parameter 'ff_f_5'
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    No value passed for parameter '_5A62'
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    No value passed for parameter 'Eb7_1p'
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    Function invocation 'ZE2__(...)' expected
+    ERROR
+
+    {"start":{"line":14,"ch":220},"end":{"line":14,"ch":225}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":230},"end":{"line":14,"ch":234}}
+    Unresolved reference: ___b
+    ERROR
+
+    {"start":{"line":14,"ch":230},"end":{"line":14,"ch":234}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":239},"end":{"line":14,"ch":241}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":246},"end":{"line":14,"ch":247}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":250},"end":{"line":14,"ch":256}}
+    Unresolved reference: _u5_4_
+    ERROR
+
+    {"start":{"line":14,"ch":250},"end":{"line":14,"ch":256}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":261},"end":{"line":14,"ch":263}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":14,"ch":272},"end":{"line":14,"ch":274}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":278},"end":{"line":14,"ch":280}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":287},"end":{"line":14,"ch":290}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":295},"end":{"line":14,"ch":301}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":299},"end":{"line":14,"ch":301}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":14,"ch":304},"end":{"line":14,"ch":308}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":14,"ch":307},"end":{"line":14,"ch":308}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":611}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":40}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":15,"ch":43},"end":{"line":15,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":15,"ch":43},"end":{"line":15,"ch":68}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":15,"ch":52},"end":{"line":15,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":52},"end":{"line":15,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":15,"ch":64},"end":{"line":15,"ch":65}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":64},"end":{"line":15,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":15,"ch":68},"end":{"line":15,"ch":611}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":16,"ch":0},"end":{"line":16,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":16,"ch":31},"end":{"line":16,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":16,"ch":31},"end":{"line":16,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    No value passed for parameter '_X4___'
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    No value passed for parameter 'ff_f_5'
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    No value passed for parameter '_5A62'
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    No value passed for parameter 'Eb7_1p'
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    Function invocation 'ZE2__(...)' expected
+    ERROR
+
+    {"start":{"line":16,"ch":42},"end":{"line":16,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":16,"ch":62},"end":{"line":16,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":16,"ch":62},"end":{"line":16,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":17,"ch":11},"end":{"line":17,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":18,"ch":13},"end":{"line":18,"ch":28}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":18,"ch":99},"end":{"line":18,"ch":100}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":18,"ch":101},"end":{"line":18,"ch":589}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":19,"ch":21},"end":{"line":19,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":19,"ch":146},"end":{"line":19,"ch":147}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":19,"ch":148},"end":{"line":19,"ch":713}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":20,"ch":0},"end":{"line":20,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR

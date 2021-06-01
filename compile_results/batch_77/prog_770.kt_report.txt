@@ -1,0 +1,94 @@
+prog_770.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":33}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":50}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":92}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":118}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":157},"end":{"line":1,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":169}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":172},"end":{"line":1,"ch":295}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":19}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":67}}
+    Unresolved reference: w9Czj
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR

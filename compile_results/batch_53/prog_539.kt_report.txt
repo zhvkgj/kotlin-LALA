@@ -1,0 +1,210 @@
+prog_539.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 78
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 28
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":23}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":39},"end":{"line":0,"ch":50}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":64},"end":{"line":0,"ch":72}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":81}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":88}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":232}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":32}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":32}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":41}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":41}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":50}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":62}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":107}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":99},"end":{"line":1,"ch":107}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":119}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":119}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":132},"end":{"line":1,"ch":140}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":179}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":179}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":188}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":180},"end":{"line":1,"ch":188}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":189},"end":{"line":1,"ch":200}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":201},"end":{"line":1,"ch":212}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":9},"end":{"line":5,"ch":14}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":32}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":32}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":33},"end":{"line":5,"ch":44}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":33},"end":{"line":5,"ch":44}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":57},"end":{"line":5,"ch":63}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":127},"end":{"line":5,"ch":133}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":134},"end":{"line":5,"ch":142}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":134},"end":{"line":5,"ch":142}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":143},"end":{"line":5,"ch":151}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":152},"end":{"line":5,"ch":163}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":152},"end":{"line":5,"ch":163}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":191},"end":{"line":5,"ch":199}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":200},"end":{"line":5,"ch":208}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":222},"end":{"line":5,"ch":233}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":7},"end":{"line":9,"ch":10}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":28},"end":{"line":13,"ch":36}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":13,"ch":111},"end":{"line":13,"ch":122}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":13,"ch":130},"end":{"line":13,"ch":136}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":19,"ch":26},"end":{"line":19,"ch":94}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":19,"ch":114},"end":{"line":19,"ch":115}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":19,"ch":297},"end":{"line":19,"ch":298}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":19,"ch":301},"end":{"line":19,"ch":538}}
+    Property getter or setter expected
+    ERROR

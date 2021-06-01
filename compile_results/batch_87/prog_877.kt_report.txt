@@ -1,0 +1,224 @@
+prog_877.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 53
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 6
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":34}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":34}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":55}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":260}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":209},"end":{"line":2,"ch":210}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":220},"end":{"line":2,"ch":221}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":222},"end":{"line":2,"ch":320}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":36}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":3,"ch":39},"end":{"line":3,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":48},"end":{"line":3,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":57},"end":{"line":3,"ch":63}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":66},"end":{"line":3,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":68},"end":{"line":3,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":76}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":85}}
+    Unresolved reference: s__2
+    ERROR
+
+    {"start":{"line":3,"ch":81},"end":{"line":3,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":90},"end":{"line":3,"ch":95}}
+    Unresolved reference: ____o
+    ERROR
+
+    {"start":{"line":3,"ch":102},"end":{"line":3,"ch":108}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":121},"end":{"line":3,"ch":127}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":121},"end":{"line":3,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":140},"end":{"line":3,"ch":146}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":149},"end":{"line":3,"ch":155}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":158},"end":{"line":3,"ch":162}}
+    Unresolved reference: O39P
+    ERROR
+
+    {"start":{"line":3,"ch":158},"end":{"line":3,"ch":162}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":167},"end":{"line":3,"ch":173}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":178},"end":{"line":3,"ch":182}}
+    Unresolved reference: O39P
+    ERROR
+
+    {"start":{"line":3,"ch":185},"end":{"line":3,"ch":191}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":194},"end":{"line":3,"ch":195}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":194},"end":{"line":3,"ch":198}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":215},"end":{"line":3,"ch":218}}
+    Unresolved reference: W6o
+    ERROR
+
+    {"start":{"line":3,"ch":221},"end":{"line":3,"ch":227}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":232},"end":{"line":3,"ch":238}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":232},"end":{"line":3,"ch":270}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":241},"end":{"line":3,"ch":242}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":248},"end":{"line":3,"ch":249}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":258},"end":{"line":3,"ch":259}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":266},"end":{"line":3,"ch":267}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":270},"end":{"line":3,"ch":359}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":21},"end":{"line":4,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":25},"end":{"line":4,"ch":27}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":36}}
+    Unresolved reference: s__2
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":43},"end":{"line":4,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":43},"end":{"line":4,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":56},"end":{"line":4,"ch":133}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":12},"end":{"line":5,"ch":49}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":121},"end":{"line":5,"ch":122}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":123},"end":{"line":5,"ch":883}}
+    Property getter or setter expected
+    ERROR

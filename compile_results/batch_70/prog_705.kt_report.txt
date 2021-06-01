@@ -1,0 +1,46 @@
+prog_705.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":30}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":94},"end":{"line":0,"ch":130}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":2},"end":{"line":2,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":28},"end":{"line":2,"ch":39}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":8,"ch":13},"end":{"line":8,"ch":66}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":8,"ch":108},"end":{"line":8,"ch":109}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":110},"end":{"line":8,"ch":380}}
+    Property getter or setter expected
+    ERROR

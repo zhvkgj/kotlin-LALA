@@ -1,0 +1,204 @@
+prog_986.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 55
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 8
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":26}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":38}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":60}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":87}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":87}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":96}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":96}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":125},"end":{"line":0,"ch":133}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter '_5_'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter 'D_0__'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter 'c_RSi'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter '_0k'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter '_1_'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    No value passed for parameter '_DS_4_'
+    ERROR
+
+    {"start":{"line":7,"ch":29},"end":{"line":7,"ch":33}}
+    Function invocation '_5_9(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":34},"end":{"line":7,"ch":35}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.times(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.times(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":36},"end":{"line":7,"ch":38}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter '_5_'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter 'D_0__'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter 'c_RSi'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter '_0k'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter '_1_'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    No value passed for parameter '_DS_4_'
+    ERROR
+
+    {"start":{"line":7,"ch":38},"end":{"line":7,"ch":42}}
+    Function invocation '_5_9(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":45},"end":{"line":7,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter '_5_'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter 'D_0__'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter 'c_RSi'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter '_0k'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter '_1_'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    No value passed for parameter '_DS_4_'
+    ERROR
+
+    {"start":{"line":7,"ch":47},"end":{"line":7,"ch":51}}
+    Function invocation '_5_9(...)' expected
+    ERROR
+
+    {"start":{"line":7,"ch":54},"end":{"line":7,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":71},"end":{"line":7,"ch":77}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":71},"end":{"line":7,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":80},"end":{"line":7,"ch":81}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":80},"end":{"line":7,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":84},"end":{"line":7,"ch":624}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":8,"ch":42},"end":{"line":8,"ch":65}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":8,"ch":104},"end":{"line":8,"ch":105}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":113},"end":{"line":8,"ch":114}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":115},"end":{"line":8,"ch":178}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":9,"ch":5},"end":{"line":9,"ch":28}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

@@ -1,0 +1,108 @@
+prog_200.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 24
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 8
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":8},"end":{"line":0,"ch":13}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":25}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":33}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":39}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":105}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":66}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":71}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":79},"end":{"line":0,"ch":85}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":91}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":95},"end":{"line":0,"ch":101}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":104},"end":{"line":0,"ch":105}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":106},"end":{"line":0,"ch":223}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":12}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":24}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":31}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":37}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":86}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":89},"end":{"line":1,"ch":90}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":510}}
+    Property getter or setter expected
+    ERROR

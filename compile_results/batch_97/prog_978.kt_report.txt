@@ -1,0 +1,166 @@
+prog_978.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 38
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":72}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":24}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":0,"ch":75},"end":{"line":0,"ch":149}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":81},"end":{"line":0,"ch":86}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":0,"ch":92},"end":{"line":0,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":103},"end":{"line":0,"ch":109}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":0,"ch":112},"end":{"line":0,"ch":113}}
+    Overload resolution ambiguity: 
+public final operator fun times(other: Byte): Long defined in kotlin.Long
+public final operator fun times(other: Double): Double defined in kotlin.Long
+public final operator fun times(other: Float): Float defined in kotlin.Long
+public final operator fun times(other: Int): Long defined in kotlin.Long
+public final operator fun times(other: Long): Long defined in kotlin.Long
+public final operator fun times(other: Short): Long defined in kotlin.Long
+    ERROR
+
+    {"start":{"line":0,"ch":114},"end":{"line":0,"ch":120}}
+    This function must return a value of type Long
+    ERROR
+
+    {"start":{"line":0,"ch":114},"end":{"line":0,"ch":120}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":125},"end":{"line":0,"ch":127}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":125},"end":{"line":0,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":126},"end":{"line":0,"ch":127}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":139},"end":{"line":0,"ch":140}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":2,"ch":6},"end":{"line":2,"ch":14}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":15},"end":{"line":2,"ch":23}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":43}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":64}}
+    Suspend function '_22f3' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":64}}
+    No value passed for parameter '_5c__'
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":64}}
+    No value passed for parameter '_n4437'
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":64}}
+    Function invocation '_22f3(...)' expected
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":59},"end":{"line":2,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":71},"end":{"line":2,"ch":72}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":82},"end":{"line":2,"ch":84}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":95}}
+    Suspend function '_22f3' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":95}}
+    No value passed for parameter '_5c__'
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":95}}
+    No value passed for parameter '_n4437'
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":95}}
+    Function invocation '_22f3(...)' expected
+    ERROR
+
+    {"start":{"line":2,"ch":90},"end":{"line":2,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":98},"end":{"line":2,"ch":104}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":107},"end":{"line":2,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":246}}
+    Property getter or setter expected
+    ERROR

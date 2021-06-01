@@ -1,0 +1,3 @@
+infix infix inline fun _6Q_D() : Short = --return++ / --return * 544_11l || 7 >= --return
+
+infix inline vararg val _sx_ : Short = _6Q_D++ % --return - --true++ % ++return * ++56_9++ - --true-- % ++923 == --_6Q_D++ >= --_6Q_D-- / _6Q_D++ * return++ / true++ * --return++ / false-- % _6Q_D * ++_6Q_D-- || --8__3_87 - ++_6Q_D++ + --_6Q_D % return++ % --true * return-- % ++300L-- / ++9_3_6l / return * --return % --false-- % 1--

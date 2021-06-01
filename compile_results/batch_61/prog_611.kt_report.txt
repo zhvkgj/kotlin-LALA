@@ -1,0 +1,58 @@
+prog_611.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":73}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":122},"end":{"line":0,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":124},"end":{"line":0,"ch":144}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":111},"end":{"line":1,"ch":366}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":54}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":81},"end":{"line":2,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":85},"end":{"line":2,"ch":422}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":10},"end":{"line":3,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":45},"end":{"line":3,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":47},"end":{"line":3,"ch":233}}
+    Property getter or setter expected
+    ERROR

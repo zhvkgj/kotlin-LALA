@@ -1,0 +1,5 @@
+inline var (_B_ : Long) = false * --false++ != return-- >= false-- % 8_5_37
+ val QjiQ : Long = ++return * true++ / _B_++ / ++return-- - _B_++ + --return-- % --true - --_B_-- / ++_B_ % _B_++ / ++true % 3_74-- % return * ++true + --return-- * return++ * 8 - return++ / return % ++_B_++ + _B_ - 26_9_96L + _B_-- / 7_____6 % --8_5_37-- - _B_++ / --_B_++ / ++_B_++ - 51 * ++_B_ / --0 % return * ++3l / --_B_ < return-- * ++_B_ + _B_++ * 7 % ++return++ % 2 + --return-- % return-- % _B_++ % --return % 4 % ++3____0 * --2959_4 / _B_ + ++_B_ % _B_ / --return / return-- * 8L-- / return - _B_-- % 6___4l++ / ++1L-- / --return++ * _B_++ / return / 85_9 / --return % --return / _B_ / --8 * ++_B_ / 7851 * --_B_ * ++2 * --_B_ == --true - --return++ / ++_B_++ / --1L-- * return * return++ * 1 + --false * return++ * --_B_ - return-- / ++return-- % ++return / return++ * return++ + ++false - ++return <= _B_++ % ++return++ / 9l * _B_ % return++ * --return-- / _B_++ % return++ / _B_ + --_B_++ % ++return
+operator fun tg_( _Jv_i : Long, noinline crossinline noinline vararg B_t_ : Long,  _R__ : Short,  __b3sV : Short) : Long {
+  
+}

@@ -1,0 +1,390 @@
+prog_258.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 115
+Count of type mismatch errors: 8
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 15
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":46}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":171}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":86}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":15}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":23}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":44}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":44}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":53}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":45},"end":{"line":2,"ch":53}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":110},"end":{"line":2,"ch":118}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":148},"end":{"line":2,"ch":159}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":175},"end":{"line":2,"ch":183}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":6,"ch":19},"end":{"line":6,"ch":27}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":83},"end":{"line":6,"ch":94}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":95},"end":{"line":6,"ch":106}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":20},"end":{"line":10,"ch":26}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":10,"ch":27},"end":{"line":10,"ch":33}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":12,"ch":2},"end":{"line":12,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":14,"ch":2},"end":{"line":14,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":20,"ch":37},"end":{"line":20,"ch":124}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":20,"ch":241},"end":{"line":20,"ch":242}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":20,"ch":243},"end":{"line":20,"ch":885}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":21,"ch":0},"end":{"line":21,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":21,"ch":22},"end":{"line":21,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":21,"ch":31},"end":{"line":21,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":21,"ch":48},"end":{"line":21,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":21,"ch":48},"end":{"line":21,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":21,"ch":57},"end":{"line":21,"ch":60}}
+    Unresolved reference: W_0
+    ERROR
+
+    {"start":{"line":21,"ch":65},"end":{"line":21,"ch":71}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":21,"ch":65},"end":{"line":21,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":21,"ch":74},"end":{"line":21,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":21,"ch":74},"end":{"line":21,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":21,"ch":78},"end":{"line":21,"ch":891}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":22,"ch":0},"end":{"line":22,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":22,"ch":6},"end":{"line":22,"ch":13}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":22,"ch":14},"end":{"line":22,"ch":22}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":22,"ch":43},"end":{"line":22,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":43},"end":{"line":22,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":50},"end":{"line":22,"ch":51}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":22,"ch":56},"end":{"line":22,"ch":58}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":22,"ch":65},"end":{"line":22,"ch":69}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":22,"ch":65},"end":{"line":22,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":74},"end":{"line":22,"ch":80}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":79},"end":{"line":22,"ch":80}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":22,"ch":92},"end":{"line":22,"ch":93}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":22,"ch":101},"end":{"line":22,"ch":103}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":22,"ch":108},"end":{"line":22,"ch":114}}
+    Unresolved reference: l23YkH
+    ERROR
+
+    {"start":{"line":22,"ch":108},"end":{"line":22,"ch":114}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":117},"end":{"line":22,"ch":119}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":22,"ch":127},"end":{"line":22,"ch":131}}
+    Unresolved reference: QjiQ
+    ERROR
+
+    {"start":{"line":22,"ch":141},"end":{"line":22,"ch":144}}
+    Unresolved reference: W_0
+    ERROR
+
+    {"start":{"line":22,"ch":141},"end":{"line":22,"ch":144}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":149},"end":{"line":22,"ch":156}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":154},"end":{"line":22,"ch":156}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":22,"ch":159},"end":{"line":22,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":170},"end":{"line":22,"ch":176}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":22,"ch":181},"end":{"line":22,"ch":187}}
+    Unresolved reference: tL8v_Z
+    ERROR
+
+    {"start":{"line":22,"ch":181},"end":{"line":22,"ch":187}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":181},"end":{"line":22,"ch":189}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":194},"end":{"line":22,"ch":200}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":22,"ch":194},"end":{"line":22,"ch":200}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":207},"end":{"line":22,"ch":209}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":22,"ch":214},"end":{"line":22,"ch":215}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":214},"end":{"line":22,"ch":217}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":22,"ch":221},"end":{"line":22,"ch":222}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":23,"ch":0},"end":{"line":23,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":23,"ch":29},"end":{"line":23,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":23,"ch":34},"end":{"line":23,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":23,"ch":52},"end":{"line":23,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":61},"end":{"line":23,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":23,"ch":72},"end":{"line":23,"ch":80}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":72},"end":{"line":23,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":79},"end":{"line":23,"ch":80}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":23,"ch":85},"end":{"line":23,"ch":88}}
+    Unresolved reference: h_P
+    ERROR
+
+    {"start":{"line":23,"ch":85},"end":{"line":23,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":95},"end":{"line":23,"ch":101}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":23,"ch":95},"end":{"line":23,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":106},"end":{"line":23,"ch":113}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":111},"end":{"line":23,"ch":113}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":23,"ch":118},"end":{"line":23,"ch":125}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":123},"end":{"line":23,"ch":125}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":23,"ch":138},"end":{"line":23,"ch":144}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":23,"ch":138},"end":{"line":23,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":147},"end":{"line":23,"ch":148}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":23,"ch":147},"end":{"line":23,"ch":151}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":23,"ch":151},"end":{"line":23,"ch":654}}
+    Property getter or setter expected
+    ERROR

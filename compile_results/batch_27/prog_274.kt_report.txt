@@ -1,0 +1,58 @@
+prog_274.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":27}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":38}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":49}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":108}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":48}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":72}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":805}}
+    Property getter or setter expected
+    ERROR

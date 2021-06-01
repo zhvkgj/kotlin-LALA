@@ -1,0 +1,70 @@
+prog_9.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 15
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":87}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":123},"end":{"line":0,"ch":125}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":128},"end":{"line":0,"ch":156}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":14}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Unresolved reference: _0k
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":37},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":60},"end":{"line":1,"ch":66}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":79}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":136}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,82 @@
+prog_704.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 18
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":24}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":28}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":82}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":125}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":144},"end":{"line":1,"ch":145}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":146},"end":{"line":1,"ch":324}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":49}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":124},"end":{"line":2,"ch":125}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":128},"end":{"line":2,"ch":250}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":10},"end":{"line":3,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":65},"end":{"line":3,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":92}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":13},"end":{"line":4,"ch":93}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":184},"end":{"line":4,"ch":185}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":250},"end":{"line":4,"ch":251}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":252},"end":{"line":4,"ch":389}}
+    Property getter or setter expected
+    ERROR

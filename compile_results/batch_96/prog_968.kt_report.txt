@@ -1,0 +1,42 @@
+prog_968.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 8
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":38}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":25}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":2,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Unresolved reference: crossinline
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":18},"end":{"line":2,"ch":23}}
+    Unresolved reference: const
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":138}}
+    Property getter or setter expected
+    ERROR

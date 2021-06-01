@@ -1,0 +1,74 @@
+prog_840.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 16
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":49}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":77}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":17}}
+    Unresolved reference: ____2b
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":23}}
+    Unresolved reference: SPC
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":92}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":92},"end":{"line":2,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":380}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":20},"end":{"line":3,"ch":26}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":30}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":31},"end":{"line":3,"ch":105}}
+    Property getter or setter expected
+    ERROR

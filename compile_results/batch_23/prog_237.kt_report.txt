@@ -1,0 +1,92 @@
+prog_237.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":6},"end":{"line":0,"ch":13}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":19}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":43}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":88}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":73}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":84}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":78},"end":{"line":0,"ch":88}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":88}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":89},"end":{"line":0,"ch":141}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":15}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":17}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":22},"end":{"line":2,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":22},"end":{"line":2,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":355}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":11},"end":{"line":3,"ch":31}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

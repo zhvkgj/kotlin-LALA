@@ -1,0 +1,2 @@
+ val (_w___4, _u4) = return - return * 85_9++ != ++return + return++ % 8++ / --true++ % --true-- / return++ - --return++ - --3
+infix fun M__m(noinline noinline noinline noinline noinline i6e_4_ : Short) : Short = --_w___4 * --_u4 / --_w___4 % --return % ++_u4-- * return++ * _w___4++ * _w___4 / _w___4-- - ++return - ++3-- % --26_9_96L / _u4++ / i6e_4_++ * _u4 / true + return / _w___4 * false * return++ * ++7851L++ / true % --false * 1l + ++return-- == 1l

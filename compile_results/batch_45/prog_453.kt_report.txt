@@ -1,0 +1,96 @@
+prog_453.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 21
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":45}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":57},"end":{"line":0,"ch":58}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":14},"end":{"line":1,"ch":20}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":14},"end":{"line":1,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Unresolved reference: Az_
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":52}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":65}}
+    Unresolved reference: Az_
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":65}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":74}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":91}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":174}}
+    Property getter or setter expected
+    ERROR

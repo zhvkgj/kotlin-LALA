@@ -1,0 +1,114 @@
+prog_355.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":51}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":39}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":423}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":15,"ch":0},"end":{"line":15,"ch":55}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":15,"ch":22},"end":{"line":15,"ch":29}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":15,"ch":30},"end":{"line":15,"ch":35}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":15,"ch":58},"end":{"line":15,"ch":63}}
+    Suspend function 'VD_04' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":15,"ch":58},"end":{"line":15,"ch":63}}
+    Function invocation 'VD_04()' expected
+    ERROR
+
+    {"start":{"line":15,"ch":64},"end":{"line":15,"ch":65}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":15,"ch":66},"end":{"line":15,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":15,"ch":76},"end":{"line":15,"ch":78}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":15,"ch":78},"end":{"line":15,"ch":83}}
+    Suspend function 'VD_04' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":15,"ch":78},"end":{"line":15,"ch":83}}
+    Function invocation 'VD_04()' expected
+    ERROR
+
+    {"start":{"line":15,"ch":88},"end":{"line":15,"ch":93}}
+    Suspend function 'VD_04' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":15,"ch":88},"end":{"line":15,"ch":93}}
+    Function invocation 'VD_04()' expected
+    ERROR
+
+    {"start":{"line":15,"ch":88},"end":{"line":15,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":15,"ch":93},"end":{"line":15,"ch":95}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":15,"ch":100},"end":{"line":15,"ch":106}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":15,"ch":100},"end":{"line":15,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":15,"ch":109},"end":{"line":15,"ch":110}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":15,"ch":111},"end":{"line":15,"ch":423}}
+    Property getter or setter expected
+    ERROR

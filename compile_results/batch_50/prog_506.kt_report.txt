@@ -1,0 +1,104 @@
+prog_506.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":135}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":15}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":21}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":22},"end":{"line":0,"ch":33}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":98}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":82}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":82}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":93}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":96},"end":{"line":0,"ch":98}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":99},"end":{"line":0,"ch":135}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":11},"end":{"line":1,"ch":39}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":105},"end":{"line":1,"ch":309}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":50},"end":{"line":2,"ch":51}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":52},"end":{"line":2,"ch":314}}
+    Property getter or setter expected
+    ERROR

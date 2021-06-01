@@ -1,0 +1,60 @@
+prog_599.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":14}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":33}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":41}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":144}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":159}}
+    Property getter or setter expected
+    ERROR

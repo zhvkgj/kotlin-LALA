@@ -1,0 +1,34 @@
+prog_455.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 7
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":16},"end":{"line":0,"ch":24}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":12},"end":{"line":4,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":58},"end":{"line":4,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":68},"end":{"line":4,"ch":69}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":193}}
+    Property getter or setter expected
+    ERROR

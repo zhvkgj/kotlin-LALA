@@ -1,0 +1,134 @@
+prog_113.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 30
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":8},"end":{"line":0,"ch":13}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":31},"end":{"line":0,"ch":33}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":47}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":100}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":21}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":25}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":33}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":38},"end":{"line":1,"ch":39}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":874}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":14},"end":{"line":2,"ch":21}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":29},"end":{"line":2,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":46},"end":{"line":2,"ch":624}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":36},"end":{"line":3,"ch":43}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":76}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":77},"end":{"line":3,"ch":674}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":6},"end":{"line":4,"ch":11}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":4,"ch":35},"end":{"line":4,"ch":51}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":4,"ch":37},"end":{"line":4,"ch":43}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":37},"end":{"line":4,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":51},"end":{"line":4,"ch":182}}
+    Property getter or setter expected
+    ERROR

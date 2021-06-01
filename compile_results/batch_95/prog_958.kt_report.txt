@@ -1,0 +1,66 @@
+prog_958.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":166}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":12}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    Unresolved reference: _a_ZY1
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":54}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":63}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":1074}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,102 @@
+prog_184.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":74}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":77},"end":{"line":0,"ch":82}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":66}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":107}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":110},"end":{"line":1,"ch":481}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":17}}
+    Unresolved reference: J_108
+    ERROR
+
+    {"start":{"line":2,"ch":20},"end":{"line":2,"ch":26}}
+    Unresolved reference: __l6__
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":47}}
+    Unresolved reference: bhY__
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":3,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":61},"end":{"line":2,"ch":69}}
+    Type mismatch: inferred type is Long but Boolean was expected
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":75},"end":{"line":2,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":75},"end":{"line":3,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Unresolved reference: vararg
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":7},"end":{"line":3,"ch":321}}
+    Property getter or setter expected
+    ERROR

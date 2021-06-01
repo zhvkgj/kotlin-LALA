@@ -1,0 +1,114 @@
+prog_527.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":20}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":26}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":50}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":153}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":24}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":20},"end":{"line":1,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":79}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":886}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":16}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":179},"end":{"line":2,"ch":180}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":189},"end":{"line":2,"ch":190}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":197},"end":{"line":2,"ch":198}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":205},"end":{"line":2,"ch":206}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":207},"end":{"line":2,"ch":698}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":16},"end":{"line":3,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":95},"end":{"line":3,"ch":96}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":97},"end":{"line":3,"ch":268}}
+    Property getter or setter expected
+    ERROR

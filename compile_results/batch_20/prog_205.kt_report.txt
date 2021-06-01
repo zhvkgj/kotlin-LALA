@@ -1,0 +1,100 @@
+prog_205.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 22
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":50}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":514}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":1,"ch":9},"end":{"line":1,"ch":17}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":1,"ch":18},"end":{"line":1,"ch":26}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":57}}
+    Unresolved reference: _4_5
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":119}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":69}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":80}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":119}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":94},"end":{"line":1,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":100},"end":{"line":1,"ch":106}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":109},"end":{"line":1,"ch":110}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":118},"end":{"line":1,"ch":119}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":120},"end":{"line":1,"ch":514}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":26}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":6,"ch":19},"end":{"line":6,"ch":25}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":30},"end":{"line":6,"ch":36}}
+    Unresolved reference: _TQ5M7
+    ERROR
+
+    {"start":{"line":6,"ch":30},"end":{"line":6,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":30},"end":{"line":6,"ch":38}}
+    Variable expected
+    ERROR

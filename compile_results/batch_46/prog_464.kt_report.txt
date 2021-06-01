@@ -1,0 +1,60 @@
+prog_464.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 13
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":54}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":43}}
+    This function must return a value of type Short
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":43}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":54}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":30}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":34}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":850}}
+    Property getter or setter expected
+    ERROR

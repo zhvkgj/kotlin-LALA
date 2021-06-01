@@ -1,0 +1,42 @@
+prog_748.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 8
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":43}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":135}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":29}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":12}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":38}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":46}}
+    Unresolved reference: um_W_
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR

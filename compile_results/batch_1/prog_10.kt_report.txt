@@ -1,0 +1,436 @@
+prog_10.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 85
+Count of type mismatch errors: 9
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":63}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":32},"end":{"line":0,"ch":38}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":47}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":56}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":60}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":121}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":29}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.plus(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.plus(other: BigInteger): BigInteger defined in kotlin
+public operator fun <T> Array<TypeVariable(T)>.plus(element: TypeVariable(T)): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Array<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Array<TypeVariable(T)>.plus(elements: Collection<TypeVariable(T)>): Array<TypeVariable(T)> defined in kotlin.collections
+public operator fun BooleanArray.plus(element: Boolean): BooleanArray defined in kotlin.collections
+public operator fun BooleanArray.plus(elements: BooleanArray): BooleanArray defined in kotlin.collections
+public operator fun BooleanArray.plus(elements: Collection<Boolean>): BooleanArray defined in kotlin.collections
+public operator fun ByteArray.plus(element: Byte): ByteArray defined in kotlin.collections
+public operator fun ByteArray.plus(elements: ByteArray): ByteArray defined in kotlin.collections
+public operator fun ByteArray.plus(elements: Collection<Byte>): ByteArray defined in kotlin.collections
+public inline operator fun Char.plus(other: String): String defined in kotlin.text
+public operator fun CharArray.plus(element: Char): CharArray defined in kotlin.collections
+public operator fun CharArray.plus(elements: CharArray): CharArray defined in kotlin.collections
+public operator fun CharArray.plus(elements: Collection<Char>): CharArray defined in kotlin.collections
+public operator fun DoubleArray.plus(element: Double): DoubleArray defined in kotlin.collections
+public operator fun DoubleArray.plus(elements: DoubleArray): DoubleArray defined in kotlin.collections
+public operator fun DoubleArray.plus(elements: Collection<Double>): DoubleArray defined in kotlin.collections
+public operator fun FloatArray.plus(element: Float): FloatArray defined in kotlin.collections
+public operator fun FloatArray.plus(elements: FloatArray): FloatArray defined in kotlin.collections
+public operator fun FloatArray.plus(elements: Collection<Float>): FloatArray defined in kotlin.collections
+public operator fun IntArray.plus(element: Int): IntArray defined in kotlin.collections
+public operator fun IntArray.plus(elements: IntArray): IntArray defined in kotlin.collections
+public operator fun IntArray.plus(elements: Collection<Int>): IntArray defined in kotlin.collections
+public operator fun LongArray.plus(element: Long): LongArray defined in kotlin.collections
+public operator fun LongArray.plus(elements: LongArray): LongArray defined in kotlin.collections
+public operator fun LongArray.plus(elements: Collection<Long>): LongArray defined in kotlin.collections
+public operator fun ShortArray.plus(element: Short): ShortArray defined in kotlin.collections
+public operator fun ShortArray.plus(elements: ShortArray): ShortArray defined in kotlin.collections
+public operator fun ShortArray.plus(elements: Collection<Short>): ShortArray defined in kotlin.collections
+public operator fun String?.plus(other: Any?): String defined in kotlin
+public inline operator fun UByteArray.plus(element: UByte): UByteArray defined in kotlin.collections
+public inline operator fun UByteArray.plus(elements: UByteArray): UByteArray defined in kotlin.collections
+public operator fun UByteArray.plus(elements: Collection<UByte>): UByteArray defined in kotlin.collections
+public inline operator fun UIntArray.plus(element: UInt): UIntArray defined in kotlin.collections
+public inline operator fun UIntArray.plus(elements: UIntArray): UIntArray defined in kotlin.collections
+public operator fun UIntArray.plus(elements: Collection<UInt>): UIntArray defined in kotlin.collections
+public inline operator fun ULongArray.plus(element: ULong): ULongArray defined in kotlin.collections
+public inline operator fun ULongArray.plus(elements: ULongArray): ULongArray defined in kotlin.collections
+public operator fun ULongArray.plus(elements: Collection<ULong>): ULongArray defined in kotlin.collections
+public inline operator fun UShortArray.plus(element: UShort): UShortArray defined in kotlin.collections
+public inline operator fun UShortArray.plus(elements: UShortArray): UShortArray defined in kotlin.collections
+public operator fun UShortArray.plus(elements: Collection<UShort>): UShortArray defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Collection<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(element: TypeVariable(T)): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Iterable<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): List<TypeVariable(T)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Array<out Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pair: Pair<TypeVariable(K), TypeVariable(V)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Iterable<Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(map: Map<out TypeVariable(K), TypeVariable(V)>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.plus(pairs: Sequence<Pair<TypeVariable(K), TypeVariable(V)>>): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(element: TypeVariable(T)): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Set<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): Set<TypeVariable(T)> defined in kotlin.collections
+public operator fun <T> Sequence<TypeVariable(T)>.plus(element: TypeVariable(T)): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Array<out TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Iterable<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+public operator fun <T> Sequence<TypeVariable(T)>.plus(elements: Sequence<TypeVariable(T)>): Sequence<TypeVariable(T)> defined in kotlin.sequences
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":40},"end":{"line":1,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":52}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":57},"end":{"line":1,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":68}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":70}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":73},"end":{"line":1,"ch":75}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":89}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":92},"end":{"line":1,"ch":93}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":92},"end":{"line":1,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":105}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":1604}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":27}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":26},"end":{"line":2,"ch":27}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":39}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":51}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":56},"end":{"line":2,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":61},"end":{"line":2,"ch":63}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":68},"end":{"line":2,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":74}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":88},"end":{"line":2,"ch":94}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":88},"end":{"line":2,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":97},"end":{"line":2,"ch":98}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":107},"end":{"line":2,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":2828}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":14},"end":{"line":3,"ch":20}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":25},"end":{"line":3,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":25},"end":{"line":3,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":34},"end":{"line":3,"ch":35}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":34},"end":{"line":3,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":46},"end":{"line":3,"ch":47}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":46},"end":{"line":3,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":58},"end":{"line":3,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":60},"end":{"line":3,"ch":632}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":31},"end":{"line":4,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":58},"end":{"line":4,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":64}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun times(other: Byte): Long defined in kotlin.Long
+public final operator fun times(other: Double): Double defined in kotlin.Long
+public final operator fun times(other: Float): Float defined in kotlin.Long
+public final operator fun times(other: Int): Long defined in kotlin.Long
+public final operator fun times(other: Long): Long defined in kotlin.Long
+public final operator fun times(other: Short): Long defined in kotlin.Long
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":81},"end":{"line":4,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":87},"end":{"line":4,"ch":88}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":91},"end":{"line":4,"ch":746}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":99}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":5,"ch":29},"end":{"line":5,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":5,"ch":36},"end":{"line":5,"ch":38}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":43},"end":{"line":5,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":49},"end":{"line":5,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":49},"end":{"line":5,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":58},"end":{"line":5,"ch":64}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":5,"ch":78},"end":{"line":5,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":86},"end":{"line":5,"ch":92}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":5,"ch":90},"end":{"line":5,"ch":92}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":6,"ch":25},"end":{"line":6,"ch":40}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":6,"ch":27},"end":{"line":6,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":6,"ch":27},"end":{"line":6,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":36},"end":{"line":6,"ch":37}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":6,"ch":36},"end":{"line":6,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":6,"ch":40},"end":{"line":6,"ch":383}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":7,"ch":15},"end":{"line":7,"ch":22}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":7,"ch":23},"end":{"line":7,"ch":31}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":7,"ch":32},"end":{"line":7,"ch":40}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":67}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":61},"end":{"line":7,"ch":129}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":7,"ch":70},"end":{"line":7,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":7,"ch":76},"end":{"line":7,"ch":77}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":7,"ch":99},"end":{"line":7,"ch":105}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":110},"end":{"line":7,"ch":116}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":7,"ch":119},"end":{"line":7,"ch":125}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":7,"ch":128},"end":{"line":7,"ch":129}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":130},"end":{"line":7,"ch":778}}
+    Property getter or setter expected
+    ERROR

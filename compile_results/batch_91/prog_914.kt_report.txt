@@ -1,0 +1,284 @@
+prog_914.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 86
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 7
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":74}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":25}}
+    Unresolved reference: _E_
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":48}}
+    Unresolved reference: _E_
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":55}}
+    Unresolved reference: _hZN
+    ERROR
+
+    {"start":{"line":1,"ch":51},"end":{"line":1,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":66}}
+    Unresolved reference: _hZN
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":73}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":90},"end":{"line":1,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":101},"end":{"line":1,"ch":105}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":102},"end":{"line":1,"ch":103}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":108},"end":{"line":1,"ch":114}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":117},"end":{"line":1,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":119},"end":{"line":1,"ch":358}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":53}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":109},"end":{"line":2,"ch":110}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":113},"end":{"line":2,"ch":701}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":18},"end":{"line":3,"ch":19}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":24},"end":{"line":3,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":33},"end":{"line":3,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":49}}
+    Unresolved reference: _0_u_
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":44},"end":{"line":3,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":56},"end":{"line":3,"ch":59}}
+    Unresolved reference: _E_
+    ERROR
+
+    {"start":{"line":3,"ch":56},"end":{"line":3,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":56},"end":{"line":3,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":66},"end":{"line":3,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":70},"end":{"line":3,"ch":72}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":75},"end":{"line":3,"ch":80}}
+    Unresolved reference: _0_u_
+    ERROR
+
+    {"start":{"line":3,"ch":85},"end":{"line":3,"ch":91}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":85},"end":{"line":3,"ch":126}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":94},"end":{"line":3,"ch":100}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":111}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":122}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":116},"end":{"line":3,"ch":126}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":125},"end":{"line":3,"ch":126}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":127},"end":{"line":3,"ch":171}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":20},"end":{"line":4,"ch":28}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":10},"end":{"line":5,"ch":54}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":5,"ch":137},"end":{"line":5,"ch":138}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":5,"ch":141},"end":{"line":5,"ch":1266}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":6,"ch":84},"end":{"line":6,"ch":92}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":8,"ch":0},"end":{"line":8,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":7},"end":{"line":10,"ch":12}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":11,"ch":10},"end":{"line":11,"ch":13}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":11,"ch":21},"end":{"line":11,"ch":29}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":11,"ch":108},"end":{"line":11,"ch":114}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":11,"ch":128},"end":{"line":11,"ch":134}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":11,"ch":135},"end":{"line":11,"ch":141}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":11,"ch":142},"end":{"line":11,"ch":148}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":11,"ch":181},"end":{"line":11,"ch":192}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":11,"ch":210},"end":{"line":11,"ch":218}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":11,"ch":219},"end":{"line":11,"ch":227}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":15,"ch":3},"end":{"line":15,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":17,"ch":2},"end":{"line":17,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":19,"ch":3},"end":{"line":19,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":19,"ch":11},"end":{"line":19,"ch":19}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":23,"ch":3},"end":{"line":23,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":29,"ch":13},"end":{"line":29,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

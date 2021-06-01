@@ -1,0 +1,94 @@
+prog_326.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 9
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":58}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":14}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":23}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":1,"ch":32},"end":{"line":1,"ch":43}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":100},"end":{"line":1,"ch":111}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":124},"end":{"line":1,"ch":135}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":136},"end":{"line":1,"ch":147}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":148},"end":{"line":1,"ch":159}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":160},"end":{"line":1,"ch":171}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":186},"end":{"line":1,"ch":194}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":195},"end":{"line":1,"ch":203}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":222},"end":{"line":1,"ch":230}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":246},"end":{"line":1,"ch":257}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":246},"end":{"line":1,"ch":257}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":258},"end":{"line":1,"ch":266}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":258},"end":{"line":1,"ch":266}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":8,"ch":19},"end":{"line":8,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":8,"ch":87},"end":{"line":8,"ch":88}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":89},"end":{"line":8,"ch":372}}
+    Property getter or setter expected
+    ERROR

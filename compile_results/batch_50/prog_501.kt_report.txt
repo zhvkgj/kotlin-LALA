@@ -1,0 +1,80 @@
+prog_501.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 17
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":18}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":21},"end":{"line":0,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":35},"end":{"line":0,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":75}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":26},"end":{"line":1,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":33}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":46}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":351}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":48},"end":{"line":2,"ch":69}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":83},"end":{"line":2,"ch":84}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":87},"end":{"line":2,"ch":215}}
+    Property getter or setter expected
+    ERROR

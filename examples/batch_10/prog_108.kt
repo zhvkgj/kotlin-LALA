@@ -1,0 +1,4 @@
+ var P_C0 = --return++
+ var V_90 : Boolean = --P_C0-- % --P_C0 * --return-- * ++return || 1L++ * --51-- - ++P_C0-- / --6 * return-- / P_C0 % ++return-- % true / true-- * ++return-- * --544_11L-- - return++ - --P_C0 / --P_C0--
+ var k__A : Boolean = V_90-- / ++return % ++V_90++ % --V_90++ % V_90++ > 942_0_0l++ % 8__3_87L % --9++ % return % return - V_90 + V_90-- - --P_C0 % return * V_90++ % --return % return - --45687_9L-- + P_C0 / P_C0-- % false != --return-- + ++P_C0-- * P_C0++ / ++return + ++V_90 / ++4___7-- > --P_C0-- * --return % --V_90 % --false / 0l % false++
+infix var (G7wP3, W_0) = ++0l * V_90++ * ++923++ * 2L * return-- - k__A++ && ++return * --7-- * ++7_____6 + P_C0++ > --6___4L - k__A || --51 * 9l-- * ++false++ / ++true % --return % --false++ * P_C0++ * ++true-- * ++false-- / return++ % ++return * --V_90 % --2L-- % ++7l--

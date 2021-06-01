@@ -1,0 +1,88 @@
+prog_146.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 19
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":26},"end":{"line":1,"ch":149}}
+    Type mismatch: inferred type is Boolean but Long was expected
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":1,"ch":149}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":55},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":66},"end":{"line":0,"ch":68}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":72},"end":{"line":0,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":83},"end":{"line":0,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":91},"end":{"line":0,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Unresolved reference: crossinline
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":18},"end":{"line":1,"ch":29}}
+    Unresolved reference: crossinline
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":49}}
+    Function invocation 'suspend(...)' expected
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":49}}
+    ''suspend'' function can only be called in a form of modifier of a lambda: suspend { ... }
+    ERROR
+
+    {"start":{"line":1,"ch":42},"end":{"line":1,"ch":49}}
+    No value passed for parameter 'block'
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":452}}
+    Property getter or setter expected
+    ERROR

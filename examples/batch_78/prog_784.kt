@@ -1,0 +1,3 @@
+const noinline var (U74__a : Short, __G_ : Short) = ++return >= --return++ + return != --690_2++ * 3_1
+ var (__7_ : Short) = 8 % __G_-- / U74__a-- % return % ++__G_ / true++ / __G_++ / __G_ % false-- / ++U74__a * ++1l * return-- / U74__a + --return++ / --7-- * --return++ * --return % return++ / ++__G_++ / false * ++return + --0L-- * --return-- % 544_11 * --U74__a-- / --6_3 / ++__G_ % U74__a-- - U74__a-- / 96++ - --U74__a / 942_0_0L++
+const operator operator var (_4_9_5 : Boolean, __i2h) = ++__7_-- % __7_++ / ++U74__a + --U74__a / --__7_ + ++U74__a / return-- - ++__7_ * 8l--

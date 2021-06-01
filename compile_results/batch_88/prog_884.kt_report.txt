@@ -1,0 +1,138 @@
+prog_884.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 31
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":15}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":42}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":14}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":20}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":51}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":45},"end":{"line":1,"ch":163}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":79},"end":{"line":1,"ch":81}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":100},"end":{"line":1,"ch":102}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":109},"end":{"line":1,"ch":115}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":127},"end":{"line":1,"ch":133}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":127},"end":{"line":1,"ch":163}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":136},"end":{"line":1,"ch":137}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":144},"end":{"line":1,"ch":145}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":144},"end":{"line":1,"ch":147}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":150},"end":{"line":1,"ch":156}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":160}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":163}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":163},"end":{"line":1,"ch":771}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":12},"end":{"line":2,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":1374}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":28},"end":{"line":3,"ch":35}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":5},"end":{"line":4,"ch":37}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR

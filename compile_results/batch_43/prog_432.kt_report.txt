@@ -1,0 +1,420 @@
+prog_432.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 107
+Count of type mismatch errors: 5
+Count of unresolved reference errors: 6
+Count of modifier usage errors: 13
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":44}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":73}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":16}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":25}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":30},"end":{"line":1,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":44}}
+    Unresolved reference: tg_
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":55}}
+    Unresolved reference: tg_
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":66}}
+    Unresolved reference: tg_
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":7},"end":{"line":2,"ch":12}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":33},"end":{"line":2,"ch":119}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":42},"end":{"line":2,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":58}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":55},"end":{"line":2,"ch":58}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":60}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":67}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":78}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":72},"end":{"line":2,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":81},"end":{"line":2,"ch":83}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":83},"end":{"line":2,"ch":86}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":91},"end":{"line":2,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":109}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":119}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":112},"end":{"line":2,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":118},"end":{"line":2,"ch":119}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":120},"end":{"line":2,"ch":354}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":24},"end":{"line":3,"ch":62}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":112},"end":{"line":3,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":130},"end":{"line":3,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":132},"end":{"line":3,"ch":1031}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":6},"end":{"line":4,"ch":12}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":32},"end":{"line":4,"ch":76}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":4,"ch":34},"end":{"line":4,"ch":36}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":45}}
+    Unresolved reference: Ssj_X_
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":52},"end":{"line":4,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":76},"end":{"line":4,"ch":500}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":5,"ch":24},"end":{"line":5,"ch":35}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":66},"end":{"line":5,"ch":74}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":53}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":6,"ch":2},"end":{"line":6,"ch":53}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":6,"ch":19},"end":{"line":6,"ch":25}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":8,"ch":2},"end":{"line":8,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":10,"ch":2},"end":{"line":10,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":10,"ch":15},"end":{"line":10,"ch":18}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":14,"ch":10},"end":{"line":14,"ch":16}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":219}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":18,"ch":11},"end":{"line":18,"ch":19}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":18,"ch":28},"end":{"line":18,"ch":36}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":18,"ch":91},"end":{"line":18,"ch":99}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":18,"ch":91},"end":{"line":18,"ch":99}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":18,"ch":100},"end":{"line":18,"ch":111}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":18,"ch":100},"end":{"line":18,"ch":111}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":20,"ch":2},"end":{"line":20,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":22,"ch":0},"end":{"line":22,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":24,"ch":0},"end":{"line":24,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":24,"ch":9},"end":{"line":24,"ch":14}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":24,"ch":15},"end":{"line":24,"ch":20}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":24,"ch":21},"end":{"line":24,"ch":29}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":24,"ch":42},"end":{"line":24,"ch":48}}
+    Unresolved reference: Ssj_X_
+    ERROR
+
+    {"start":{"line":24,"ch":42},"end":{"line":24,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":24,"ch":59},"end":{"line":24,"ch":61}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":24,"ch":69},"end":{"line":24,"ch":72}}
+    Unresolved reference: tg_
+    ERROR
+
+    {"start":{"line":24,"ch":69},"end":{"line":24,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":24,"ch":85},"end":{"line":24,"ch":91}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":24,"ch":85},"end":{"line":24,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":24,"ch":94},"end":{"line":24,"ch":95}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":24,"ch":94},"end":{"line":24,"ch":98}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":24,"ch":98},"end":{"line":24,"ch":779}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":25,"ch":0},"end":{"line":25,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":25,"ch":24},"end":{"line":25,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":25,"ch":29},"end":{"line":25,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":25,"ch":34},"end":{"line":25,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":25,"ch":45},"end":{"line":25,"ch":47}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":25,"ch":47},"end":{"line":25,"ch":50}}
+    Names _, __, ___, ... can be used only in back-ticks (`_`, `__`, `___`, ...)
+    ERROR
+
+    {"start":{"line":25,"ch":53},"end":{"line":25,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":25,"ch":62},"end":{"line":25,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":25,"ch":62},"end":{"line":25,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":25,"ch":66},"end":{"line":25,"ch":506}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":26,"ch":12},"end":{"line":26,"ch":26}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":26,"ch":75},"end":{"line":26,"ch":76}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":26,"ch":79},"end":{"line":26,"ch":789}}
+    Property getter or setter expected
+    ERROR

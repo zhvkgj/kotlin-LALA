@@ -1,0 +1,94 @@
+prog_950.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 21
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":8},"end":{"line":0,"ch":13}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":56}}
+    Type mismatch: inferred type is Long but Boolean was expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":41}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":79}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":73},"end":{"line":0,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":83}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":86},"end":{"line":0,"ch":106}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":38}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":145},"end":{"line":1,"ch":146}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":155},"end":{"line":1,"ch":156}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":165},"end":{"line":1,"ch":166}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":169},"end":{"line":1,"ch":609}}
+    Property getter or setter expected
+    ERROR

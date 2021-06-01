@@ -1,0 +1,2 @@
+const val (G6_n : Boolean) = true / return-- % --return-- != return / ++4___7l++ % false-- % false % ++return--
+inline const val ZZ9 = --G6_n++ * return / G6_n++ + ++G6_n++ - G6_n-- / --return++ / --G6_n-- + false % G6_n-- % G6_n % G6_n / --G6_n * 3-- - ++return / ++return / 85_9L-- / --G6_n - --G6_n++ && G6_n-- % G6_n / 7 / --false * ++9_3_6 * G6_n++ > return

@@ -1,0 +1,38 @@
+prog_815.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 12
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":35}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":47}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":77},"end":{"line":0,"ch":81}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":4,"ch":16},"end":{"line":4,"ch":28}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":48},"end":{"line":4,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":50},"end":{"line":4,"ch":219}}
+    Property getter or setter expected
+    ERROR

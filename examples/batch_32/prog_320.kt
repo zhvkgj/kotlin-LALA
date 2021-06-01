@@ -1,0 +1,12 @@
+tailrec fun L8gJ_(noinline r_TL : Int) = return++ * return * r_TL - ++3L / ++r_TL++ - ++r_TL + return++ % --0l++ + ++2959_4 / return / r_TL-- / ++false++ - ++2L++ * ++544_11-- * r_TL-- - r_TL * r_TL % ++r_TL % return-- / ++return / --return++ % 4___7++ * r_TL > --r_TL - r_TL % return / false
+
+ fun P__i2_() : Int {
+  external tailrec fun __i2h(crossinline mx9x : Int) {
+    
+  }
+  
+}
+
+crossinline const crossinline var (_3__7 : Long, _4__ : Short, cj0, _t2 : Int, __RH) = --return / return % ++return-- % ++true / ++L8gJ_-- / ++L8gJ_ * --false-- % P__i2_++ / P__i2_++ % L8gJ_ * ++P__i2_ / --3____0l * 0-- % P__i2_ % --3_1++ % --1L-- * --8-- + P__i2_-- * 8__3_87 / ++return <= --9 * return % L8gJ_++ / L8gJ_++ + --false++ * ++return++ * return * --L8gJ_ % ++0L-- * --return % --true - --L8gJ_ + --544_11l / return - return % ++P__i2_ / return % true / ++return++ % --8_5_37L++ % --3_74l / ++return-- % ++return % false-- * return / --return++ * return++ / P__i2_ % --0 / return - --P__i2_ / L8gJ_ * L8gJ_ + true-- + ++P__i2_-- + ++P__i2_ * --L8gJ_
+external val (rUL38 : Long, qI_G0Z, _j1_6) = ++cj0-- % 942_0_0-- % _4__-- * false / --return - --1 % return++ * _t2 * _t2 * return-- - return++ % return-- % ++P__i2_ + ++__RH-- * 544_11++ % 3L++ && --P__i2_ * ++3 * ++cj0-- + ++__RH-- % ++4___7L-- * --return / --L8gJ_++ / ++return++ % cj0++ / ++__RH++ - --8L * --return * --690_2L % ++return * ++return % --return++ / L8gJ_-- % P__i2_-- / _4__ % return % cj0 % --6L / --_3__7 == ++_3__7++ / --__RH * --9-- % 9 - return-- * ++return * return-- - return++ * --return-- % L8gJ_++ * --__RH++ / ++return++ / L8gJ_ % P__i2_ / cj0 / ++85_9l-- % return - return <= return * --6-- * ++true % --return * return++ || return++ * ++_4__ + --P__i2_++ * ++923++ % ++return / 2959_4-- % false-- * --return++ % return / L8gJ_ % --3++ / --0l-- / 56_9l - false * ++_4__ - --3_74 - --L8gJ_-- - 1L / --7L-- / --3 / true++ * ++_t2 % _t2 % ++return-- / 56_9l * return * ++L8gJ_ + _3__7 * --cj0-- - 4++ * return++ / --3_74L-- * ++6l-- * 8__3_87 / 0l / ++cj0 * --1L++ <= return * --8__3_87 / 1-- * --_t2 % true % ++3++ && return++ * _3__7 / ++return + 3 == ++1l % return++ % --cj0 * ++return++ * ++6_3-- * --return / return++ % cj0 / cj0++ * ++3
+ var (_rzt_, gMTD_ : Long, __015_ : Int, M53v_ : Int) = --true * P__i2_ + ++cj0-- % ++return-- * ++qI_G0Z

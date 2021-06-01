@@ -1,0 +1,618 @@
+prog_58.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 182
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 26
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":11},"end":{"line":0,"ch":22}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":184}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":21},"end":{"line":1,"ch":29}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":38}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":38}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":5,"ch":11},"end":{"line":5,"ch":17}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":9,"ch":19},"end":{"line":9,"ch":25}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":9,"ch":26},"end":{"line":9,"ch":34}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":47},"end":{"line":9,"ch":55}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":128},"end":{"line":9,"ch":139}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":152},"end":{"line":9,"ch":160}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":161},"end":{"line":9,"ch":167}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":17,"ch":2},"end":{"line":17,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":42}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":23,"ch":2},"end":{"line":23,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":25,"ch":2},"end":{"line":25,"ch":64}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":25,"ch":21},"end":{"line":25,"ch":29}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":27,"ch":2},"end":{"line":27,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":29,"ch":13},"end":{"line":29,"ch":19}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":29,"ch":20},"end":{"line":29,"ch":23}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":29,"ch":33},"end":{"line":29,"ch":44}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":29,"ch":45},"end":{"line":29,"ch":51}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":29,"ch":52},"end":{"line":29,"ch":58}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":29,"ch":59},"end":{"line":29,"ch":65}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":31,"ch":2},"end":{"line":31,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":33,"ch":2},"end":{"line":33,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":33,"ch":22},"end":{"line":33,"ch":33}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":33,"ch":46},"end":{"line":33,"ch":54}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":33,"ch":55},"end":{"line":33,"ch":61}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":33,"ch":104},"end":{"line":33,"ch":115}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":33,"ch":128},"end":{"line":33,"ch":136}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":33,"ch":150},"end":{"line":33,"ch":158}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":33,"ch":159},"end":{"line":33,"ch":165}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":35,"ch":2},"end":{"line":35,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":37,"ch":2},"end":{"line":37,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":37,"ch":9},"end":{"line":37,"ch":17}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":39,"ch":2},"end":{"line":39,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":41,"ch":2},"end":{"line":41,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":41,"ch":8},"end":{"line":41,"ch":16}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":41,"ch":27},"end":{"line":41,"ch":38}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":41,"ch":27},"end":{"line":41,"ch":38}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":41,"ch":39},"end":{"line":41,"ch":47}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":41,"ch":39},"end":{"line":41,"ch":47}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":41,"ch":48},"end":{"line":41,"ch":54}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":41,"ch":55},"end":{"line":41,"ch":61}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":41,"ch":78},"end":{"line":41,"ch":84}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":41,"ch":85},"end":{"line":41,"ch":93}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":41,"ch":94},"end":{"line":41,"ch":100}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":41,"ch":101},"end":{"line":41,"ch":109}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":41,"ch":124},"end":{"line":41,"ch":132}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":43,"ch":2},"end":{"line":43,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":45,"ch":2},"end":{"line":45,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":45,"ch":17},"end":{"line":45,"ch":25}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":45,"ch":26},"end":{"line":45,"ch":32}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":45,"ch":83},"end":{"line":45,"ch":89}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":45,"ch":90},"end":{"line":45,"ch":101}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":45,"ch":90},"end":{"line":45,"ch":101}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":45,"ch":102},"end":{"line":45,"ch":110}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":45,"ch":102},"end":{"line":45,"ch":110}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":45,"ch":111},"end":{"line":45,"ch":117}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":45,"ch":133},"end":{"line":45,"ch":144}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":45,"ch":145},"end":{"line":45,"ch":151}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":45,"ch":167},"end":{"line":45,"ch":173}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":49,"ch":0},"end":{"line":49,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":51,"ch":23},"end":{"line":51,"ch":25}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":51,"ch":30},"end":{"line":51,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":36},"end":{"line":51,"ch":37}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":51,"ch":42},"end":{"line":51,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":42},"end":{"line":51,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":52},"end":{"line":51,"ch":57}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":52},"end":{"line":51,"ch":57}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":52},"end":{"line":51,"ch":57}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":52},"end":{"line":51,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":52},"end":{"line":51,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":62},"end":{"line":51,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":51,"ch":77},"end":{"line":51,"ch":82}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":77},"end":{"line":51,"ch":82}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":77},"end":{"line":51,"ch":82}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":85},"end":{"line":51,"ch":90}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":85},"end":{"line":51,"ch":90}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":85},"end":{"line":51,"ch":90}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":93},"end":{"line":51,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":104},"end":{"line":51,"ch":108}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":104},"end":{"line":51,"ch":110}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":115},"end":{"line":51,"ch":121}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":51,"ch":115},"end":{"line":51,"ch":121}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":124},"end":{"line":51,"ch":130}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":51,"ch":133},"end":{"line":51,"ch":142}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":135},"end":{"line":51,"ch":140}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":135},"end":{"line":51,"ch":140}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":135},"end":{"line":51,"ch":140}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":135},"end":{"line":51,"ch":140}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":147},"end":{"line":51,"ch":152}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":147},"end":{"line":51,"ch":152}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":147},"end":{"line":51,"ch":152}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":147},"end":{"line":51,"ch":152}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":155},"end":{"line":51,"ch":160}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":155},"end":{"line":51,"ch":160}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":155},"end":{"line":51,"ch":160}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":165},"end":{"line":51,"ch":167}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":165},"end":{"line":51,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":166},"end":{"line":51,"ch":167}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":51,"ch":174},"end":{"line":51,"ch":179}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":174},"end":{"line":51,"ch":179}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":174},"end":{"line":51,"ch":179}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":174},"end":{"line":51,"ch":179}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":174},"end":{"line":51,"ch":181}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":184},"end":{"line":51,"ch":190}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":51,"ch":195},"end":{"line":51,"ch":200}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":195},"end":{"line":51,"ch":200}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":195},"end":{"line":51,"ch":200}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":195},"end":{"line":51,"ch":200}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":205},"end":{"line":51,"ch":212}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":210},"end":{"line":51,"ch":212}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":51,"ch":217},"end":{"line":51,"ch":218}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":217},"end":{"line":51,"ch":220}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":223},"end":{"line":51,"ch":224}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":237},"end":{"line":51,"ch":242}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":237},"end":{"line":51,"ch":242}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":237},"end":{"line":51,"ch":242}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":237},"end":{"line":51,"ch":242}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":247},"end":{"line":51,"ch":252}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":247},"end":{"line":51,"ch":252}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":247},"end":{"line":51,"ch":252}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":255},"end":{"line":51,"ch":260}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":51,"ch":255},"end":{"line":51,"ch":260}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":51,"ch":255},"end":{"line":51,"ch":260}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":51,"ch":265},"end":{"line":51,"ch":271}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":51,"ch":265},"end":{"line":51,"ch":278}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":274},"end":{"line":51,"ch":275}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":51,"ch":274},"end":{"line":51,"ch":278}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":51,"ch":278},"end":{"line":51,"ch":431}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":52,"ch":0},"end":{"line":52,"ch":1006}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":52,"ch":33},"end":{"line":52,"ch":75}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":52,"ch":35},"end":{"line":52,"ch":40}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":52,"ch":35},"end":{"line":52,"ch":40}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":52,"ch":35},"end":{"line":52,"ch":40}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":52,"ch":35},"end":{"line":52,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":52,"ch":43},"end":{"line":52,"ch":48}}
+    No value passed for parameter 'M___1'
+    ERROR
+
+    {"start":{"line":52,"ch":43},"end":{"line":52,"ch":48}}
+    No value passed for parameter 'u___'
+    ERROR
+
+    {"start":{"line":52,"ch":43},"end":{"line":52,"ch":48}}
+    Function invocation '___13(...)' expected
+    ERROR
+
+    {"start":{"line":52,"ch":43},"end":{"line":52,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":52,"ch":55},"end":{"line":52,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":52,"ch":55},"end":{"line":52,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":52,"ch":64},"end":{"line":52,"ch":65}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":52,"ch":74},"end":{"line":52,"ch":75}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":52,"ch":76},"end":{"line":52,"ch":1006}}
+    Property getter or setter expected
+    ERROR

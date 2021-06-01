@@ -1,0 +1,192 @@
+prog_565.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 52
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 14
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":17}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":32}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":33},"end":{"line":0,"ch":41}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":62},"end":{"line":0,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":71},"end":{"line":0,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":71},"end":{"line":0,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":76},"end":{"line":0,"ch":137}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":15},"end":{"line":1,"ch":22}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":96}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":88},"end":{"line":1,"ch":96}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":108}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":97},"end":{"line":1,"ch":108}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":109},"end":{"line":1,"ch":120}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":136},"end":{"line":1,"ch":144}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":162},"end":{"line":1,"ch":163}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun div(other: Byte): Int defined in kotlin.Int
+public final operator fun div(other: Double): Double defined in kotlin.Int
+public final operator fun div(other: Float): Float defined in kotlin.Int
+public final operator fun div(other: Int): Int defined in kotlin.Int
+public final operator fun div(other: Long): Long defined in kotlin.Int
+public final operator fun div(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":1,"ch":181},"end":{"line":1,"ch":182}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":181},"end":{"line":1,"ch":185}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":194},"end":{"line":1,"ch":196}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":196},"end":{"line":1,"ch":202}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":1,"ch":196},"end":{"line":1,"ch":202}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":1,"ch":205},"end":{"line":1,"ch":211}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":3,"ch":11},"end":{"line":3,"ch":47}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":117},"end":{"line":3,"ch":118}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":121},"end":{"line":3,"ch":226}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":72}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":4,"ch":30},"end":{"line":4,"ch":38}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":30},"end":{"line":4,"ch":38}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":50}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":4,"ch":39},"end":{"line":4,"ch":50}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":4,"ch":75},"end":{"line":4,"ch":77}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":77},"end":{"line":4,"ch":83}}
+    This function must return a value of type Short
+    ERROR
+
+    {"start":{"line":4,"ch":77},"end":{"line":4,"ch":83}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    No value passed for parameter '_t2'
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    No value passed for parameter '__04Xk'
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    No value passed for parameter '_B_'
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    No value passed for parameter 'QY_42'
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    Function invocation 'f5_8f_(...)' expected
+    ERROR
+
+    {"start":{"line":4,"ch":88},"end":{"line":4,"ch":94}}
+    Variable expected
+    ERROR

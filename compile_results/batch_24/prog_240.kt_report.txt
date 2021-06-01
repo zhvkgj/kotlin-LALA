@@ -1,0 +1,140 @@
+prog_240.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":24}}
+    The integer literal does not conform to the expected type Boolean
+    ERROR
+
+    {"start":{"line":0,"ch":20},"end":{"line":0,"ch":41}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":34}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":38}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":123}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":41},"end":{"line":1,"ch":84}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":105}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":134}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":24}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":2,"ch":27},"end":{"line":2,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":38},"end":{"line":2,"ch":43}}
+    Unresolved reference: __JT5
+    ERROR
+
+    {"start":{"line":2,"ch":38},"end":{"line":2,"ch":43}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":38},"end":{"line":2,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":50},"end":{"line":2,"ch":55}}
+    Unresolved reference: __JT5
+    ERROR
+
+    {"start":{"line":2,"ch":50},"end":{"line":2,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":64}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":67},"end":{"line":2,"ch":68}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":77},"end":{"line":2,"ch":78}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":79},"end":{"line":2,"ch":103}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":33},"end":{"line":3,"ch":46}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":124},"end":{"line":3,"ch":125}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":130},"end":{"line":3,"ch":131}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":132},"end":{"line":3,"ch":966}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":29},"end":{"line":4,"ch":35}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":29},"end":{"line":4,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":40}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":4,"ch":51},"end":{"line":4,"ch":57}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":60},"end":{"line":4,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":60},"end":{"line":4,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":64},"end":{"line":4,"ch":703}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,114 @@
+prog_132.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 32
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 8
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'infix' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":17}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":26}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":34}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":54}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":57},"end":{"line":0,"ch":58}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":62}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":76}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":113},"end":{"line":1,"ch":114}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":115},"end":{"line":1,"ch":1070}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":31}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":31}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":43}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":2,"ch":32},"end":{"line":2,"ch":43}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":50}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":2,"ch":51},"end":{"line":2,"ch":57}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":2,"ch":70},"end":{"line":2,"ch":78}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":39},"end":{"line":13,"ch":104}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":13,"ch":132},"end":{"line":13,"ch":133}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":13,"ch":136},"end":{"line":13,"ch":398}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":14,"ch":22},"end":{"line":14,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":14,"ch":31},"end":{"line":14,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":14,"ch":33},"end":{"line":14,"ch":304}}
+    Property getter or setter expected
+    ERROR

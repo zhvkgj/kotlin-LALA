@@ -1,0 +1,112 @@
+prog_309.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 24
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 5
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":14}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":26}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":41},"end":{"line":0,"ch":42}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":51}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":55}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":56},"end":{"line":0,"ch":103}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":12},"end":{"line":1,"ch":18}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":35},"end":{"line":1,"ch":36}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":46},"end":{"line":1,"ch":51}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":53}}
+    Overload resolution ambiguity: 
+public final operator fun rem(other: Byte): Int defined in kotlin.Int
+public final operator fun rem(other: Double): Double defined in kotlin.Int
+public final operator fun rem(other: Float): Float defined in kotlin.Int
+public final operator fun rem(other: Int): Int defined in kotlin.Int
+public final operator fun rem(other: Long): Long defined in kotlin.Int
+public final operator fun rem(other: Short): Int defined in kotlin.Int
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":69},"end":{"line":1,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":79}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":233}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":230},"end":{"line":2,"ch":231}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":234},"end":{"line":2,"ch":341}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":16},"end":{"line":3,"ch":74}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":212},"end":{"line":3,"ch":213}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":225},"end":{"line":3,"ch":226}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":229},"end":{"line":3,"ch":552}}
+    Property getter or setter expected
+    ERROR

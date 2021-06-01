@@ -1,0 +1,102 @@
+prog_930.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 23
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":78}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":648}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":1,"ch":19},"end":{"line":1,"ch":20}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":27},"end":{"line":1,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":28},"end":{"line":1,"ch":29}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":37}}
+    Unresolved reference: L_9
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":34},"end":{"line":1,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":57}}
+    Unresolved reference: D724_
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":57}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":52},"end":{"line":1,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":62},"end":{"line":1,"ch":68}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":72}}
+    Unresolved reference: +
+    ERROR
+
+    {"start":{"line":1,"ch":71},"end":{"line":1,"ch":77}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":82},"end":{"line":1,"ch":86}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":84}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":97}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":91},"end":{"line":1,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":100},"end":{"line":1,"ch":101}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":100},"end":{"line":1,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":104},"end":{"line":1,"ch":648}}
+    Property getter or setter expected
+    ERROR

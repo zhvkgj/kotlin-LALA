@@ -1,0 +1,106 @@
+prog_418.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 24
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 8
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":34}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":50},"end":{"line":0,"ch":51}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":54},"end":{"line":0,"ch":111}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":6},"end":{"line":1,"ch":12}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":21}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":22},"end":{"line":1,"ch":30}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":37}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":50},"end":{"line":1,"ch":51}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":66}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":66}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":67},"end":{"line":1,"ch":324}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":75}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":101},"end":{"line":2,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":129}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":8},"end":{"line":3,"ch":14}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":15},"end":{"line":3,"ch":22}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":23},"end":{"line":3,"ch":31}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":32},"end":{"line":3,"ch":37}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":3,"ch":53},"end":{"line":3,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":53},"end":{"line":3,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":62},"end":{"line":3,"ch":63}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":64},"end":{"line":3,"ch":545}}
+    Property getter or setter expected
+    ERROR

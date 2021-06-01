@@ -1,0 +1,98 @@
+prog_456.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 21
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":19},"end":{"line":0,"ch":36}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":50}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":59}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":36},"end":{"line":1,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":50}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":60}}
+    Unresolved reference: WZ_5G
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":77}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":29}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":23},"end":{"line":2,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":41}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":46},"end":{"line":2,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":46},"end":{"line":2,"ch":49}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":54},"end":{"line":2,"ch":60}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":65},"end":{"line":2,"ch":68}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":2,"ch":71},"end":{"line":2,"ch":77}}
+    'return' is not allowed here
+    ERROR

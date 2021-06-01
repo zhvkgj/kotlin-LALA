@@ -1,0 +1,136 @@
+prog_929.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 31
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":0,"ch":26},"end":{"line":0,"ch":35}}
+    Type mismatch: inferred type is Int but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":28},"end":{"line":0,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":137}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":18}}
+    Unresolved reference: ha0_x
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":18}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":30},"end":{"line":2,"ch":32}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":37}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":37}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":50}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":44},"end":{"line":2,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":53},"end":{"line":2,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":62},"end":{"line":2,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":71}}
+    Unresolved reference: ___tx
+    ERROR
+
+    {"start":{"line":2,"ch":66},"end":{"line":2,"ch":71}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":76},"end":{"line":2,"ch":79}}
+    Unresolved reference: _C_
+    ERROR
+
+    {"start":{"line":2,"ch":76},"end":{"line":2,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":84},"end":{"line":2,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":84},"end":{"line":2,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":93},"end":{"line":2,"ch":94}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":93},"end":{"line":2,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":97},"end":{"line":2,"ch":478}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":45},"end":{"line":3,"ch":74}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":112},"end":{"line":3,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":120},"end":{"line":3,"ch":121}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":122},"end":{"line":3,"ch":537}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":26},"end":{"line":4,"ch":87}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":157},"end":{"line":4,"ch":158}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":161},"end":{"line":4,"ch":237}}
+    Property getter or setter expected
+    ERROR

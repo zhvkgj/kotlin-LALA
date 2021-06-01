@@ -1,0 +1,192 @@
+prog_440.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 45
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":20}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":40}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":44}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":70}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":22}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":26}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":31}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":11}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":25},"end":{"line":2,"ch":31}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":36},"end":{"line":2,"ch":44}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":73}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":70}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":73}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":73},"end":{"line":2,"ch":572}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":22},"end":{"line":3,"ch":28}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":22},"end":{"line":3,"ch":199}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":31},"end":{"line":3,"ch":37}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":42},"end":{"line":3,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":47},"end":{"line":3,"ch":48}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":3,"ch":73},"end":{"line":3,"ch":79}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":73},"end":{"line":3,"ch":79}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":84},"end":{"line":3,"ch":90}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":84},"end":{"line":3,"ch":92}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":97},"end":{"line":3,"ch":99}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":112},"end":{"line":3,"ch":114}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":120}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":3,"ch":145},"end":{"line":3,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":145},"end":{"line":3,"ch":148}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":153},"end":{"line":3,"ch":159}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":153},"end":{"line":3,"ch":199}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":162},"end":{"line":3,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":166},"end":{"line":3,"ch":172}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":166},"end":{"line":3,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":177},"end":{"line":3,"ch":183}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":177},"end":{"line":3,"ch":199}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":186},"end":{"line":3,"ch":187}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":195},"end":{"line":3,"ch":196}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":199},"end":{"line":3,"ch":1391}}
+    Property getter or setter expected
+    ERROR

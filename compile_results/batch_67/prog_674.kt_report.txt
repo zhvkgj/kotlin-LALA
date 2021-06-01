@@ -1,0 +1,144 @@
+prog_674.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 41
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 0
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":23}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":34},"end":{"line":0,"ch":36}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":42},"end":{"line":0,"ch":74}}
+    Type mismatch: inferred type is Boolean but Int was expected
+    ERROR
+
+    {"start":{"line":0,"ch":45},"end":{"line":0,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":53},"end":{"line":0,"ch":55}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":59},"end":{"line":0,"ch":61}}
+    Overload resolution ambiguity: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":61},"end":{"line":0,"ch":67}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":71}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":70},"end":{"line":0,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":74},"end":{"line":0,"ch":76}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":77},"end":{"line":0,"ch":79}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":80},"end":{"line":0,"ch":82}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":84}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":85},"end":{"line":0,"ch":86}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":87},"end":{"line":0,"ch":89}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":89},"end":{"line":0,"ch":90}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":92}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":93},"end":{"line":0,"ch":95}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":96},"end":{"line":0,"ch":98}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":98},"end":{"line":0,"ch":106}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":107},"end":{"line":0,"ch":109}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":110},"end":{"line":0,"ch":112}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":112},"end":{"line":0,"ch":118}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":118},"end":{"line":0,"ch":120}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":121},"end":{"line":0,"ch":122}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":123},"end":{"line":0,"ch":129}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":0,"ch":129},"end":{"line":0,"ch":131}}
+    Expecting a top level declaration
+    ERROR
+
+    {"start":{"line":2,"ch":13},"end":{"line":2,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":97}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":98},"end":{"line":2,"ch":169}}
+    Property getter or setter expected
+    ERROR

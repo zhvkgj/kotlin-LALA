@@ -1,0 +1,50 @@
+prog_46.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 10
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":69}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":26}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":36},"end":{"line":0,"ch":47}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":69}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":13},"end":{"line":1,"ch":21}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":56}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":66},"end":{"line":1,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":777}}
+    Property getter or setter expected
+    ERROR

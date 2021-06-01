@@ -1,0 +1,3 @@
+ fun H1E__() = return-- % ++return-- && return-- / ++return == ++false
+
+operator const crossinline noinline inline val (IC__, oJ1F : Short, o__m_Z) = ++return++ % --return-- * --return-- % H1E__++ < true-- * ++return-- * --return / return - true++ / --return++ / --return / --false + ++H1E__ % return-- - return / ++923l++ % return % --9L++ / ++H1E__ % --1 % H1E__++ + return - --0L-- + H1E__ % return / H1E__-- / --return * H1E__ / --return++ / ++false++ % ++0-- - return / return * ++H1E__++ % ++H1E__++ - return++ * --6___4 % --H1E__++ % H1E__ != H1E__ % --true++ * ++false-- / --return-- % --3 % --return % H1E__ * true-- + return % return-- % return / --return-- / ++H1E__-- * ++return++ % return * return + ++return-- - --return++

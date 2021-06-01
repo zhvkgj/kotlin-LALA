@@ -1,0 +1,280 @@
+prog_268.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 72
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 3
+Count of modifier usage errors: 10
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":23}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":12},"end":{"line":0,"ch":23}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":32}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":32}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":40}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":11},"end":{"line":11,"ch":39}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":11,"ch":57},"end":{"line":11,"ch":58}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":66},"end":{"line":11,"ch":67}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":11,"ch":68},"end":{"line":11,"ch":889}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":12,"ch":14},"end":{"line":12,"ch":22}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":27},"end":{"line":12,"ch":29}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":12,"ch":38},"end":{"line":12,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":38},"end":{"line":12,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":47},"end":{"line":12,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":49},"end":{"line":12,"ch":50}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":12,"ch":53},"end":{"line":12,"ch":59}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":64},"end":{"line":12,"ch":70}}
+    No value passed for parameter 'sU27'
+    ERROR
+
+    {"start":{"line":12,"ch":64},"end":{"line":12,"ch":70}}
+    No value passed for parameter '_a_ZY1'
+    ERROR
+
+    {"start":{"line":12,"ch":64},"end":{"line":12,"ch":70}}
+    Function invocation 'Q_f822(...)' expected
+    ERROR
+
+    {"start":{"line":12,"ch":64},"end":{"line":12,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":75},"end":{"line":12,"ch":81}}
+    No value passed for parameter 'sU27'
+    ERROR
+
+    {"start":{"line":12,"ch":75},"end":{"line":12,"ch":81}}
+    No value passed for parameter '_a_ZY1'
+    ERROR
+
+    {"start":{"line":12,"ch":75},"end":{"line":12,"ch":81}}
+    Function invocation 'Q_f822(...)' expected
+    ERROR
+
+    {"start":{"line":12,"ch":75},"end":{"line":12,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":75},"end":{"line":12,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":86},"end":{"line":12,"ch":92}}
+    Unresolved reference: K6sRY_
+    ERROR
+
+    {"start":{"line":12,"ch":86},"end":{"line":12,"ch":92}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":104},"end":{"line":12,"ch":110}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":113},"end":{"line":12,"ch":116}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":121},"end":{"line":12,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":121},"end":{"line":12,"ch":125}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":126},"end":{"line":12,"ch":127}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":12,"ch":140},"end":{"line":12,"ch":141}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":12,"ch":146},"end":{"line":12,"ch":152}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":146},"end":{"line":12,"ch":180}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":155},"end":{"line":12,"ch":167}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":159},"end":{"line":12,"ch":165}}
+    Unresolved reference: K6sRY_
+    ERROR
+
+    {"start":{"line":12,"ch":159},"end":{"line":12,"ch":165}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":159},"end":{"line":12,"ch":167}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":12,"ch":170},"end":{"line":12,"ch":176}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":12,"ch":179},"end":{"line":12,"ch":180}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":12,"ch":181},"end":{"line":12,"ch":298}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":14,"ch":2},"end":{"line":14,"ch":83}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":14,"ch":11},"end":{"line":14,"ch":19}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":14,"ch":20},"end":{"line":14,"ch":25}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":14,"ch":26},"end":{"line":14,"ch":34}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":61}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":18,"ch":22},"end":{"line":18,"ch":30}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":18,"ch":22},"end":{"line":18,"ch":30}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":18,"ch":31},"end":{"line":18,"ch":42}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":18,"ch":31},"end":{"line":18,"ch":42}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":20,"ch":2},"end":{"line":20,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":22,"ch":2},"end":{"line":22,"ch":82}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":22,"ch":35},"end":{"line":22,"ch":43}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":22,"ch":57},"end":{"line":22,"ch":65}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":24,"ch":2},"end":{"line":24,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":26,"ch":2},"end":{"line":26,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":28,"ch":2},"end":{"line":28,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":30,"ch":2},"end":{"line":30,"ch":73}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":32,"ch":2},"end":{"line":32,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":34,"ch":0},"end":{"line":34,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

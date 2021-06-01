@@ -1,0 +1,2 @@
+crossinline var _Y_16 : Boolean = ++return++ || --return % false + return + --return++ % ++return++ % 1-- + --return == return + return
+const var (L8gJ_ : Long) = return % --return-- % --_Y_16 / return++ * return++ * --return-- * _Y_16-- > ++return / --return-- + return-- != return * ++return % ++return - ++_Y_16++ % --56_9L++ + true++ % _Y_16-- * --return-- % ++_Y_16 % true + ++_Y_16 * --_Y_16++ - ++3l / _Y_16-- % return--

@@ -1,0 +1,66 @@
+prog_823.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":40},"end":{"line":0,"ch":46}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":49},"end":{"line":0,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":16},"end":{"line":1,"ch":37}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":81},"end":{"line":1,"ch":82}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":83},"end":{"line":1,"ch":318}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":131}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":194},"end":{"line":2,"ch":195}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":196},"end":{"line":2,"ch":687}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":29},"end":{"line":3,"ch":74}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":101},"end":{"line":3,"ch":102}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":198}}
+    Property getter or setter expected
+    ERROR

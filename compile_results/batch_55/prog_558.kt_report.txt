@@ -1,0 +1,70 @@
+prog_558.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 25
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":48}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":9},"end":{"line":0,"ch":14}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":15},"end":{"line":0,"ch":23}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":0,"ch":24},"end":{"line":0,"ch":32}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":116}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":1,"ch":56},"end":{"line":1,"ch":67}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":79}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":91}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":0},"end":{"line":7,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":7,"ch":93},"end":{"line":7,"ch":101}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":7,"ch":102},"end":{"line":7,"ch":110}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":9,"ch":0},"end":{"line":9,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR

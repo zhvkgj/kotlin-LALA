@@ -1,0 +1,510 @@
+prog_846.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 158
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 26
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":170}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":170}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":0,"ch":18},"end":{"line":0,"ch":23}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":75}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":67},"end":{"line":0,"ch":75}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":83},"end":{"line":0,"ch":89}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":101}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":90},"end":{"line":0,"ch":101}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":102},"end":{"line":0,"ch":110}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":1,"ch":10},"end":{"line":1,"ch":13}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":8}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":5,"ch":9},"end":{"line":5,"ch":15}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":5,"ch":16},"end":{"line":5,"ch":24}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":5,"ch":25},"end":{"line":5,"ch":33}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":55}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":44},"end":{"line":5,"ch":55}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":56},"end":{"line":5,"ch":64}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":56},"end":{"line":5,"ch":64}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":5,"ch":65},"end":{"line":5,"ch":71}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":85},"end":{"line":5,"ch":93}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":5,"ch":94},"end":{"line":5,"ch":100}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":101},"end":{"line":5,"ch":107}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":5,"ch":137},"end":{"line":5,"ch":143}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":5,"ch":158},"end":{"line":5,"ch":166}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":77}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":77}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":9,"ch":2},"end":{"line":9,"ch":8}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":9,"ch":26},"end":{"line":9,"ch":34}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":9,"ch":35},"end":{"line":9,"ch":43}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":9,"ch":44},"end":{"line":9,"ch":52}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":9,"ch":53},"end":{"line":9,"ch":59}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":0},"end":{"line":13,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":8},"end":{"line":15,"ch":15}}
+    Repeated 'suspend'
+    ERROR
+
+    {"start":{"line":16,"ch":2},"end":{"line":16,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":18,"ch":2},"end":{"line":18,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":20,"ch":2},"end":{"line":20,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":20,"ch":13},"end":{"line":20,"ch":16}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":20,"ch":17},"end":{"line":20,"ch":23}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":20,"ch":24},"end":{"line":20,"ch":30}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":20,"ch":49},"end":{"line":20,"ch":55}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":20,"ch":70},"end":{"line":20,"ch":81}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":24,"ch":2},"end":{"line":24,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":26,"ch":2},"end":{"line":26,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":28,"ch":2},"end":{"line":28,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":28,"ch":11},"end":{"line":28,"ch":19}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":28,"ch":30},"end":{"line":28,"ch":38}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":30,"ch":2},"end":{"line":30,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":32,"ch":2},"end":{"line":32,"ch":38}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":32,"ch":11},"end":{"line":32,"ch":19}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":34,"ch":2},"end":{"line":34,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":36,"ch":2},"end":{"line":36,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":36,"ch":17},"end":{"line":36,"ch":25}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":36,"ch":51},"end":{"line":36,"ch":59}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":38,"ch":2},"end":{"line":38,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":40,"ch":2},"end":{"line":40,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":40,"ch":20},"end":{"line":40,"ch":28}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":40,"ch":20},"end":{"line":40,"ch":28}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":40,"ch":29},"end":{"line":40,"ch":40}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":40,"ch":29},"end":{"line":40,"ch":40}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":42,"ch":2},"end":{"line":42,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":44,"ch":2},"end":{"line":44,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":46,"ch":2},"end":{"line":46,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":48,"ch":14},"end":{"line":48,"ch":20}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":48,"ch":21},"end":{"line":48,"ch":27}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":48,"ch":45},"end":{"line":48,"ch":51}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":50,"ch":2},"end":{"line":50,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":52,"ch":2},"end":{"line":52,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":52,"ch":2},"end":{"line":52,"ch":198}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":52,"ch":2},"end":{"line":52,"ch":198}}
+    Inline functions can not be external
+    ERROR
+
+    {"start":{"line":52,"ch":26},"end":{"line":52,"ch":34}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":52,"ch":35},"end":{"line":52,"ch":42}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":52,"ch":43},"end":{"line":52,"ch":51}}
+    Repeated 'operator'
+    ERROR
+
+    {"start":{"line":52,"ch":104},"end":{"line":52,"ch":115}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":52,"ch":136},"end":{"line":52,"ch":144}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":52,"ch":136},"end":{"line":52,"ch":144}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":52,"ch":145},"end":{"line":52,"ch":153}}
+    Repeated 'noinline'
+    ERROR
+
+    {"start":{"line":52,"ch":154},"end":{"line":52,"ch":165}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":52,"ch":154},"end":{"line":52,"ch":165}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":52,"ch":166},"end":{"line":52,"ch":177}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":54,"ch":2},"end":{"line":54,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":56,"ch":2},"end":{"line":56,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":56,"ch":61},"end":{"line":56,"ch":69}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":58,"ch":2},"end":{"line":58,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":60,"ch":2},"end":{"line":60,"ch":65}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":60,"ch":27},"end":{"line":60,"ch":35}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":62,"ch":2},"end":{"line":62,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":64,"ch":2},"end":{"line":64,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":64,"ch":17},"end":{"line":64,"ch":25}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":66,"ch":2},"end":{"line":66,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":68,"ch":10},"end":{"line":68,"ch":17}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":68,"ch":18},"end":{"line":68,"ch":25}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":68,"ch":53},"end":{"line":68,"ch":64}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":68,"ch":65},"end":{"line":68,"ch":68}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":70,"ch":2},"end":{"line":70,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":72,"ch":0},"end":{"line":72,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":74,"ch":5},"end":{"line":74,"ch":12}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":74,"ch":107},"end":{"line":74,"ch":108}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":74,"ch":111},"end":{"line":74,"ch":439}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":75,"ch":10},"end":{"line":75,"ch":53}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":75,"ch":162},"end":{"line":75,"ch":163}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":75,"ch":164},"end":{"line":75,"ch":324}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":76,"ch":0},"end":{"line":76,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":76,"ch":30},"end":{"line":76,"ch":33}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":38},"end":{"line":76,"ch":42}}
+    Suspend function 'p798' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":76,"ch":38},"end":{"line":76,"ch":42}}
+    No value passed for parameter 'O92I_'
+    ERROR
+
+    {"start":{"line":76,"ch":38},"end":{"line":76,"ch":42}}
+    Function invocation 'p798(...)' expected
+    ERROR
+
+    {"start":{"line":76,"ch":45},"end":{"line":76,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":61},"end":{"line":76,"ch":62}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":76,"ch":67},"end":{"line":76,"ch":73}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":76,"ch":67},"end":{"line":76,"ch":123}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":76},"end":{"line":76,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":82},"end":{"line":76,"ch":83}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":76,"ch":88},"end":{"line":76,"ch":93}}
+    Unresolved reference: _ud__
+    ERROR
+
+    {"start":{"line":76,"ch":88},"end":{"line":76,"ch":93}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":88},"end":{"line":76,"ch":95}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":100},"end":{"line":76,"ch":106}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":76,"ch":100},"end":{"line":76,"ch":106}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":76,"ch":113},"end":{"line":76,"ch":119}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":76,"ch":122},"end":{"line":76,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":76,"ch":124},"end":{"line":76,"ch":620}}
+    Property getter or setter expected
+    ERROR

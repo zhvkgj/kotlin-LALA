@@ -1,0 +1,118 @@
+prog_37.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 4
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":21}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":2,"ch":2},"end":{"line":2,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":4,"ch":2},"end":{"line":4,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":8,"ch":0},"end":{"line":8,"ch":5}}
+    Modifier 'const' is not applicable to 'vars'
+    ERROR
+
+    {"start":{"line":8,"ch":28},"end":{"line":8,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":28},"end":{"line":8,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":40},"end":{"line":8,"ch":41}}
+    Unresolved reference: %
+    ERROR
+
+    {"start":{"line":8,"ch":44},"end":{"line":8,"ch":50}}
+    Unresolved reference: _jncd_
+    ERROR
+
+    {"start":{"line":8,"ch":44},"end":{"line":8,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":55},"end":{"line":8,"ch":61}}
+    Unresolved reference: _jncd_
+    ERROR
+
+    {"start":{"line":8,"ch":55},"end":{"line":8,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":66},"end":{"line":8,"ch":67}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":70},"end":{"line":8,"ch":76}}
+    Unresolved reference: _jncd_
+    ERROR
+
+    {"start":{"line":8,"ch":81},"end":{"line":8,"ch":87}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":85},"end":{"line":8,"ch":87}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":8,"ch":90},"end":{"line":8,"ch":92}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":8,"ch":92},"end":{"line":8,"ch":98}}
+    Suspend function 'we_o10' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":8,"ch":92},"end":{"line":8,"ch":98}}
+    Function invocation 'we_o10()' expected
+    ERROR
+
+    {"start":{"line":8,"ch":101},"end":{"line":8,"ch":107}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":8,"ch":110},"end":{"line":8,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":110},"end":{"line":8,"ch":114}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":8,"ch":114},"end":{"line":8,"ch":161}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":9,"ch":16},"end":{"line":9,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":9,"ch":123},"end":{"line":9,"ch":124}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":125},"end":{"line":9,"ch":373}}
+    Property getter or setter expected
+    ERROR

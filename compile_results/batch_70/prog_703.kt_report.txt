@@ -1,0 +1,248 @@
+prog_703.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 58
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 13
+Count of modifier usage errors: 4
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":13},"end":{"line":0,"ch":20}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":82},"end":{"line":0,"ch":83}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":86},"end":{"line":0,"ch":100}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":8},"end":{"line":1,"ch":19}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":58}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":58}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":70}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":65},"end":{"line":1,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":75},"end":{"line":1,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":84},"end":{"line":1,"ch":85}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":96},"end":{"line":1,"ch":101}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":96},"end":{"line":1,"ch":101}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":96},"end":{"line":1,"ch":103}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":112}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":115},"end":{"line":1,"ch":120}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":125},"end":{"line":1,"ch":131}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":125},"end":{"line":1,"ch":131}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":134},"end":{"line":1,"ch":139}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":144},"end":{"line":1,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":149},"end":{"line":1,"ch":154}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":165}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":159},"end":{"line":1,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":169}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":168},"end":{"line":1,"ch":172}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":172},"end":{"line":1,"ch":761}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":10},"end":{"line":2,"ch":36}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":0},"end":{"line":3,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":7},"end":{"line":3,"ch":18}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":3,"ch":41},"end":{"line":3,"ch":45}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":55}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":3,"ch":50},"end":{"line":3,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":72}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":72}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":79},"end":{"line":3,"ch":85}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":83},"end":{"line":3,"ch":85}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":111}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":105},"end":{"line":3,"ch":111}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":114},"end":{"line":3,"ch":116}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":123},"end":{"line":3,"ch":129}}
+    Unresolved reference: _0T4_1
+    ERROR
+
+    {"start":{"line":3,"ch":123},"end":{"line":3,"ch":129}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":134},"end":{"line":3,"ch":139}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":3,"ch":142},"end":{"line":3,"ch":145}}
+    Unresolved reference: SN_
+    ERROR
+
+    {"start":{"line":3,"ch":159},"end":{"line":3,"ch":165}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":159},"end":{"line":3,"ch":210}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":3,"ch":168},"end":{"line":3,"ch":174}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":177},"end":{"line":3,"ch":180}}
+    Unresolved reference: SN_
+    ERROR
+
+    {"start":{"line":3,"ch":183},"end":{"line":3,"ch":185}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":3,"ch":192},"end":{"line":3,"ch":197}}
+    Unresolved reference: _22f3
+    ERROR
+
+    {"start":{"line":3,"ch":200},"end":{"line":3,"ch":206}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":3,"ch":209},"end":{"line":3,"ch":210}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":211},"end":{"line":3,"ch":370}}
+    Property getter or setter expected
+    ERROR

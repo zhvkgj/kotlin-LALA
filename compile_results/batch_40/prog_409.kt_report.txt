@@ -1,0 +1,126 @@
+prog_409.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 26
+Count of type mismatch errors: 3
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":33}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":44}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":38},"end":{"line":0,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":49}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":47},"end":{"line":0,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":59}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":24},"end":{"line":1,"ch":26}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":29},"end":{"line":1,"ch":31}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":49},"end":{"line":1,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":59}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":58},"end":{"line":1,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":70},"end":{"line":1,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":74},"end":{"line":1,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":78},"end":{"line":1,"ch":84}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":89},"end":{"line":1,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":106},"end":{"line":1,"ch":107}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":1,"ch":123},"end":{"line":1,"ch":124}}
+    None of the following functions can be called with the arguments supplied: 
+public final operator fun times(other: Byte): Long defined in kotlin.Long
+public final operator fun times(other: Double): Double defined in kotlin.Long
+public final operator fun times(other: Float): Float defined in kotlin.Long
+public final operator fun times(other: Int): Long defined in kotlin.Long
+public final operator fun times(other: Long): Long defined in kotlin.Long
+public final operator fun times(other: Short): Long defined in kotlin.Long
+    ERROR
+
+    {"start":{"line":1,"ch":163},"end":{"line":1,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":174},"end":{"line":1,"ch":180}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":183},"end":{"line":1,"ch":185}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":194},"end":{"line":1,"ch":201}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":204},"end":{"line":1,"ch":205}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":222},"end":{"line":1,"ch":228}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":222},"end":{"line":1,"ch":228}}
+    Variable expected
+    ERROR

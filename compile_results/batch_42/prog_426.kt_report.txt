@@ -1,0 +1,66 @@
+prog_426.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 14
+Count of type mismatch errors: 0
+Count of unresolved reference errors: 2
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":49}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":63},"end":{"line":0,"ch":64}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":65},"end":{"line":0,"ch":211}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    Unresolved reference: O1MPw_
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":39}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":50}}
+    Unresolved reference: O1MPw_
+    ERROR
+
+    {"start":{"line":1,"ch":44},"end":{"line":1,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":54},"end":{"line":1,"ch":60}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":63},"end":{"line":1,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":72},"end":{"line":1,"ch":73}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":81}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":80},"end":{"line":1,"ch":84}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":84},"end":{"line":1,"ch":280}}
+    Property getter or setter expected
+    ERROR

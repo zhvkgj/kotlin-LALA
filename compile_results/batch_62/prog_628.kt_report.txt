@@ -1,0 +1,196 @@
+prog_628.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 46
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 5
+Count of modifier usage errors: 2
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":5},"end":{"line":0,"ch":22}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":28}}
+    Unresolved reference: __5
+    ERROR
+
+    {"start":{"line":1,"ch":25},"end":{"line":1,"ch":28}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":33},"end":{"line":1,"ch":34}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Unresolved reference: __5
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":42}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":53},"end":{"line":1,"ch":54}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.div(other: BigDecimal): BigDecimal defined in kotlin
+public inline operator fun BigInteger.div(other: BigInteger): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":1,"ch":55},"end":{"line":1,"ch":61}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":64},"end":{"line":1,"ch":65}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":64},"end":{"line":1,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":68},"end":{"line":1,"ch":366}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":5},"end":{"line":2,"ch":17}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":32}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":37},"end":{"line":2,"ch":38}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":47},"end":{"line":2,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":721}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":13},"end":{"line":3,"ch":19}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":52},"end":{"line":3,"ch":53}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":56},"end":{"line":3,"ch":237}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":0},"end":{"line":4,"ch":8}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":4,"ch":30},"end":{"line":4,"ch":31}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":41}}
+    Unresolved reference: _8H
+    ERROR
+
+    {"start":{"line":4,"ch":38},"end":{"line":4,"ch":41}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":50}}
+    Unresolved reference: d___
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":50}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":46},"end":{"line":4,"ch":52}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":55},"end":{"line":4,"ch":56}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":69}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":63},"end":{"line":4,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":72},"end":{"line":4,"ch":78}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":74},"end":{"line":4,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":75},"end":{"line":4,"ch":76}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":4,"ch":81},"end":{"line":4,"ch":87}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":94}}
+    Unresolved reference: __k_
+    ERROR
+
+    {"start":{"line":4,"ch":90},"end":{"line":4,"ch":94}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":99},"end":{"line":4,"ch":105}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":4,"ch":108},"end":{"line":4,"ch":109}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":108},"end":{"line":4,"ch":112}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":116},"end":{"line":4,"ch":117}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":126},"end":{"line":4,"ch":128}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":136},"end":{"line":4,"ch":138}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":143},"end":{"line":4,"ch":144}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":151},"end":{"line":4,"ch":152}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":151},"end":{"line":4,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":4,"ch":155},"end":{"line":4,"ch":1373}}
+    Property getter or setter expected
+    ERROR

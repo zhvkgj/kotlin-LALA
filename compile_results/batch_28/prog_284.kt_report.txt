@@ -1,0 +1,92 @@
+prog_284.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 20
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 1
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":0,"ch":33}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":0,"ch":27},"end":{"line":1,"ch":67}}
+    Type mismatch: inferred type is Boolean but Short was expected
+    ERROR
+
+    {"start":{"line":0,"ch":37},"end":{"line":0,"ch":39}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":46},"end":{"line":0,"ch":47}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":0,"ch":52},"end":{"line":0,"ch":58}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Unresolved reference: vararg
+    ERROR
+
+    {"start":{"line":1,"ch":0},"end":{"line":1,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":1,"ch":7},"end":{"line":1,"ch":350}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":16},"end":{"line":2,"ch":42}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":2,"ch":112},"end":{"line":2,"ch":113}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":116},"end":{"line":2,"ch":275}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":40},"end":{"line":3,"ch":48}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":60},"end":{"line":3,"ch":61}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":67},"end":{"line":3,"ch":68}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":108},"end":{"line":3,"ch":109}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":110},"end":{"line":3,"ch":887}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":4,"ch":18},"end":{"line":4,"ch":33}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":4,"ch":47},"end":{"line":4,"ch":48}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":4,"ch":49},"end":{"line":4,"ch":121}}
+    Property getter or setter expected
+    ERROR

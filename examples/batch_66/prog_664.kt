@@ -1,0 +1,2 @@
+const var (_Y_2, F6_0r : Long, ___ : Short) = return-- == 8L++ + --return || false++ - return-- >= --1 / --return--
+ var (__2q_ : Short, __H5 : Int) = true-- / --___ * false * ++_Y_2++ * ++___ / F6_0r-- / ___ % 1L * --_Y_2

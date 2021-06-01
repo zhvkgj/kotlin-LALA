@@ -1,0 +1,202 @@
+prog_714.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 54
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 0
+Count of modifier usage errors: 6
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":7},"end":{"line":0,"ch":13}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":0,"ch":14},"end":{"line":0,"ch":20}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":0,"ch":29},"end":{"line":0,"ch":34}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":0,"ch":44},"end":{"line":0,"ch":50}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":88},"end":{"line":0,"ch":94}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":95},"end":{"line":0,"ch":101}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":102},"end":{"line":0,"ch":110}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":127},"end":{"line":0,"ch":135}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":127},"end":{"line":0,"ch":135}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":136},"end":{"line":0,"ch":142}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":0,"ch":143},"end":{"line":0,"ch":149}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":0,"ch":150},"end":{"line":0,"ch":161}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":150},"end":{"line":0,"ch":161}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":162},"end":{"line":0,"ch":165}}
+    Names _, __, ___, ..., are reserved in Kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":225},"end":{"line":0,"ch":227}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":234},"end":{"line":0,"ch":238}}
+    Val cannot be reassigned
+    ERROR
+
+    {"start":{"line":0,"ch":238},"end":{"line":0,"ch":240}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":0,"ch":243},"end":{"line":0,"ch":249}}
+    This function must return a value of type [ERROR : <ERROR FUNCTION RETURN TYPE>]
+    ERROR
+
+    {"start":{"line":0,"ch":243},"end":{"line":0,"ch":249}}
+    Returns are not allowed for functions with expression body. Use block body in '{...}'
+    ERROR
+
+    {"start":{"line":0,"ch":252},"end":{"line":0,"ch":254}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":8}}
+    Modifier 'noinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    Suspend function 'iaSW' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    No value passed for parameter '_4t'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    No value passed for parameter '_2s'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    No value passed for parameter '__38_s'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    No value passed for parameter 'Y_967_'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    No value passed for parameter '_q_'
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    Function invocation 'iaSW(...)' expected
+    ERROR
+
+    {"start":{"line":2,"ch":21},"end":{"line":2,"ch":25}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":35},"end":{"line":2,"ch":37}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":40},"end":{"line":2,"ch":46}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":49},"end":{"line":2,"ch":55}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    Suspend function 'iaSW' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    No value passed for parameter '_4t'
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    No value passed for parameter '_2s'
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    No value passed for parameter '__38_s'
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    No value passed for parameter 'Y_967_'
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    No value passed for parameter '_q_'
+    ERROR
+
+    {"start":{"line":2,"ch":64},"end":{"line":2,"ch":68}}
+    Function invocation 'iaSW(...)' expected
+    ERROR
+
+    {"start":{"line":2,"ch":71},"end":{"line":2,"ch":77}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":87},"end":{"line":2,"ch":93}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":96},"end":{"line":2,"ch":97}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":98},"end":{"line":2,"ch":443}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":3,"ch":36},"end":{"line":3,"ch":66}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":3,"ch":216},"end":{"line":3,"ch":217}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":3,"ch":220},"end":{"line":3,"ch":754}}
+    Property getter or setter expected
+    ERROR

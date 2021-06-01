@@ -1,0 +1,126 @@
+prog_536.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 28
+Count of type mismatch errors: 2
+Count of unresolved reference errors: 1
+Count of modifier usage errors: 3
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":10},"end":{"line":0,"ch":24}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":0,"ch":43},"end":{"line":0,"ch":45}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":104}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":1,"ch":5},"end":{"line":1,"ch":57}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":1,"ch":89},"end":{"line":1,"ch":91}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":1,"ch":92},"end":{"line":1,"ch":93}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":1303}}
+    Modifier 'external' is not applicable to 'property'
+    ERROR
+
+    {"start":{"line":2,"ch":0},"end":{"line":2,"ch":47}}
+    Inline property cannot have backing field
+    ERROR
+
+    {"start":{"line":2,"ch":9},"end":{"line":2,"ch":16}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":24},"end":{"line":2,"ch":30}}
+    Repeated 'inline'
+    ERROR
+
+    {"start":{"line":2,"ch":31},"end":{"line":2,"ch":39}}
+    Modifier 'operator' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":2,"ch":52},"end":{"line":2,"ch":53}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":52},"end":{"line":2,"ch":55}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":62}}
+    Unresolved reference: BC33
+    ERROR
+
+    {"start":{"line":2,"ch":58},"end":{"line":2,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":75}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":69},"end":{"line":2,"ch":134}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":78},"end":{"line":2,"ch":89}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":82},"end":{"line":2,"ch":89}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":87},"end":{"line":2,"ch":89}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":92},"end":{"line":2,"ch":94}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":109}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":103},"end":{"line":2,"ch":109}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":112},"end":{"line":2,"ch":118}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":2,"ch":121},"end":{"line":2,"ch":123}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":121},"end":{"line":2,"ch":126}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":2,"ch":133},"end":{"line":2,"ch":134}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":2,"ch":135},"end":{"line":2,"ch":1303}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,2 @@
+noinline val (Zb___u : Int, DlrM, L1___ : Long, jb087_, L__3V4 : Long) = ++true-- + return-- / 9L / return++ + 5-- && return / return--
+suspend fun gk9_() : Boolean = --DlrM++ * DlrM++ / L__3V4++ % --return++ - ++L1___-- / L__3V4-- + return - DlrM + --return++ % --return++ + ++7-- * L1___ % L1___ * ++return++ - return / ++DlrM-- % Zb___u++ % --L__3V4 / ++false * ++jb087_-- / return / Zb___u && L1___++ * L1___ - ++return / ++false * --return - 8L * return++ * return % --false * return * return--

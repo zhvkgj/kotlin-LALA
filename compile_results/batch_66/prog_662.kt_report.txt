@@ -1,0 +1,416 @@
+prog_662.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 119
+Count of type mismatch errors: 1
+Count of unresolved reference errors: 13
+Count of modifier usage errors: 17
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":8}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":1,"ch":31},"end":{"line":1,"ch":39}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":3,"ch":2},"end":{"line":3,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":5,"ch":2},"end":{"line":5,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":7,"ch":2},"end":{"line":7,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":11,"ch":2},"end":{"line":11,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":13,"ch":49},"end":{"line":13,"ch":60}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":13,"ch":74},"end":{"line":13,"ch":82}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":19,"ch":2},"end":{"line":19,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":21,"ch":13},"end":{"line":21,"ch":24}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":21,"ch":25},"end":{"line":21,"ch":36}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":21,"ch":72},"end":{"line":21,"ch":83}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":21,"ch":72},"end":{"line":21,"ch":83}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":21,"ch":84},"end":{"line":21,"ch":92}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":21,"ch":84},"end":{"line":21,"ch":92}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":23,"ch":2},"end":{"line":23,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":25,"ch":2},"end":{"line":25,"ch":7}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":27,"ch":2},"end":{"line":27,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":31,"ch":2},"end":{"line":31,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":35,"ch":5},"end":{"line":35,"ch":56}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":35,"ch":95},"end":{"line":35,"ch":96}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":35,"ch":97},"end":{"line":35,"ch":303}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":36,"ch":0},"end":{"line":36,"ch":7}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":36,"ch":8},"end":{"line":36,"ch":15}}
+    Modifier 'tailrec' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":36,"ch":22},"end":{"line":36,"ch":28}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":36,"ch":29},"end":{"line":36,"ch":34}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":36,"ch":54},"end":{"line":37,"ch":70}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":36,"ch":56},"end":{"line":36,"ch":62}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":36,"ch":56},"end":{"line":37,"ch":70}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":37,"ch":0},"end":{"line":37,"ch":5}}
+    Unresolved reference: infix
+    ERROR
+
+    {"start":{"line":37,"ch":0},"end":{"line":37,"ch":5}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":37,"ch":4},"end":{"line":37,"ch":5}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":37,"ch":10},"end":{"line":37,"ch":23}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":37,"ch":97},"end":{"line":37,"ch":98}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":37,"ch":105},"end":{"line":37,"ch":106}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":37,"ch":107},"end":{"line":37,"ch":198}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":38,"ch":0},"end":{"line":38,"ch":5}}
+    'infix' modifier is inapplicable on this function: must be a member or an extension function
+    ERROR
+
+    {"start":{"line":38,"ch":23},"end":{"line":38,"ch":34}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":38,"ch":35},"end":{"line":38,"ch":46}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":38,"ch":47},"end":{"line":38,"ch":58}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":38,"ch":59},"end":{"line":38,"ch":65}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":38,"ch":66},"end":{"line":38,"ch":72}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":38,"ch":88},"end":{"line":38,"ch":94}}
+    Multiple vararg-parameters are prohibited
+    ERROR
+
+    {"start":{"line":38,"ch":95},"end":{"line":38,"ch":106}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":38,"ch":95},"end":{"line":38,"ch":106}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":38,"ch":107},"end":{"line":38,"ch":115}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":38,"ch":107},"end":{"line":38,"ch":115}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":38,"ch":116},"end":{"line":38,"ch":122}}
+    Repeated 'vararg'
+    ERROR
+
+    {"start":{"line":38,"ch":123},"end":{"line":38,"ch":134}}
+    Repeated 'crossinline'
+    ERROR
+
+    {"start":{"line":38,"ch":192},"end":{"line":38,"ch":200}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":40,"ch":0},"end":{"line":40,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":42,"ch":12},"end":{"line":42,"ch":16}}
+    Unresolved reference: F5w9
+    ERROR
+
+    {"start":{"line":42,"ch":12},"end":{"line":42,"ch":16}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":21},"end":{"line":42,"ch":26}}
+    Unresolved reference: f_eP_
+    ERROR
+
+    {"start":{"line":42,"ch":21},"end":{"line":42,"ch":26}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":31},"end":{"line":42,"ch":35}}
+    Unresolved reference: F5w9
+    ERROR
+
+    {"start":{"line":42,"ch":31},"end":{"line":42,"ch":35}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":42},"end":{"line":42,"ch":48}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":42,"ch":42},"end":{"line":42,"ch":48}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":53},"end":{"line":42,"ch":59}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":53},"end":{"line":42,"ch":61}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":64},"end":{"line":42,"ch":70}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":42,"ch":73},"end":{"line":42,"ch":75}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":80},"end":{"line":42,"ch":83}}
+    Unresolved reference: c_C
+    ERROR
+
+    {"start":{"line":42,"ch":80},"end":{"line":42,"ch":83}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":90},"end":{"line":42,"ch":97}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":95},"end":{"line":42,"ch":97}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":42,"ch":102},"end":{"line":42,"ch":104}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":103},"end":{"line":42,"ch":104}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":42,"ch":107},"end":{"line":42,"ch":112}}
+    Unresolved reference: f_eP_
+    ERROR
+
+    {"start":{"line":42,"ch":107},"end":{"line":42,"ch":112}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":117},"end":{"line":42,"ch":121}}
+    Unresolved reference: sk26
+    ERROR
+
+    {"start":{"line":42,"ch":124},"end":{"line":42,"ch":130}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":42,"ch":135},"end":{"line":42,"ch":137}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":135},"end":{"line":42,"ch":139}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":136},"end":{"line":42,"ch":137}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":42,"ch":144},"end":{"line":42,"ch":146}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":149},"end":{"line":42,"ch":155}}
+    Unresolved reference: _0_2o2
+    ERROR
+
+    {"start":{"line":42,"ch":149},"end":{"line":42,"ch":155}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":162},"end":{"line":42,"ch":169}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":172},"end":{"line":42,"ch":176}}
+    Unresolved reference: F5w9
+    ERROR
+
+    {"start":{"line":42,"ch":179},"end":{"line":42,"ch":180}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":185},"end":{"line":42,"ch":191}}
+    Unresolved reference: WT74a8
+    ERROR
+
+    {"start":{"line":42,"ch":200},"end":{"line":42,"ch":206}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":42,"ch":200},"end":{"line":43,"ch":226}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":42,"ch":209},"end":{"line":42,"ch":210}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":43,"ch":0},"end":{"line":43,"ch":6}}
+    Unresolved reference: vararg
+    ERROR
+
+    {"start":{"line":43,"ch":0},"end":{"line":43,"ch":6}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":43,"ch":5},"end":{"line":43,"ch":6}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":43,"ch":26},"end":{"line":43,"ch":29}}
+    Unresolved reference: c_C
+    ERROR
+
+    {"start":{"line":43,"ch":26},"end":{"line":43,"ch":29}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":43,"ch":34},"end":{"line":43,"ch":40}}
+    Unresolved reference: WT74a8
+    ERROR
+
+    {"start":{"line":43,"ch":34},"end":{"line":43,"ch":40}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":43,"ch":45},"end":{"line":43,"ch":51}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":43,"ch":54},"end":{"line":43,"ch":55}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":43,"ch":56},"end":{"line":43,"ch":148}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":44,"ch":16},"end":{"line":44,"ch":108}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":44,"ch":128},"end":{"line":44,"ch":129}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":44,"ch":130},"end":{"line":44,"ch":651}}
+    Property getter or setter expected
+    ERROR

@@ -1,0 +1,522 @@
+prog_578.kt
+Successfully compiled: false
+Produce server error: false
+Count of errors: 133
+Count of type mismatch errors: 4
+Count of unresolved reference errors: 10
+Count of modifier usage errors: 12
+Message: 
+------------------------------
+Errors:
+
+    {"start":{"line":0,"ch":0},"end":{"line":0,"ch":96}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":0,"ch":17},"end":{"line":0,"ch":25}}
+    Repeated 'external'
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":59}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":48},"end":{"line":0,"ch":59}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":68}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":0,"ch":60},"end":{"line":0,"ch":68}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":0,"ch":69},"end":{"line":0,"ch":77}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":2},"end":{"line":1,"ch":96}}
+    External declaration can not have a body
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":47}}
+    Modifier 'noinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":39},"end":{"line":1,"ch":47}}
+    Modifier 'noinline' is incompatible with 'crossinline'
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":59}}
+    Modifier 'crossinline' is allowed only for function parameters of an inline function
+    ERROR
+
+    {"start":{"line":1,"ch":48},"end":{"line":1,"ch":59}}
+    Modifier 'crossinline' is incompatible with 'noinline'
+    ERROR
+
+    {"start":{"line":5,"ch":0},"end":{"line":5,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":7,"ch":19},"end":{"line":7,"ch":47}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":7,"ch":88},"end":{"line":7,"ch":89}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":7,"ch":90},"end":{"line":7,"ch":374}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":8,"ch":13},"end":{"line":8,"ch":27}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":8,"ch":203},"end":{"line":8,"ch":204}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":8,"ch":205},"end":{"line":8,"ch":362}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":9,"ch":13},"end":{"line":9,"ch":80}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":9,"ch":169},"end":{"line":9,"ch":170}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":178},"end":{"line":9,"ch":179}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":9,"ch":182},"end":{"line":9,"ch":481}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":11,"ch":3},"end":{"line":11,"ch":6}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":13,"ch":2},"end":{"line":13,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":15,"ch":2},"end":{"line":15,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":15,"ch":11},"end":{"line":15,"ch":17}}
+    Local inline functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":15,"ch":11},"end":{"line":15,"ch":17}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":17,"ch":2},"end":{"line":17,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":19,"ch":2},"end":{"line":19,"ch":10}}
+    'operator' modifier is inapplicable on this function: illegal function name
+    ERROR
+
+    {"start":{"line":19,"ch":19},"end":{"line":19,"ch":26}}
+    Repeated 'tailrec'
+    ERROR
+
+    {"start":{"line":19,"ch":27},"end":{"line":19,"ch":30}}
+    Local functions are not yet supported in inline functions
+    ERROR
+
+    {"start":{"line":21,"ch":2},"end":{"line":21,"ch":3}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":23,"ch":0},"end":{"line":23,"ch":1}}
+    A 'return' expression required in a function with a block body ('{...}')
+    ERROR
+
+    {"start":{"line":25,"ch":10},"end":{"line":25,"ch":32}}
+    Destructuring declarations are only allowed for local variables/values
+    ERROR
+
+    {"start":{"line":25,"ch":110},"end":{"line":25,"ch":111}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":25,"ch":112},"end":{"line":25,"ch":1109}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":26,"ch":18},"end":{"line":26,"ch":19}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":30}}
+    Suspend function 'l_vL' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":30}}
+    No value passed for parameter '_zg_'
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":30}}
+    No value passed for parameter 'Vlk'
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":30}}
+    Function invocation 'l_vL(...)' expected
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":30}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":26},"end":{"line":26,"ch":32}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":35},"end":{"line":26,"ch":37}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.dec(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.dec(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":26,"ch":46},"end":{"line":26,"ch":52}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":46},"end":{"line":26,"ch":214}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":55},"end":{"line":26,"ch":64}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":57},"end":{"line":26,"ch":62}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":61},"end":{"line":26,"ch":62}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":26,"ch":67},"end":{"line":26,"ch":68}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":75},"end":{"line":26,"ch":81}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":75},"end":{"line":26,"ch":81}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":84},"end":{"line":26,"ch":90}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":93},"end":{"line":26,"ch":99}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":102},"end":{"line":26,"ch":112}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":106},"end":{"line":26,"ch":112}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":106},"end":{"line":26,"ch":112}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":115},"end":{"line":26,"ch":119}}
+    Unresolved reference: WB60
+    ERROR
+
+    {"start":{"line":26,"ch":115},"end":{"line":26,"ch":119}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":132},"end":{"line":26,"ch":137}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":144},"end":{"line":26,"ch":149}}
+    Unresolved reference: nTfQG
+    ERROR
+
+    {"start":{"line":26,"ch":144},"end":{"line":26,"ch":149}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":152},"end":{"line":26,"ch":154}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":153},"end":{"line":26,"ch":154}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":26,"ch":161},"end":{"line":26,"ch":162}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":167},"end":{"line":26,"ch":173}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":167},"end":{"line":26,"ch":173}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":176},"end":{"line":26,"ch":182}}
+    Unresolved reference: _16_Y_
+    ERROR
+
+    {"start":{"line":26,"ch":186},"end":{"line":26,"ch":187}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":26,"ch":190},"end":{"line":26,"ch":196}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":201},"end":{"line":26,"ch":207}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":26,"ch":201},"end":{"line":26,"ch":214}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":210},"end":{"line":26,"ch":211}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":26,"ch":210},"end":{"line":26,"ch":214}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":26,"ch":214},"end":{"line":26,"ch":441}}
+    Property getter or setter expected
+    ERROR
+
+    {"start":{"line":27,"ch":0},"end":{"line":27,"ch":6}}
+    Modifier 'vararg' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":27,"ch":7},"end":{"line":27,"ch":14}}
+    Modifier 'suspend' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":27,"ch":21},"end":{"line":27,"ch":26}}
+    Repeated 'const'
+    ERROR
+
+    {"start":{"line":27,"ch":27},"end":{"line":27,"ch":38}}
+    Modifier 'crossinline' is not applicable to 'top level property without backing field or delegate'
+    ERROR
+
+    {"start":{"line":27,"ch":61},"end":{"line":27,"ch":63}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":61},"end":{"line":27,"ch":271}}
+    Const 'val' initializer should be a constant value
+    ERROR
+
+    {"start":{"line":27,"ch":62},"end":{"line":27,"ch":63}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":27,"ch":70},"end":{"line":27,"ch":74}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":70},"end":{"line":27,"ch":76}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":79},"end":{"line":27,"ch":85}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":90},"end":{"line":27,"ch":96}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":90},"end":{"line":27,"ch":96}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":99},"end":{"line":27,"ch":101}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    Suspend function '__38_s' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    No value passed for parameter 'RgA_0m'
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    No value passed for parameter 'BC33'
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    No value passed for parameter '_nt_'
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    No value passed for parameter '_T3c__'
+    ERROR
+
+    {"start":{"line":27,"ch":101},"end":{"line":27,"ch":107}}
+    Function invocation '__38_s(...)' expected
+    ERROR
+
+    {"start":{"line":27,"ch":112},"end":{"line":27,"ch":113}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":116},"end":{"line":27,"ch":120}}
+    Unresolved reference: gk9_
+    ERROR
+
+    {"start":{"line":27,"ch":116},"end":{"line":27,"ch":120}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":125},"end":{"line":27,"ch":130}}
+    Unresolved reference: nB_7s
+    ERROR
+
+    {"start":{"line":27,"ch":135},"end":{"line":27,"ch":140}}
+    Unresolved reference: _R3Xh
+    ERROR
+
+    {"start":{"line":27,"ch":135},"end":{"line":27,"ch":140}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":145},"end":{"line":27,"ch":150}}
+    Unresolved reference: ___U8
+    ERROR
+
+    {"start":{"line":27,"ch":145},"end":{"line":27,"ch":150}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":153},"end":{"line":27,"ch":156}}
+    Unresolved reference: b2_
+    ERROR
+
+    {"start":{"line":27,"ch":159},"end":{"line":27,"ch":161}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":27,"ch":169},"end":{"line":27,"ch":177}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":176},"end":{"line":27,"ch":177}}
+    Use 'L' instead of 'l'
+    ERROR
+
+    {"start":{"line":27,"ch":182},"end":{"line":27,"ch":188}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":193},"end":{"line":27,"ch":199}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":197},"end":{"line":27,"ch":199}}
+    Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline operator fun BigDecimal.inc(): BigDecimal defined in kotlin
+public inline operator fun BigInteger.inc(): BigInteger defined in kotlin
+    ERROR
+
+    {"start":{"line":27,"ch":202},"end":{"line":27,"ch":208}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":213},"end":{"line":27,"ch":218}}
+    Unresolved reference: _1f2_
+    ERROR
+
+    {"start":{"line":27,"ch":213},"end":{"line":27,"ch":218}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":221},"end":{"line":27,"ch":225}}
+    Suspend function 'l_vL' should be called only from a coroutine or another suspend function
+    ERROR
+
+    {"start":{"line":27,"ch":221},"end":{"line":27,"ch":225}}
+    No value passed for parameter '_zg_'
+    ERROR
+
+    {"start":{"line":27,"ch":221},"end":{"line":27,"ch":225}}
+    No value passed for parameter 'Vlk'
+    ERROR
+
+    {"start":{"line":27,"ch":221},"end":{"line":27,"ch":225}}
+    Function invocation 'l_vL(...)' expected
+    ERROR
+
+    {"start":{"line":27,"ch":230},"end":{"line":27,"ch":236}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":230},"end":{"line":27,"ch":236}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":241},"end":{"line":27,"ch":245}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":248},"end":{"line":27,"ch":253}}
+    Unresolved reference: ___U8
+    ERROR
+
+    {"start":{"line":27,"ch":248},"end":{"line":27,"ch":253}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":258},"end":{"line":27,"ch":264}}
+    'return' is not allowed here
+    ERROR
+
+    {"start":{"line":27,"ch":267},"end":{"line":27,"ch":268}}
+    Expecting an element
+    ERROR
+
+    {"start":{"line":27,"ch":267},"end":{"line":27,"ch":271}}
+    Variable expected
+    ERROR
+
+    {"start":{"line":27,"ch":271},"end":{"line":27,"ch":319}}
+    Property getter or setter expected
+    ERROR

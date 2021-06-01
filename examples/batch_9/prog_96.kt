@@ -1,0 +1,2 @@
+const var (e_f57_ : Boolean, i55OY0, _8_2h : Long, yc73 : Int, __x : Short) = ++return * true * --return % ++return / return++
+suspend var (_t2 : Boolean, tPy_, _7x_d, y0K5, _z__4_, _BO__, _kL : Long, o_Uk : Long) = ++true + --3l-- + __x-- * return * ++true-- / ++return-- / __x++ - 3-- % ++return - 9_3_6 % 0-- % return / ++e_f57_--
