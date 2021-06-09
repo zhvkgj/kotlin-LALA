@@ -109,6 +109,7 @@ class FunctionDeclaration {
         modifiers.insideInlineFun = false;
         params.insideInlineFun = (not (ModifiersList:notContains modifiers.modifiers_after "inline"));
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
+        body.isExternal = (not (ModifiersList:notContains modifiers.modifiers_after "external"));
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
     }
@@ -119,6 +120,7 @@ class FunctionDeclaration {
         modifiers.insideInlineFun = false;
         params.insideInlineFun = (not (ModifiersList:notContains modifiers.modifiers_after "inline"));
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
+        body.isExternal = (not (ModifiersList:notContains modifiers.modifiers_after "external"));
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
     }
@@ -201,14 +203,24 @@ class Parameter {
 @unit
 class FunctionBody {
     inh symbols_before : SymbolTable;
+    inh isExternal : boolean;
+
+    grd valid;
+
+    @weight(1)
+    empty("") {
+        this.valid = this.isExternal;
+    }
 
     @weight(5)
     block("{\+${body: Block}\-}") {
+        this.valid = (not this.isExternal);
         body.inside_loop = false;
     }
 
     @weight(2)
     singleExpression("= ${expr: Expression}") {
+        this.valid = (not this.isExternal);
         expr.inside_loop = false;
     }
 }
@@ -830,42 +842,6 @@ class Modifier {
     parameterModifier("${modifier: ParameterModifierName}") {
         this.name = modifier.str;
         this.modifier_valid = (ModifiersList:isModifierValid this.modifiers_before modifier.str this.insideInlineFun);
-    }
-}
-
-class FunctionModifier {
-    inh modifiers_before : ModifiersList;
-    syn name : String;
-
-    grd modifier_unique;
-
-    functionModifier("${modifier: FunctionModifierName}") {
-        this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
-    }
-}
-
-class ParameterModifier {
-    inh modifiers_before : ModifiersList;
-    syn name : String;
-
-    grd modifier_unique;
-
-    parameterModifier("${modifier: ParameterModifierName}") {
-        this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
-    }
-}
-
-class PropertyModifier {
-    inh modifiers_before : ModifiersList;
-    syn name : String;
-
-    grd modifier_unique;
-
-    parameterModifier("${modifier: PropertyModifierName}") {
-        this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
     }
 }
 
