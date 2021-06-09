@@ -1,6 +1,7 @@
 use KeywordsStorage;
 use Symbol;
 use SymbolTable;
+use ModifiersListTarget;
 use ModifiersList;
 
 class KotlinFile {
@@ -33,6 +34,7 @@ class TopLevelObject {
     syn symbols_after : SymbolTable;
 
     declaration("${decl : Declaration}") {
+        decl.isTopLevel = true;
         this.symbols_after = decl.symbols_after;
     }
 }
@@ -42,6 +44,8 @@ class TopLevelObject {
 class OptionalDeclarationList {
   inh symbols_before : SymbolTable;
   syn symbols_after : SymbolTable;
+
+  inh isTopLevel : boolean;
 
   empty("") {
       this.symbols_after = this.symbols_before;
@@ -60,6 +64,8 @@ class DeclarationList {
   inh symbols_before : SymbolTable;
   syn symbols_after : SymbolTable;
 
+  inh isTopLevel : boolean;
+
   @weight(1)
   oneDecl("${decl : Declaration}") {
     this.symbols_after = decl.symbols_after;
@@ -77,6 +83,8 @@ class Declaration {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
+    inh isTopLevel : boolean;
+
     @weight(1)
     propertyDeclaration("${propertyDecl : PropertyDeclaration}") {
         this.symbols_after = propertyDecl.symbols_after;
@@ -93,17 +101,23 @@ class FunctionDeclaration {
     syn symbol : Symbol;
     inh symbols_before : SymbolTable;
 
+    inh isTopLevel : boolean;
+
     @weight(1)
-    withoutType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} ${body: FunctionBody}\n") {
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+    withoutType("${modifiers: OptionalModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} ${body: FunctionBody}\n") {
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getFun) this.isTopLevel);
+        modifiers.insideInlineFun = false;
+        params.insideInlineFun = (not (ModifiersList:notContains modifiers.modifiers_after "inline"));
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
     }
 
     @weight(2)
-    withType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} : ${type: Type} ${body: FunctionBody}\n") {
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+    withType("${modifiers: OptionalModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} : ${type: Type} ${body: FunctionBody}\n") {
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getFun) this.isTopLevel);
+        modifiers.insideInlineFun = false;
+        params.insideInlineFun = (not (ModifiersList:notContains modifiers.modifiers_after "inline"));
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
@@ -114,6 +128,8 @@ class FunctionDeclaration {
 class OptionalFunctionValueParameterList {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
+
+    inh insideInlineFun : boolean;
 
     @weight(1)
     emptyParameterList("()") {
@@ -132,6 +148,8 @@ class OptionalFunctionValueParameterList {
 class FunctionValueParameterList {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
+
+    inh insideInlineFun : boolean;
 
     @weight(1)
     singleParameter("${param: FunctionValueParameter}") {
@@ -152,16 +170,18 @@ class FunctionValueParameter {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
-    withDefaultValue("${modifiers: OptionalParameterModifierList} ${param: Parameter} = ${expr : Expression}") {
+    inh insideInlineFun : boolean;
+
+    withDefaultValue("${modifiers: OptionalModifierList} ${param: Parameter} = ${expr : Expression}") {
         loc new_symbols = (SymbolTable:put this.symbols_before param.symbol);
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getParam) false);
         expr.symbols_before = .new_symbols;
         expr.inside_loop = false;
         this.symbols_after = .new_symbols;
     }
 
-    withoutDefaultValue("${modifiers: OptionalParameterModifierList} ${param: Parameter}") {
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+    withoutDefaultValue("${modifiers: OptionalModifierList} ${param: Parameter}") {
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getParam) false);
         this.symbols_after = (SymbolTable:put this.symbols_before param.symbol);
     }
 }
@@ -199,6 +219,7 @@ class Block {
 
     @copy
     block("${decls: OptionalDeclarationList}${statements: OptionalStatementList}") {
+        decls.isTopLevel = false;
         statements.symbols_before = decls.symbols_after;
     }
 }
@@ -208,14 +229,18 @@ class PropertyDeclaration {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
+    inh isTopLevel : boolean;
+
     valDeclaration("${modifiers: OptionalModifierList} val ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getVal) this.isTopLevel);
+        modifiers.insideInlineFun = false;
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
 
     varDeclaration("${modifiers: OptionalModifierList} var ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
-        modifiers.modifiers_before = (ModifiersList:getInstance);
+        modifiers.modifiers_before = (ModifiersList:getInstance (ModifiersListTarget:getVar) this.isTopLevel);
+        modifiers.insideInlineFun = false;
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
@@ -748,70 +773,11 @@ class UnaryPrefix {
 
 # Section: modifiers
 @copy
-class OptionalParameterModifierList {
-    inh modifiers_before : ModifiersList;
-    syn modifiers_after : ModifiersList;
-
-    empty("") {
-        this.modifiers_after = this.modifiers_before;
-    }
-
-    nonEmpty("${modifiers: ParameterModifierList}") {
-        this.modifiers_after = modifiers.modifiers_after;
-    }
-}
-
-@copy
-@list(5)
-class ParameterModifierList {
-    inh modifiers_before : ModifiersList;
-    syn modifiers_after : ModifiersList;
-
-    single("${modifier: ParameterModifier}") {
-        this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
-    }
-
-    multiple("${modifier: ParameterModifier} ${rest: ParameterModifierList}") {
-        rest.modifiers_before = (ModifiersList:put this.modifiers_before modifier.name);
-        this.modifiers_after = rest.modifiers_after;
-    }
-}
-
-@copy
-class OptionalFunctionModifierList {
-    inh modifiers_before : ModifiersList;
-    syn modifiers_after : ModifiersList;
-
-    @weight(1)
-    empty("") {
-        this.modifiers_after = this.modifiers_before;
-    }
-
-    @weight(3)
-    nonEmpty("${modifiers: FunctionModifierList}") {
-        this.modifiers_after = modifiers.modifiers_after;
-    }
-}
-
-@copy
-class FunctionModifierList {
-    inh modifiers_before : ModifiersList;
-    syn modifiers_after : ModifiersList;
-
-    single("${modifier: FunctionModifier}") {
-        this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
-    }
-
-    multiple("${modifier: FunctionModifier} ${rest: FunctionModifierList}") {
-        rest.modifiers_before = (ModifiersList:put this.modifiers_before modifier.name);
-        this.modifiers_after = rest.modifiers_after;
-    }
-}
-
-@copy
 class OptionalModifierList {
     inh modifiers_before : ModifiersList;
     syn modifiers_after : ModifiersList;
+
+    inh insideInlineFun : boolean;
 
     @weight(1)
     empty("") {
@@ -830,6 +796,8 @@ class ModifierList {
     inh modifiers_before : ModifiersList;
     syn modifiers_after : ModifiersList;
 
+    inh insideInlineFun : boolean;
+
     single("${modifier: Modifier}") {
         this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
     }
@@ -845,21 +813,23 @@ class Modifier {
     inh modifiers_before : ModifiersList;
     syn name : String;
 
-    grd modifier_unique;
+    inh insideInlineFun : boolean;
+
+    grd modifier_valid;
 
     functionModifier("${modifier: FunctionModifierName}") {
         this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+        this.modifier_valid = (ModifiersList:isModifierValid this.modifiers_before modifier.str this.insideInlineFun);
     }
 
     propertyModifier("${modifier: PropertyModifierName}") {
         this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+        this.modifier_valid = (ModifiersList:isModifierValid this.modifiers_before modifier.str this.insideInlineFun);
     }
 
     parameterModifier("${modifier: ParameterModifierName}") {
         this.name = modifier.str;
-        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+        this.modifier_valid = (ModifiersList:isModifierValid this.modifiers_before modifier.str this.insideInlineFun);
     }
 }
 
@@ -887,7 +857,19 @@ class ParameterModifier {
     }
 }
 
-class FunctionModifierName("tailrec|operator|infix|inline|external|suspend");
+class PropertyModifier {
+    inh modifiers_before : ModifiersList;
+    syn name : String;
+
+    grd modifier_unique;
+
+    parameterModifier("${modifier: PropertyModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+    }
+}
+
+class FunctionModifierName("tailrec|operator|inline|external|suspend");
 
 class PropertyModifierName("const");
 
