@@ -1,6 +1,7 @@
 use KeywordsStorage;
 use Symbol;
 use SymbolTable;
+use ModifiersList;
 
 class KotlinFile {
     topLevelObject ("${decls : TopLevelObjectList}") {
@@ -38,16 +39,50 @@ class TopLevelObject {
 
 # Section: declarations
 @copy
+class OptionalDeclarationList {
+  inh symbols_before : SymbolTable;
+  syn symbols_after : SymbolTable;
+
+  empty("") {
+      this.symbols_after = this.symbols_before;
+  }
+
+  @weight(100)
+  decls("${decls : DeclarationList}\n") {
+      this.symbols_after = decls.symbols_after;
+  }
+}
+
+@copy
+@unit
+@list(10)
+class DeclarationList {
+  inh symbols_before : SymbolTable;
+  syn symbols_after : SymbolTable;
+
+  @weight(1)
+  oneDecl("${decl : Declaration}") {
+    this.symbols_after = decl.symbols_after;
+  }
+
+  @weight(3)
+  multDecl("${decl : Declaration}\n${rest : DeclarationList}") {
+    rest.symbols_before = decl.symbols_after;
+    this.symbols_after = rest.symbols_after;
+  }
+}
+
+@copy
 class Declaration {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
-    @weight(2)
+    @weight(1)
     propertyDeclaration("${propertyDecl : PropertyDeclaration}") {
         this.symbols_after = propertyDecl.symbols_after;
     }
 
-    @weight(1)
+    @weight(3)
     functionDeclaration("${functionDecl: FunctionDeclaration}") {
         this.symbols_after = (SymbolTable:put this.symbols_before functionDecl.symbol);
     }
@@ -59,16 +94,16 @@ class FunctionDeclaration {
     inh symbols_before : SymbolTable;
 
     @weight(1)
-    withoutType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}
-                    ${params: OptionalFunctionValueParameterList} ${body: FunctionBody}\n") {
+    withoutType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} ${body: FunctionBody}\n") {
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
     }
 
     @weight(2)
-    withType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}
-                ${params: OptionalFunctionValueParameterList} : ${type: Type} ${body: FunctionBody}\n") {
+    withType("${modifiers: OptionalFunctionModifierList} fun ${name: SimpleIdentifier}${params: OptionalFunctionValueParameterList} : ${type: Type} ${body: FunctionBody}\n") {
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         params.symbols_before = (SymbolTable:enterScope this.symbols_before);
         body.symbols_before = params.symbols_after;
         this.symbol = (Symbol:create name.name);
@@ -119,12 +154,14 @@ class FunctionValueParameter {
 
     withDefaultValue("${modifiers: OptionalParameterModifierList} ${param: Parameter} = ${expr : Expression}") {
         loc new_symbols = (SymbolTable:put this.symbols_before param.symbol);
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         expr.symbols_before = .new_symbols;
         expr.inside_loop = false;
         this.symbols_after = .new_symbols;
     }
 
     withoutDefaultValue("${modifiers: OptionalParameterModifierList} ${param: Parameter}") {
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         this.symbols_after = (SymbolTable:put this.symbols_before param.symbol);
     }
 }
@@ -141,11 +178,12 @@ class Parameter {
 }
 
 @copy
+@unit
 class FunctionBody {
     inh symbols_before : SymbolTable;
 
     @weight(5)
-    block("${body: Block}") {
+    block("{\+${body: Block}\-}") {
         body.inside_loop = false;
     }
 
@@ -155,13 +193,13 @@ class FunctionBody {
     }
 }
 
-@copy
 class Block {
     inh symbols_before : SymbolTable;
     inh inside_loop : boolean;
 
-    block("{\+${statements: OptionalStatementList}\-}") {
-
+    @copy
+    block("${decls: OptionalDeclarationList}${statements: OptionalStatementList}") {
+        statements.symbols_before = decls.symbols_after;
     }
 }
 
@@ -171,11 +209,13 @@ class PropertyDeclaration {
     syn symbols_after : SymbolTable;
 
     valDeclaration("${modifiers: OptionalModifierList} val ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
 
     varDeclaration("${modifiers: OptionalModifierList} var ${decl : SingleOrMultiVariableDeclaration} = ${expr : Expression}") {
+        modifiers.modifiers_before = (ModifiersList:getInstance);
         expr.inside_loop = false;
         this.symbols_after = decl.symbols_after;
     }
@@ -186,26 +226,30 @@ class SingleOrMultiVariableDeclaration {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
+    @weight(1)
     single("${decl: VariableDeclaration}") {
         this.symbols_after = (SymbolTable:put this.symbols_before decl.symbol);
     }
 
+    @weight(3)
     multi("(${decls: VariableDeclarationList})") {
         this.symbols_after = decls.symbols_after;
     }
 }
 
 @copy
+@unit
+@list(5)
 class VariableDeclarationList {
     inh symbols_before : SymbolTable;
     syn symbols_after : SymbolTable;
 
-    @weight(1)
+    @weight(3)
     single("${varDecl: VariableDeclaration}") {
         this.symbols_after = (SymbolTable:put this.symbols_before varDecl.symbol);
     }
 
-    @weight(2)
+    @weight(1)
     multi("${varDecl: VariableDeclaration}, ${rest: VariableDeclarationList}") {
         rest.symbols_before = (SymbolTable:put this.symbols_before varDecl.symbol);
         this.symbols_after = rest.symbols_after;
@@ -252,7 +296,7 @@ class OptionalStatementList {
 
     }
 
-    @weight(5)
+    @weight(100)
     nonEmpty("${stmts: StatementList}") {
 
     }
@@ -284,11 +328,6 @@ class Statement {
     @weight(2)
     assigment("${assign: Assignment}") {
         this.symbols_after = this.symbols_before;
-    }
-
-    @weight(2)
-    declaration("${decl: Declaration}") {
-        this.symbols_after = decl.symbols_after;
     }
 
     @weight(5)
@@ -382,7 +421,7 @@ class ControlStructureBody {
     inh inside_loop : boolean;
 
     @weight(5)
-    block("${block: Block}") {
+    block("{\+${block: Block}\-}") {
 
     }
 
@@ -710,96 +749,149 @@ class UnaryPrefix {
 # Section: modifiers
 @copy
 class OptionalParameterModifierList {
-    empty("") {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
 
+    empty("") {
+        this.modifiers_after = this.modifiers_before;
     }
 
     nonEmpty("${modifiers: ParameterModifierList}") {
-
+        this.modifiers_after = modifiers.modifiers_after;
     }
 }
 
 @copy
 @list(5)
 class ParameterModifierList {
-    single("${modifier: ParameterModifier}") {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
 
+    single("${modifier: ParameterModifier}") {
+        this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
     }
 
     multiple("${modifier: ParameterModifier} ${rest: ParameterModifierList}") {
-
+        rest.modifiers_before = (ModifiersList:put this.modifiers_before modifier.name);
+        this.modifiers_after = rest.modifiers_after;
     }
 }
 
 @copy
 class OptionalFunctionModifierList {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
+
     @weight(1)
     empty("") {
-
+        this.modifiers_after = this.modifiers_before;
     }
 
     @weight(3)
     nonEmpty("${modifiers: FunctionModifierList}") {
-
+        this.modifiers_after = modifiers.modifiers_after;
     }
 }
 
 @copy
 class FunctionModifierList {
-    single("${modifier: FunctionModifier}") {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
 
+    single("${modifier: FunctionModifier}") {
+        this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
     }
 
     multiple("${modifier: FunctionModifier} ${rest: FunctionModifierList}") {
-
+        rest.modifiers_before = (ModifiersList:put this.modifiers_before modifier.name);
+        this.modifiers_after = rest.modifiers_after;
     }
 }
 
 @copy
 class OptionalModifierList {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
+
     @weight(1)
     empty("") {
-
+        this.modifiers_after = this.modifiers_before;
     }
 
     @weight(3)
     nonEmpty("${modifiers: ModifierList}") {
-
+        this.modifiers_after = modifiers.modifiers_after;
     }
 }
 
 @copy
 @list(5)
 class ModifierList {
-    single("${modifier: Modifier}") {
+    inh modifiers_before : ModifiersList;
+    syn modifiers_after : ModifiersList;
 
+    single("${modifier: Modifier}") {
+        this.modifiers_after = (ModifiersList:put this.modifiers_before modifier.name);
     }
 
     multiple("${modifier: Modifier} ${rest: ModifierList}") {
-
+        rest.modifiers_before = (ModifiersList:put this.modifiers_before modifier.name);
+        this.modifiers_after = rest.modifiers_after;
     }
 }
 
 @copy
 class Modifier {
-    functionModifier("${modifier: FunctionModifier}") {
+    inh modifiers_before : ModifiersList;
+    syn name : String;
 
+    grd modifier_unique;
+
+    functionModifier("${modifier: FunctionModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
     }
 
-    propertyModifier("${modifier: PropertyModifier}") {
-
+    propertyModifier("${modifier: PropertyModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
     }
 
-    parameterModifier("${modifier: ParameterModifier}") {
-
+    parameterModifier("${modifier: ParameterModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
     }
 }
 
-class FunctionModifier("tailrec|operator|infix|inline|external|suspend");
+class FunctionModifier {
+    inh modifiers_before : ModifiersList;
+    syn name : String;
 
-class PropertyModifier("const");
+    grd modifier_unique;
 
-class ParameterModifier("vararg|noinline|crossinline");
+    functionModifier("${modifier: FunctionModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+    }
+}
+
+class ParameterModifier {
+    inh modifiers_before : ModifiersList;
+    syn name : String;
+
+    grd modifier_unique;
+
+    parameterModifier("${modifier: ParameterModifierName}") {
+        this.name = modifier.str;
+        this.modifier_unique = (ModifiersList:notContains this.modifiers_before modifier.str);
+    }
+}
+
+class FunctionModifierName("tailrec|operator|infix|inline|external|suspend");
+
+class PropertyModifierName("const");
+
+class ParameterModifierName("vararg|noinline|crossinline");
 
 
 # Section: operators
